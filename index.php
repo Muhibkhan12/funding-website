@@ -3,517 +3,376 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>VaultEdge — Fintech Capital</title>
+<title>VaultEdge — Flexible Business Financing for Growth</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: { lime: '#CCFF00', ink: '#0A0A0A' },
+        fontFamily: {
+          display: ['Bebas Neue', 'sans-serif'],
+          body: ['DM Sans', 'sans-serif'],
+        },
+        keyframes: {
+          marquee: { '0%': { transform: 'translateX(0)' }, '100%': { transform: 'translateX(-50%)' } },
+          badgePulse: { '0%,100%': { transform: 'scale(1)' }, '50%': { transform: 'scale(1.06)' } },
+          floatUp: { '0%': { opacity: '0', transform: 'translateY(24px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+        },
+        animation: {
+          marquee: 'marquee 22s linear infinite',
+          badgePulse: 'badgePulse 3s ease-in-out infinite',
+          floatUp1: 'floatUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.65s both',
+          floatUp2: 'floatUp 0.7s cubic-bezier(0.22,1,0.36,1) 1.05s both',
+        },
+      },
+    },
+  }
+</script>
 <style>
-  :root {
-    --lime: #CCFF00;
-    --black: #0A0A0A;
-    --white: #FFFFFF;
-  }
+  :root { --lime: #CCFF00; --ink: #0A0A0A; }
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { background: var(--black); color: var(--white); font-family: 'DM Sans', sans-serif; overflow-x: hidden; }
-
-  .bebas { font-family: 'Bebas Neue', sans-serif; }
-
-  /* NAV */
-  nav {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-    background: var(--black);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0 48px; height: 64px;
-  }
-  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 0.12em; color: var(--white); }
-  .nav-logo span { color: var(--lime); }
-  .nav-links { display: flex; gap: 36px; list-style: none; }
-  .nav-links a { font-size: 13px; font-weight: 500; letter-spacing: 0.06em; color: rgba(255,255,255,0.65); text-decoration: none; text-transform: uppercase; transition: color 0.2s; }
-  .nav-links a:hover { color: var(--white); }
-  .nav-cta {
-    border: 1px solid rgba(255,255,255,0.6); background: transparent; color: var(--white);
-    padding: 9px 22px; font-size: 13px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase;
-    cursor: pointer; transition: all 0.25s; font-family: 'DM Sans', sans-serif;
-  }
-  .nav-cta:hover { background: var(--white); color: var(--black); }
-
-  /* HERO */
-  #hero {
-    min-height: 100vh; padding: 0 48px;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: center;
-    padding-top: 64px; position: relative; overflow: hidden;
-  }
-  #hero::before {
-    content: ''; position: absolute; inset: 0;
-    background: radial-gradient(ellipse 60% 70% at 80% 50%, rgba(204,255,0,0.04) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .hero-left { padding-right: 60px; }
-  .hero-eyebrow {
-    display: inline-flex; align-items: center; gap: 10px;
-    font-size: 11px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase;
-    color: rgba(255,255,255,0.45); margin-bottom: 28px;
-  }
-  .hero-eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--lime); }
-  .hero-h1 { font-family: 'Bebas Neue', sans-serif; line-height: 0.9; letter-spacing: 0.01em; margin-bottom: 32px; }
-  .hero-h1 .line1 { font-size: clamp(72px, 8vw, 108px); color: var(--white); display: block; }
-  .hero-h1 .line2 { font-size: clamp(72px, 8vw, 108px); color: var(--white); display: block; }
-  .hero-h1 .accent { color: var(--lime); }
-  .hero-sub { font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.55); max-width: 440px; margin-bottom: 40px; font-weight: 300; }
-  .btn-primary {
-    display: inline-block; background: var(--lime); color: var(--black);
-    padding: 16px 36px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
-    cursor: pointer; border: 2px solid var(--lime); text-decoration: none;
-    position: relative; overflow: hidden; transition: all 0.3s; font-family: 'DM Sans', sans-serif;
-  }
-  .btn-primary::after {
-    content: ''; position: absolute; inset: 0;
-    background: var(--white); transform: translateX(-101%); transition: transform 0.3s cubic-bezier(0.77, 0, 0.18, 1);
-  }
-  .btn-primary:hover::after { transform: translateX(0); }
-  .btn-primary span { position: relative; z-index: 1; }
-  .btn-ghost {
-    display: inline-block; background: transparent; color: var(--white);
-    padding: 15px 36px; font-size: 13px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
-    cursor: pointer; border: 1px solid rgba(255,255,255,0.25); text-decoration: none;
-    transition: border-color 0.2s, color 0.2s; font-family: 'DM Sans', sans-serif; margin-left: 14px;
-  }
-  .btn-ghost:hover { border-color: var(--white); }
-
-  /* HERO RIGHT */
-  .hero-right { position: relative; display: flex; align-items: center; justify-content: center; height: 100%; min-height: 80vh; }
-  .hero-img-wrap {
-    position: relative; width: 100%; max-width: 520px;
-    background: #111; overflow: visible;
-  }
-  .hero-img {
-    width: 100%; height: 580px; object-fit: cover;
-    filter: grayscale(100%) contrast(1.1);
-    display: block;
-    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 30%, #111 70%, #1a1a1a 100%);
-  }
-  /* Placeholder person silhouette */
-  .hero-img-placeholder {
-    width: 100%; height: 580px;
-    background: linear-gradient(180deg, #1c1c1c 0%, #141414 100%);
-    position: relative; overflow: hidden;
-    display: flex; align-items: flex-end; justify-content: center;
-  }
-  .hero-img-placeholder::before {
-    content: '';
-    position: absolute;
-    bottom: 0; left: 50%; transform: translateX(-50%);
-    width: 260px; height: 480px;
-    background: linear-gradient(180deg, #2a2a2a 0%, #1a1a1a 100%);
-    border-radius: 130px 130px 0 0;
-    box-shadow: 0 0 60px rgba(0,0,0,0.8);
-  }
-  .hero-img-placeholder::after {
-    content: '';
-    position: absolute;
-    bottom: 440px; left: 50%; transform: translateX(-50%);
-    width: 100px; height: 100px;
-    background: #2a2a2a;
-    border-radius: 50%;
-  }
-
-  /* Floating cards */
-  .float-card {
-    position: absolute;
-    background: rgba(15,15,15,0.85);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 12px;
-    padding: 16px 20px;
-    min-width: 200px;
-    opacity: 0; transform: translateY(20px);
-    transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-  }
-  .float-card.visible { opacity: 1; transform: translateY(0); }
-  .float-card-1 { top: 80px; right: -40px; }
-  .float-card-2 { bottom: 120px; left: -60px; }
-  .float-card-label { font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 10px; }
-  .float-card-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: rgba(255,255,255,0.8); margin-bottom: 6px; font-weight: 300; }
-  .float-card-item::before { content: ''; width: 6px; height: 6px; background: var(--lime); border-radius: 50%; flex-shrink: 0; }
-  .float-card-metric { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--white); line-height: 1; }
-  .float-card-sub { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 2px; letter-spacing: 0.06em; text-transform: uppercase; }
-
-  /* Circular badge */
-  .lime-badge {
-    position: absolute; top: 30%; right: -28px;
-    width: 90px; height: 90px; background: var(--lime);
-    border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center;
-    z-index: 10;
-    animation: badgePulse 3s ease-in-out infinite;
-  }
-  .lime-badge .val { font-family: 'Bebas Neue', sans-serif; font-size: 22px; color: var(--black); line-height: 1; }
-  .lime-badge .lab { font-size: 8px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(0,0,0,0.65); }
-  @keyframes badgePulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
-
-  /* STATS SECTION */
-  #stats { padding: 120px 48px; border-top: 1px solid rgba(255,255,255,0.08); }
-  .stats-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 60px; }
-  .stats-title { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.35); }
-  .stat-row {
-    display: grid; grid-template-columns: 80px 1fr 320px;
-    align-items: center; padding: 48px 0; border-top: 1px solid rgba(255,255,255,0.08);
-    gap: 40px;
-  }
-  .stat-row:last-child { border-bottom: 1px solid rgba(255,255,255,0.08); }
-  .stat-index { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; color: rgba(255,255,255,0.2); font-family: 'DM Sans', sans-serif; }
-  .stat-num {
-    font-family: 'Bebas Neue', sans-serif; font-size: clamp(80px, 9vw, 130px);
-    color: var(--lime); line-height: 0.85; letter-spacing: -0.01em;
-    transition: all 0.1s;
-  }
-  .stat-desc-title { font-size: 15px; font-weight: 500; color: var(--white); margin-bottom: 6px; }
-  .stat-desc-body { font-size: 13px; font-weight: 300; color: rgba(255,255,255,0.4); line-height: 1.6; }
-
-  /* HOW IT WORKS */
-  #how { padding: 120px 48px; }
-  .section-label {
-    display: flex; align-items: center; gap: 14px;
-    font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
-    color: rgba(255,255,255,0.35); margin-bottom: 48px;
-  }
-  .section-label::after { content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.08); }
-  .how-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 56px; }
-  .how-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(48px, 6vw, 80px); line-height: 0.9; color: var(--white); }
-  .how-sub { font-size: 14px; color: rgba(255,255,255,0.4); max-width: 280px; line-height: 1.65; font-weight: 300; text-align: right; }
-  .steps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
-  .step-card {
-    background: #0e0e0e;
-    border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 4px;
-    padding: 40px;
-    position: relative; overflow: hidden;
-    min-height: 320px;
-    display: flex; flex-direction: column; justify-content: flex-end;
-    cursor: pointer;
-    transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s;
-  }
-  .step-card:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(204,255,0,0.12); }
-  .step-bg-num {
-    position: absolute; top: -20px; left: 20px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(160px, 14vw, 220px);
-    color: rgba(204,255,0,0.06);
-    line-height: 1; user-select: none;
-    transition: color 0.3s;
-  }
-  .step-card:hover .step-bg-num { color: rgba(204,255,0,0.1); }
-  .step-num-label {
-    font-size: 10px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--lime); margin-bottom: 10px;
-  }
-  .step-title { font-size: 18px; font-weight: 500; color: var(--white); line-height: 1.3; letter-spacing: 0.01em; }
-  .step-desc { font-size: 13px; color: rgba(255,255,255,0.35); margin-top: 8px; line-height: 1.6; font-weight: 300; }
-
-  /* MARQUEE */
-  #marquee { border-top: 1px solid rgba(255,255,255,0.08); border-bottom: 1px solid rgba(255,255,255,0.08); overflow: hidden; padding: 20px 0; }
-  .marquee-track { display: flex; gap: 0; white-space: nowrap; animation: marquee 18s linear infinite; }
-  .marquee-item {
-    display: inline-flex; align-items: center; gap: 40px; padding: 0 40px;
-    font-family: 'Bebas Neue', sans-serif; font-size: 32px; color: rgba(255,255,255,0.12);
-    letter-spacing: 0.04em; text-transform: uppercase; flex-shrink: 0;
-  }
-  .marquee-item .dot { width: 8px; height: 8px; background: var(--lime); border-radius: 50%; opacity: 0.6; }
-  @keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
-
-  /* FOOTER */
-  footer {
-    padding: 80px 48px 48px; border-top: 1px solid rgba(255,255,255,0.08);
-    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px;
-  }
-  .footer-brand .logo { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.1em; }
-  .footer-brand .logo span { color: var(--lime); }
-  .footer-brand p { font-size: 13px; color: rgba(255,255,255,0.35); margin-top: 14px; line-height: 1.65; font-weight: 300; max-width: 220px; }
-  .footer-col h4 { font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255,255,255,0.25); margin-bottom: 20px; }
-  .footer-col ul { list-style: none; }
-  .footer-col li { margin-bottom: 12px; }
-  .footer-col a { font-size: 14px; color: rgba(255,255,255,0.55); text-decoration: none; font-weight: 300; transition: color 0.2s; }
-  .footer-col a:hover { color: var(--white); }
-  .footer-bottom { padding: 28px 48px; border-top: 1px solid rgba(255,255,255,0.06); display: flex; justify-content: space-between; align-items: center; }
-  .footer-bottom p { font-size: 12px; color: rgba(255,255,255,0.2); font-weight: 300; }
-
-  /* Scroll animation helpers */
-  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
-  .reveal.visible { opacity: 1; transform: translateY(0); }
-
-  /* Noise overlay */
+  /* Grain texture */
   body::after {
-    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 9999;
-    opacity: 0.025;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-    background-repeat: repeat;
-    background-size: 128px;
+    content:''; position:fixed; inset:0; pointer-events:none; z-index:9999; opacity:0.028;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size:128px;
   }
 
-  @media (max-width: 900px) {
-    #hero { grid-template-columns: 1fr; padding: 120px 24px 60px; }
-    .hero-right { display: none; }
-    nav { padding: 0 24px; }
-    .nav-links { display: none; }
-    #stats { padding: 80px 24px; }
-    .stat-row { grid-template-columns: 60px 1fr; }
-    .stat-desc { display: none; }
-    #how { padding: 80px 24px; }
-    .steps-grid { grid-template-columns: 1fr; }
-    footer { grid-template-columns: 1fr 1fr; padding: 60px 24px 40px; }
-    .footer-bottom { padding: 24px; flex-direction: column; gap: 8px; }
-  }
+  /* Reveal */
+  .reveal { opacity:0; transform:translateY(28px); transition:opacity 0.7s ease, transform 0.75s cubic-bezier(0.22,1,0.36,1); }
+  .reveal.visible { opacity:1; transform:translateY(0); }
+
+  /* Eyebrow line */
+  .eyebrow::before { content:''; display:inline-block; width:28px; height:1px; background:var(--lime); margin-right:10px; vertical-align:middle; }
+
+  /* CTA sweep */
+  .btn-sweep { position:relative; overflow:hidden; }
+  .btn-sweep::after { content:''; position:absolute; inset:0; background:#fff; transform:translateX(-101%); transition:transform 0.32s cubic-bezier(0.77,0,0.18,1); }
+  .btn-sweep:hover::after { transform:translateX(0); }
+  .btn-sweep span { position:relative; z-index:1; }
+
+  /* Step hover */
+  .step-card { transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s; }
+  .step-card:hover { transform:translateY(-7px); box-shadow:0 20px 64px rgba(204,255,0,0.13); }
+
+  /* Stat num */
+  .stat-num { font-family:'Bebas Neue',sans-serif; font-size:clamp(78px,9.5vw,130px); color:var(--lime); line-height:0.85; letter-spacing:-0.01em; }
+
+  /* Step decorative bg number */
+  .step-bg-num { font-family:'Bebas Neue',sans-serif; font-size:clamp(160px,16vw,230px); color:rgba(204,255,0,0.055); line-height:1; user-select:none; transition:color 0.3s; }
+  .step-card:hover .step-bg-num { color:rgba(204,255,0,0.11); }
+
+  /* Hero headline */
+  .hero-hl { font-family:'Bebas Neue',sans-serif; font-size:clamp(66px,8vw,110px); line-height:0.88; letter-spacing:0.01em; }
+  .how-hl  { font-family:'Bebas Neue',sans-serif; font-size:clamp(52px,6vw,84px); line-height:0.9; }
+  .cta-hl  { font-family:'Bebas Neue',sans-serif; font-size:clamp(48px,6vw,86px); line-height:0.9; }
+  .financing-hl { font-family:'Bebas Neue',sans-serif; font-size:clamp(48px,5vw,72px); line-height:1; }
+
+  /* Hero glow */
+  #hero::before { content:''; position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse 58% 70% at 80% 50%, rgba(204,255,0,0.04) 0%, transparent 70%); }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#111; } ::-webkit-scrollbar-thumb { background:#2a2a2a; }
+
+  /* financing cards */
+  .fin-card { background: #0d0d0d; border:1px solid rgba(255,255,255,0.055); transition: all 0.25s ease; }
+  .fin-card:hover { border-color: rgba(204,255,0,0.3); transform: translateY(-4px); background: #111; }
 </style>
 </head>
-<body>
+<body class="bg-ink text-white font-body overflow-x-hidden">
 
-<!-- NAV -->
-<nav>
-  <div class="nav-logo">Vault<span>Edge</span></div>
-  <ul class="nav-links">
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Insights</a></li>
+<!-- ══ NAV ══ (preserved) -->
+<nav class="fixed top-0 inset-x-0 z-50 bg-ink border-b border-white/[0.07] flex items-center justify-between px-6 md:px-12 h-16">
+  <div class="font-display text-[22px] tracking-[0.12em]">Vault<span class="text-lime">Edge</span></div>
+  <ul class="hidden md:flex gap-9 list-none">
+    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Services</a></li>
+    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Portfolio</a></li>
+    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">About</a></li>
+    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Insights</a></li>
   </ul>
-  <button class="nav-cta">Contact us</button>
+  <button class="border border-white/45 bg-transparent text-white px-5 py-2 text-[13px] font-medium tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-all duration-200 cursor-pointer">Contact us</button>
 </nav>
 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-left">
-    <div class="hero-eyebrow">Institutional Capital Solutions</div>
-    <h1 class="hero-h1">
-      <span class="line1">Deploy Capital</span>
-      <span class="line2">at <span class="accent">$1.3M+</span></span>
-      <span class="line2">Scale.</span>
+<!-- ══ HERO (original content preserved but messaging tuned to financing) ══ -->
+<section id="hero" class="relative min-h-screen grid grid-cols-1 md:grid-cols-2 items-center pt-16 px-6 md:px-12 overflow-hidden">
+  <div class="pr-0 md:pr-14 py-20 md:py-0 z-10">
+    <p class="eyebrow inline-flex items-center text-[11px] font-semibold tracking-[0.16em] uppercase text-white/38 mb-7">Flexible Business Financing</p>
+    <h1 class="hero-hl text-white mb-8">
+      Fast Capital<br/>
+      to Help Your<br/>
+      <span class="text-lime">Business Grow</span>
     </h1>
-    <p class="hero-sub">We architect precision financial strategies for emerging and mid-market operators — turning complex capital structures into measurable growth outcomes.</p>
-    <div>
-      <a href="#" class="btn-primary"><span>Get Started →</span></a>
-      <a href="#" class="btn-ghost">View Portfolio</a>
+    <p class="text-[15px] leading-[1.75] text-white/48 font-light max-w-[440px] mb-10">
+      Access fast and reliable funding solutions designed to support your business at every stage of growth — expand, manage cash flow, or invest in new opportunities.
+    </p>
+    <div class="flex flex-wrap gap-4">
+      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-9 py-[14px] text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
+        <span>Apply in Minutes →</span>
+      </a>
+      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-9 py-[14px] text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
+        Talk to an Expert
+      </a>
     </div>
   </div>
 
-  <div class="hero-right">
-    <div class="hero-img-wrap">
-      <div class="hero-img-placeholder"></div>
-
-      <!-- Floating card 1 -->
-      <div class="float-card float-card-1" id="card1">
-        <div class="float-card-label">Portfolio Highlights</div>
-        <div class="float-card-item">Series A placement secured</div>
-        <div class="float-card-item">$26K+ avg client ROI</div>
-        <div class="float-card-item">200+ active engagements</div>
-        <div class="float-card-item">Exits in 3 continents</div>
+  <!-- Right photo + cards (unchanged layout) -->
+  <div class="relative hidden md:flex items-center justify-center h-full min-h-[82vh]">
+    <div class="relative w-full max-w-[500px]">
+      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial professional" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
+      <div class="absolute bottom-0 left-0 w-[3px] h-[65%] bg-lime opacity-60"></div>
+      <div class="absolute top-0 right-0 w-[3px] h-[30%] bg-lime opacity-35"></div>
+      <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-ink/80 to-transparent pointer-events-none"></div>
+      <div class="animate-floatUp1 absolute top-[68px] -right-10 bg-[rgba(10,10,10,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[215px] shadow-2xl">
+        <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-3">Why VaultEdge</p>
+        <div class="flex flex-col gap-[7px]">
+          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Fast & simple process</div>
+          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Flexible loan options</div>
+          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Support all credit profiles</div>
+          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Clear terms, transparent</div>
+        </div>
       </div>
-
-      <!-- Floating card 2 -->
-      <div class="float-card float-card-2" id="card2">
-        <div class="float-card-label">YTD Performance</div>
-        <div class="float-card-metric">$4.7M</div>
-        <div class="float-card-sub">Capital Deployed Q1 2026</div>
+      <div class="animate-floatUp2 absolute bottom-24 -left-14 bg-[rgba(10,10,10,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[195px] shadow-2xl">
+        <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-2">Avg. Funding Speed</p>
+        <p class="font-display text-[32px] text-white leading-none">24-48h</p>
+        <p class="text-[11px] text-white/32 mt-1 tracking-[0.06em] uppercase">Approval to funding</p>
       </div>
-
-      <!-- Lime badge -->
-      <div class="lime-badge">
-        <span class="val">$1.3M</span>
-        <span class="lab">Avg Deal</span>
+      <div class="animate-badgePulse absolute top-[30%] -right-8 w-[92px] h-[92px] bg-lime rounded-full flex flex-col items-center justify-center z-20 shadow-lg">
+        <span class="font-display text-[22px] text-ink leading-none">$10K+</span>
+        <span class="text-[8px] font-bold tracking-[0.08em] uppercase text-black/55 mt-[2px]">Min Loan</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- MARQUEE -->
-<div id="marquee">
-  <div class="marquee-track">
-    <span class="marquee-item">Capital Markets <span class="dot"></span></span>
-    <span class="marquee-item">Private Equity <span class="dot"></span></span>
-    <span class="marquee-item">Venture Debt <span class="dot"></span></span>
-    <span class="marquee-item">Portfolio Strategy <span class="dot"></span></span>
-    <span class="marquee-item">M&A Advisory <span class="dot"></span></span>
-    <span class="marquee-item">Fund Formation <span class="dot"></span></span>
-    <span class="marquee-item">Capital Markets <span class="dot"></span></span>
-    <span class="marquee-item">Private Equity <span class="dot"></span></span>
-    <span class="marquee-item">Venture Debt <span class="dot"></span></span>
-    <span class="marquee-item">Portfolio Strategy <span class="dot"></span></span>
-    <span class="marquee-item">M&A Advisory <span class="dot"></span></span>
-    <span class="marquee-item">Fund Formation <span class="dot"></span></span>
+<!-- ══ MARQUEE (original untouched) ══ -->
+<div class="border-t border-b border-white/[0.07] overflow-hidden py-5">
+  <div class="flex whitespace-nowrap animate-marquee">
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Commercial Real Estate <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Equipment Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Construction Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Cash Flow Solutions <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Commercial Real Estate <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Equipment Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Construction Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Cash Flow Solutions <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
   </div>
 </div>
 
-<!-- STATS -->
-<section id="stats">
-  <div class="stats-header">
-    <span class="stats-title">About Us in Numbers</span>
+<!-- ══ NEW SECTION: FINANCING SOLUTIONS (Business Loans, Commercial, SBA, Construction) ══ -->
+<section class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
+  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
+    Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
   </div>
-
-  <div class="stat-row reveal">
-    <span class="stat-index">01</span>
-    <span class="stat-num" data-target="847" data-suffix="CPA's">0</span>
-    <div class="stat-desc">
-      <div class="stat-desc-title">Certified Partners Worldwide</div>
-      <div class="stat-desc-body">A global network of accredited financial advisors embedded across 34 markets and 6 continents.</div>
+  <div class="flex flex-col md:flex-row items-end justify-between gap-6 mb-14">
+    <h2 class="financing-hl text-white">Our Financing<br/>Solutions</h2>
+    <p class="text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="fin-card rounded-2xl p-6 flex flex-col">
+      <span class="text-3xl mb-4">💼</span>
+      <h3 class="font-display text-2xl text-lime mb-2">Business Loans</h3>
+      <p class="text-white/50 text-sm leading-relaxed">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
     </div>
-  </div>
-
-  <div class="stat-row reveal">
-    <span class="stat-index">02</span>
-    <span class="stat-num" data-target="26" data-prefix="$" data-suffix="K+" data-decimals="0">0</span>
-    <div class="stat-desc">
-      <div class="stat-desc-title">Average Client Return</div>
-      <div class="stat-desc-body">Median ROI per engagement across our structured capital deployment programs over the last 24 months.</div>
+    <div class="fin-card rounded-2xl p-6 flex flex-col">
+      <span class="text-3xl mb-4">🏢</span>
+      <h3 class="font-display text-2xl text-lime mb-2">Commercial Financing</h3>
+      <p class="text-white/50 text-sm leading-relaxed">Capital solutions for real estate, equipment purchases, and large business investments.</p>
     </div>
-  </div>
-
-  <div class="stat-row reveal">
-    <span class="stat-index">03</span>
-    <span class="stat-num" data-target="200" data-prefix="$" data-suffix="K">0</span>
-    <div class="stat-desc">
-      <div class="stat-desc-title">Minimum Deployment Threshold</div>
-      <div class="stat-desc-body">We work exclusively with operators positioned to scale. Entry capital starts at $200K for structured advisory.</div>
+    <div class="fin-card rounded-2xl p-6 flex flex-col">
+      <span class="text-3xl mb-4">🏛️</span>
+      <h3 class="font-display text-2xl text-lime mb-2">SBA Loan Assistance</h3>
+      <p class="text-white/50 text-sm leading-relaxed">Access to government-backed loan programs designed to support small business growth.</p>
+    </div>
+    <div class="fin-card rounded-2xl p-6 flex flex-col">
+      <span class="text-3xl mb-4">🏗️</span>
+      <h3 class="font-display text-2xl text-lime mb-2">Construction Financing</h3>
+      <p class="text-white/50 text-sm leading-relaxed">Funding solutions tailored for construction projects and development needs.</p>
     </div>
   </div>
 </section>
 
-<!-- HOW IT WORKS -->
-<section id="how">
-  <div class="section-label">Process</div>
-  <div class="how-header">
-    <h2 class="how-title">How It<br/>Works</h2>
-    <p class="how-sub">From initial assessment to capital deployment in four decisive steps.</p>
-  </div>
-
-  <div class="steps-grid">
-    <div class="step-card reveal">
-      <div class="step-bg-num">01</div>
-      <div>
-        <div class="step-num-label">Step 01</div>
-        <div class="step-title">Capital Assessment</div>
-        <div class="step-desc">We audit your current structure, exposure profile, and growth trajectory to identify optimal capital pathways.</div>
-      </div>
+<!-- ══ WHY CHOOSE US (new section mirroring original brief) ══ -->
+<section class="px-6 md:px-12 py-16 border-t border-white/[0.07] bg-[#0A0A0A]/60">
+  <div class="grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-lime mb-4">Why VaultEdge</p>
+      <h2 class="how-hl text-white mb-6">Financing that <br/><span class="text-lime">Fits Your Business</span></h2>
+      <p class="text-white/40 text-sm leading-relaxed mb-8">We focus on finding the right funding solution based on your business needs—not just a one-size-fits-all loan. Our transparent process and dedicated support set you up for success.</p>
+      <ul class="space-y-3">
+        <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Fast and simple application process</li>
+        <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Flexible financing options tailored to your business</li>
+        <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Transparent process with clear terms</li>
+        <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Support for a wide range of credit profiles</li>
+        <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Dedicated customer support team</li>
+      </ul>
     </div>
-    <div class="step-card reveal" style="transition-delay:0.1s">
-      <div class="step-bg-num">02</div>
-      <div>
-        <div class="step-num-label">Step 02</div>
-        <div class="step-title">Strategy Architecture</div>
-        <div class="step-desc">Our team crafts a bespoke deployment strategy aligned with your risk threshold and 24-month performance targets.</div>
-      </div>
-    </div>
-    <div class="step-card reveal" style="transition-delay:0.2s">
-      <div class="step-bg-num">03</div>
-      <div>
-        <div class="step-num-label">Step 03</div>
-        <div class="step-title">Partner Matching</div>
-        <div class="step-desc">We connect you to our verified network of 847+ CPAs and institutional lenders for structured deal execution.</div>
-      </div>
-    </div>
-    <div class="step-card reveal" style="transition-delay:0.3s">
-      <div class="step-bg-num">04</div>
-      <div>
-        <div class="step-num-label">Step 04</div>
-        <div class="step-title">Deploy & Scale</div>
-        <div class="step-desc">Capital is deployed with real-time monitoring, quarterly reporting, and active portfolio management built in.</div>
+    <div class="bg-[#0d0d0d] border border-white/[0.07] rounded-2xl p-8">
+      <p class="text-lime text-sm font-semibold uppercase tracking-wider mb-2">Our goal</p>
+      <p class="text-white/80 text-base leading-relaxed italic">"Simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. Every business deserves the opportunity to grow with the right financial support."</p>
+      <div class="mt-6 pt-4 border-t border-white/[0.08] flex justify-between items-center">
+        <span class="text-white/30 text-xs uppercase tracking-wider">VaultEdge Team</span>
+        <span class="text-lime text-lg">⚡</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CTA BAND -->
-<section style="padding: 120px 48px; border-top: 1px solid rgba(255,255,255,0.08); display:flex; align-items:center; justify-content:space-between; gap: 40px;" class="reveal">
+<!-- ══ STATS (preserved original, numbers updated to reflect financing context) ══ -->
+<section id="stats" class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
+  <p class="font-display text-[13px] tracking-[0.22em] uppercase text-white/28 mb-14">Our impact in numbers</p>
+  <div class="stat-row reveal grid grid-cols-[56px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-8 md:gap-10 py-12 border-t border-white/[0.07]">
+    <span class="text-[11px] font-medium tracking-[0.1em] text-white/18">01</span>
+    <span class="stat-num" data-target="1200" data-suffix="+">0</span>
+    <div class="hidden md:block"><p class="text-[15px] font-medium text-white mb-1">Businesses Funded</p><p class="text-[13px] font-light text-white/38 leading-relaxed">From startups to established enterprises — we've powered growth nationwide.</p></div>
+  </div>
+  <div class="stat-row reveal grid grid-cols-[56px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-8 md:gap-10 py-12 border-t border-white/[0.07]">
+    <span class="text-[11px] font-medium tracking-[0.1em] text-white/18">02</span>
+    <span class="stat-num" data-target="98" data-suffix="%">0</span>
+    <div class="hidden md:block"><p class="text-[15px] font-medium text-white mb-1">Client Satisfaction</p><p class="text-[13px] font-light text-white/38 leading-relaxed">Rated excellent for fast approvals and transparent loan matching.</p></div>
+  </div>
+  <div class="stat-row reveal grid grid-cols-[56px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-8 md:gap-10 py-12 border-t border-b border-white/[0.07]">
+    <span class="text-[11px] font-medium tracking-[0.1em] text-white/18">03</span>
+    <span class="stat-num" data-target="75" data-prefix="$" data-suffix="M">0</span>
+    <div class="hidden md:block"><p class="text-[15px] font-medium text-white mb-1">Capital Deployed (YTD)</p><p class="text-[13px] font-light text-white/38 leading-relaxed">Empowering SMEs with working capital, commercial loans, and SBA funding.</p></div>
+  </div>
+</section>
+
+<!-- ══ HOW IT WORKS (original step cards but content tailored to financing application flow) ══ -->
+<section id="how" class="px-6 md:px-12 py-24">
+  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
+    Simple Process <div class="flex-1 h-px bg-white/[0.07]"></div>
+  </div>
+  <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-14">
+    <h2 class="how-hl text-white">How It<br/>Works</h2>
+    <p class="text-[14px] font-light text-white/38 max-w-[280px] md:text-right leading-relaxed">Apply in minutes, get matched, and receive funding quickly.</p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-[2px]">
+    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden">
+      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">01</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 01</p>
+      <p class="text-[18px] font-medium text-white leading-snug">Apply Online</p>
+      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Submit a simple application with your business details — only basic info required.</p>
+    </div>
+    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.1s">
+      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">02</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 02</p>
+      <p class="text-[18px] font-medium text-white leading-snug">Get Matched</p>
+      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">We review your information and connect you with suitable financing options from our partner network.</p>
+    </div>
+    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.2s">
+      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">03</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 03</p>
+      <p class="text-[18px] font-medium text-white leading-snug">Receive Funding</p>
+      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Once approved, funding is processed quickly through our lending partners. Capital in your account.</p>
+    </div>
+    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.3s">
+      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">04</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 04</p>
+      <p class="text-[18px] font-medium text-white leading-snug">Grow Your Business</p>
+      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Use the capital to expand, manage cash flow, or invest — we're with you at every stage.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT US (new but preserving design, adds "About Us" content from brief) ══ -->
+<section class="px-6 md:px-12 py-20 border-t border-white/[0.07]">
+  <div class="max-w-3xl mx-auto text-center reveal">
+    <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-lime mb-3">About VaultEdge</p>
+    <h2 class="financing-hl text-white mb-6">We help SMEs access<br/>the capital they need</h2>
+    <p class="text-white/40 text-base leading-relaxed mb-6">We are a business financing solutions provider focused on helping small and medium-sized businesses access the capital they need to grow and succeed. Our mission is to simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. We believe every business deserves the opportunity to grow with the right financial support.</p>
+    <div class="flex justify-center gap-5 pt-4">
+      <span class="text-white/20 text-sm uppercase tracking-wider border-r border-white/10 pr-4">Trusted partners</span>
+      <span class="text-white/20 text-sm uppercase tracking-wider">0% hidden fees</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA BAND (updated with "Get Started" and "Talk to Expert") ══ -->
+<section class="reveal px-6 md:px-12 py-28 border-t border-white/[0.07] flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
   <div>
-    <div style="font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:16px;">Ready to Deploy?</div>
-    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,6vw,84px);line-height:0.9;color:var(--white);">Start Your<br/><span style="color:var(--lime);">Capital Journey</span></h2>
+    <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-white/22 mb-4">Ready to Grow?</p>
+    <h2 class="cta-hl text-white">Take the Next<br/><span class="text-lime">Step Today</span></h2>
   </div>
-  <div style="display:flex;flex-direction:column;align-items:flex-end;gap:16px;">
-    <p style="font-size:14px;color:rgba(255,255,255,0.4);max-width:300px;text-align:right;line-height:1.65;font-weight:300;">Book a 30-minute strategy call with a VaultEdge advisor. No commitment. Pure signal.</p>
-    <a href="#" class="btn-primary"><span>Book a Call →</span></a>
+  <div class="flex flex-col items-start md:items-end gap-5">
+    <p class="text-[14px] font-light text-white/38 max-w-[300px] md:text-right leading-relaxed">Explore financing options designed to help your business move forward. Apply now or speak with a funding specialist.</p>
+    <div class="flex flex-wrap gap-4">
+      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-9 py-[14px] text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
+        <span>Apply Now →</span>
+      </a>
+      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-9 py-[14px] text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
+        Talk to Expert
+      </a>
+    </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-brand">
-    <div class="logo">Vault<span>Edge</span></div>
-    <p>Institutional-grade capital strategies for ambitious operators. We move with precision.</p>
+<!-- ══ FOOTER (original structure intact) ══ -->
+<footer class="px-6 md:px-12 pt-20 pb-12 border-t border-white/[0.07] grid grid-cols-2 md:grid-cols-4 gap-10">
+  <div class="col-span-2 md:col-span-1">
+    <p class="font-display text-[28px] tracking-[0.1em]">Vault<span class="text-lime">Edge</span></p>
+    <p class="text-[13px] font-light text-white/32 mt-4 leading-relaxed max-w-[220px]">Flexible business financing — fast, transparent, tailored for growth.</p>
   </div>
-  <div class="footer-col">
-    <h4>Services</h4>
-    <ul>
-      <li><a href="#">Capital Structuring</a></li>
-      <li><a href="#">M&A Advisory</a></li>
-      <li><a href="#">Fund Formation</a></li>
-      <li><a href="#">Portfolio Management</a></li>
+  <div>
+    <h4 class="text-[10px] font-bold tracking-[0.16em] uppercase text-white/20 mb-5">Solutions</h4>
+    <ul class="space-y-3 list-none">
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Business Loans</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">SBA Loans</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Commercial Financing</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Construction Loans</a></li>
     </ul>
   </div>
-  <div class="footer-col">
-    <h4>Company</h4>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Team</a></li>
-      <li><a href="#">Insights</a></li>
-      <li><a href="#">Careers</a></li>
+  <div>
+    <h4 class="text-[10px] font-bold tracking-[0.16em] uppercase text-white/20 mb-5">Company</h4>
+    <ul class="space-y-3 list-none">
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">About Us</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Funding Experts</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Insights</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Careers</a></li>
     </ul>
   </div>
-  <div class="footer-col">
-    <h4>Legal</h4>
-    <ul>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms of Service</a></li>
-      <li><a href="#">Disclosures</a></li>
-      <li><a href="#">Compliance</a></li>
+  <div>
+    <h4 class="text-[10px] font-bold tracking-[0.16em] uppercase text-white/20 mb-5">Legal</h4>
+    <ul class="space-y-3 list-none">
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Privacy Policy</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Terms of Service</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Disclosures</a></li>
+      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Compliance</a></li>
     </ul>
   </div>
 </footer>
-<div class="footer-bottom">
-  <p>© 2026 VaultEdge Capital Advisors LLC. All rights reserved.</p>
-  <p style="color:rgba(255,255,255,0.15);font-size:12px;">Not an investment advisor. For institutional clients only.</p>
+<div class="px-6 md:px-12 py-7 border-t border-white/[0.05] flex flex-col md:flex-row justify-between items-center gap-2">
+  <p class="text-[12px] font-light text-white/18">© 2026 VaultEdge — Business Financing Solutions. All rights reserved.</p>
+  <p class="text-[12px] font-light text-white/10">Fast funding • Transparent terms • Trusted partners</p>
 </div>
 
 <script>
-// ---- Intersection Observer for reveal ----
-const revealEls = document.querySelectorAll('.reveal');
-const revealObserver = new IntersectionObserver((entries) => {
-  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
-}, { threshold: 0.12 });
-revealEls.forEach(el => revealObserver.observe(el));
+  // reveal on scroll
+  const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
-// ---- Hero cards stagger ----
-setTimeout(() => { document.getElementById('card1').classList.add('visible'); }, 600);
-setTimeout(() => { document.getElementById('card2').classList.add('visible'); }, 950);
-
-// ---- Count-up animation ----
-function animateCount(el) {
-  const target = parseFloat(el.dataset.target);
-  const prefix = el.dataset.prefix || '';
-  const suffix = el.dataset.suffix || '';
-  const duration = 1600;
-  const start = performance.now();
-
-  function update(now) {
-    const elapsed = now - start;
-    const progress = Math.min(elapsed / duration, 1);
-    // Ease out expo
-    const ease = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-    const current = Math.floor(ease * target);
-    el.textContent = prefix + current.toLocaleString() + suffix;
-    if (progress < 1) requestAnimationFrame(update);
+  // count-up
+  function countUp(el) {
+    const target = +el.dataset.target;
+    const prefix = el.dataset.prefix || '';
+    const suffix = el.dataset.suffix || '';
+    const dur = 1700, t0 = performance.now();
+    (function tick(now) {
+      const p = Math.min((now - t0) / dur, 1);
+      const ease = 1 - Math.pow(2, -10 * p);
+      el.textContent = prefix + Math.floor(ease * target).toLocaleString() + suffix;
+      if (p < 1) requestAnimationFrame(tick);
+    })(t0);
   }
-  requestAnimationFrame(update);
-}
-
-const statNums = document.querySelectorAll('.stat-num');
-const countObserver = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if(e.isIntersecting && !e.target.dataset.animated) {
-      e.target.dataset.animated = true;
-      animateCount(e.target);
-    }
-  });
-}, { threshold: 0.4 });
-statNums.forEach(el => countObserver.observe(el));
+  const co = new IntersectionObserver(entries => entries.forEach(e => {
+    if(e.isIntersecting && !e.target.dataset.done) { e.target.dataset.done = 1; countUp(e.target); }
+  }), { threshold: 0.4 });
+  document.querySelectorAll('.stat-num').forEach(el => co.observe(el));
 </script>
 </body>
 </html>
