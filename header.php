@@ -93,12 +93,8 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           <div class="dropdown-content hidden mt-2 ml-4 space-y-2">
             <a href="<?php echo $pathPrefix; ?>loans/business-loans.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Business Loans</a>
             <a href="<?php echo $pathPrefix; ?>loans/commercial-loans.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Commercial Financing</a>
-            <a href="<?php echo $pathPrefix; ?>loans/sba-loans.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">SBA Loan Assistance</a>
+            <a href="<?php echo $pathPrefix; ?>loans/sba-loans.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">SBA Loan</a>
             <a href="<?php echo $pathPrefix; ?>loans/construction-financing.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Construction Financing</a>
-            <a href="<?php echo $pathPrefix; ?>loans/bridge-loan.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Bridge Loan</a>
-            <a href="<?php echo $pathPrefix; ?>loans/equipment-financing.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Equipment Financing</a>
-            <a href="<?php echo $pathPrefix; ?>loans/line-of-credit.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Line of Credit</a>
-          </div>
         </div>
         
         <!-- Mobile Dropdown 2: Industry -->
