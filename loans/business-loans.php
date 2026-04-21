@@ -122,59 +122,6 @@
 @include('../funding-website/header.php')?>
 
 <!-- ═══════════ HERO ═══════════ -->
-<header class="hero-pattern relative overflow-hidden min-h-[60vh] flex items-center">
-  <div class="max-w-7xl mx-auto px-6 md:px-12 py-20 w-full">
-    <div class="max-w-3xl">
-      <p class="eyebrow inline-flex items-center text-[11px] font-semibold tracking-[0.16em] uppercase text-white/38 mb-7">Flexible Business Financing</p>
-      <h1 class="hero-hl text-white mb-6">
-        Fast Capital<br/>
-        to Help Your<br/>
-        <span class="text-lime">Business Grow</span>
-      </h1>
-      <p class="text-[16px] leading-[1.75] text-white/48 font-light max-w-[500px] mb-8">
-        Access fast and reliable funding solutions designed to support your business at every stage of growth — expand, manage cash flow, or invest in new opportunities.
-      </p>
-      <div class="flex flex-wrap gap-4">
-        <a href="#apply" class="btn-gold">Apply in Minutes →</a>
-        <a href="#" class="btn-outline">Talk to an Expert</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Decorative lime bar -->
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
-
-  <!-- Floating stat cards -->
-  <div class="hidden lg:flex absolute right-12 top-1/2 -translate-y-1/2 flex-col gap-4">
-    <div class="bg-white/[0.05] backdrop-blur border border-white/[0.1] rounded-xl p-5 w-[190px]">
-      <p class="text-white/45 text-[11px] font-semibold tracking-[0.1em] uppercase mb-1">Interest Rates From</p>
-      <p class="font-display text-[32px] font-bold text-lime leading-none">3.9%</p>
-      <p class="text-white/40 text-[12px] mt-1">APR annually</p>
-    </div>
-    <div class="bg-white/[0.05] backdrop-blur border border-white/[0.1] rounded-xl p-5 w-[190px]">
-      <p class="text-white/45 text-[11px] font-semibold tracking-[0.1em] uppercase mb-1">Funding In</p>
-      <p class="font-display text-[32px] font-bold text-lime leading-none">24hrs</p>
-      <p class="text-white/40 text-[12px] mt-1">Fast approvals</p>
-    </div>
-    <div class="bg-white/[0.05] backdrop-blur border border-white/[0.1] rounded-xl p-5 w-[190px]">
-      <p class="text-white/45 text-[11px] font-semibold tracking-[0.1em] uppercase mb-1">Loans Up To</p>
-      <p class="font-display text-[32px] font-bold text-lime leading-none">$5M</p>
-      <p class="text-white/40 text-[12px] mt-1">Flexible amounts</p>
-    </div>
-  </div>
-</header>
-
-<!-- ═══════════ MARQUEE ═══════════ -->
-<div class="border-t border-b border-white/[0.07] overflow-hidden py-5">
-  <div class="flex whitespace-nowrap animate-marquee">
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Commercial Real Estate <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Equipment Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Construction Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Cash Flow Solutions <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-  </div>
-</div>
 
 <!-- ═══════════ BREADCRUMB ═══════════ -->
 <div class="border-b border-white/[0.07] bg-[#0d0d0d]">
@@ -351,19 +298,6 @@
         </div>
       </div>
 
-      <!-- Second CTA Banner -->
-      <div class="reveal mb-14">
-        <div class="bg-[#0d0d0d] border border-white/[0.07] rounded-2xl p-8 shadow-sm text-center">
-          <p class="chip mb-4 mx-auto inline-block">Trusted Advisors</p>
-          <h3 class="font-display text-3xl md:text-4xl font-bold text-white mb-3">Talk to Our Trusted Financial Advisors</h3>
-          <p class="text-[15px] text-white/50 font-light max-w-[500px] mx-auto leading-relaxed mb-6">Navigating the world of business loans and merchant cash advances can be overwhelming, but our team of expert advisors is here to guide you.</p>
-          <div class="flex flex-wrap gap-3 justify-center">
-            <a href="tel:+18005551234" class="btn-gold">Call Us Today</a>
-            <a href="#" class="btn-outline">Schedule Online</a>
-          </div>
-        </div>
-      </div>
-
       <!-- Closing -->
       <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07]">
         <h3 class="font-display text-3xl font-bold text-white mb-4">About BizCash&amp;Capital</h3>
@@ -447,55 +381,6 @@
 
   </div>
 </main>
-
-<!-- ═══════════ FINANCING SOLUTIONS SECTION (Image Cards) ═══════════ -->
-<section class="px-6 md:px-12 py-24 border-t border-white/[0.07] bg-ink">
-  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
-    Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
-  </div>
-  <div class="flex flex-col md:flex-row items-end justify-between gap-6 mb-14">
-    <h2 class="font-display text-white text-5xl md:text-6xl">Our Financing<br/>Solutions</h2>
-    <p class="text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">💼</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Business Loans</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
-      </div>
-    </div>
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">🏢</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Commercial Financing</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
-      </div>
-    </div>
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">🏛️</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">SBA Loan Assistance</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
-      </div>
-    </div>
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">🏗️</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Construction Financing</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ═══════════ FOOTER ═══════════ -->
 <footer class="bg-ink mt-10 border-t border-white/[0.07]">
