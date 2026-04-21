@@ -25,12 +25,14 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           Loan Programs 
           <svg class="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
         </a>
-        <div class="absolute top-full left-0 mt-2 w-64 bg-[#0d0d0d] border border-white/[0.1] rounded-xl shadow-2xl py-2 z-50 opacity-0 invisible translate-y-[-10px] transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+        <div class="absolute top-full left-0 mt-2 w-64 bg-[#0d0d0d] border border-white/[0.1] rounded-xl shadow-2xl py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
           <a href="<?php echo $pathPrefix; ?>loans/business-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Business Loans</a>
           <a href="<?php echo $pathPrefix; ?>loans/commercial-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Commercial Financing</a>
           <a href="<?php echo $pathPrefix; ?>loans/sba-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">SBA Loan Assistance</a>
           <a href="<?php echo $pathPrefix; ?>loans/construction-financing.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction Financing</a>
           <a href="<?php echo $pathPrefix; ?>loans/bridge-loan.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Bridge Loan</a>
+          <a href="<?php echo $pathPrefix; ?>loans/equipment-financing.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Equipment Financing</a>
+          <a href="<?php echo $pathPrefix; ?>loans/line-of-credit.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Line of Credit</a>
         </div>
       </li>
       
@@ -40,7 +42,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           Industry 
           <svg class="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
         </a>
-        <div class="absolute top-full left-0 mt-2 w-56 bg-[#0d0d0d] border border-white/[0.1] rounded-xl shadow-2xl py-2 z-50 opacity-0 invisible translate-y-[-10px] transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+        <div class="absolute top-full left-0 mt-2 w-56 bg-[#0d0d0d] border border-white/[0.1] rounded-xl shadow-2xl py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
           <a href="<?php echo $pathPrefix; ?>industries/healthcare.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Healthcare</a>
           <a href="<?php echo $pathPrefix; ?>industries/construction.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction</a>
           <a href="<?php echo $pathPrefix; ?>industries/retail.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Retail & E-commerce</a>
@@ -48,7 +50,13 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           <a href="<?php echo $pathPrefix; ?>industries/hospitality.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Hospitality</a>
           <a href="<?php echo $pathPrefix; ?>industries/technology.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Technology</a>
           <a href="<?php echo $pathPrefix; ?>industries/transportation.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Transportation</a>
+          <a href="<?php echo $pathPrefix; ?>industries/real-estate.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Real Estate</a>
         </div>
+      </li>
+      
+      <!-- Resources Link -->
+      <li>
+        <a href="<?php echo $pathPrefix; ?>resources.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Resources</a>
       </li>
     </ul>
     
@@ -74,7 +82,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       <!-- Mobile Navigation Links -->
       <div class="flex flex-col gap-2 mb-8">
         
-        <!-- Mobile Dropdown 1: Loan Programs - Manual JavaScript version -->
+        <!-- Mobile Dropdown 1: Loan Programs -->
         <div class="border-b border-white/[0.08] pb-2">
           <button onclick="toggleMobileDropdown(this)" class="w-full flex items-center justify-between py-3 text-white/80 hover:text-lime transition-colors">
             <span class="text-[15px] font-medium tracking-[0.06em] uppercase">Loan Programs</span>
@@ -88,10 +96,12 @@ $pathPrefix = str_repeat('../', max(0, $depth));
             <a href="<?php echo $pathPrefix; ?>loans/sba-loans.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">SBA Loan Assistance</a>
             <a href="<?php echo $pathPrefix; ?>loans/construction-financing.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Construction Financing</a>
             <a href="<?php echo $pathPrefix; ?>loans/bridge-loan.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Bridge Loan</a>
+            <a href="<?php echo $pathPrefix; ?>loans/equipment-financing.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Equipment Financing</a>
+            <a href="<?php echo $pathPrefix; ?>loans/line-of-credit.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Line of Credit</a>
           </div>
         </div>
         
-        <!-- Mobile Dropdown 2: Industry - Manual JavaScript version -->
+        <!-- Mobile Dropdown 2: Industry -->
         <div class="border-b border-white/[0.08] pb-2">
           <button onclick="toggleMobileDropdown(this)" class="w-full flex items-center justify-between py-3 text-white/80 hover:text-lime transition-colors">
             <span class="text-[15px] font-medium tracking-[0.06em] uppercase">Industry</span>
@@ -107,8 +117,12 @@ $pathPrefix = str_repeat('../', max(0, $depth));
             <a href="<?php echo $pathPrefix; ?>industries/hospitality.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Hospitality</a>
             <a href="<?php echo $pathPrefix; ?>industries/technology.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Technology</a>
             <a href="<?php echo $pathPrefix; ?>industries/transportation.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Transportation</a>
+            <a href="<?php echo $pathPrefix; ?>industries/real-estate.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Real Estate</a>
           </div>
         </div>
+        
+        <!-- Resources Link -->
+        <a href="<?php echo $pathPrefix; ?>resources.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Resources</a>
         
         <!-- Mobile Contact Link -->
         <a href="<?php echo $pathPrefix; ?>contact.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Contact Us</a>
@@ -233,6 +247,13 @@ $pathPrefix = str_repeat('../', max(0, $depth));
   /* Dropdown arrow transition */
   .dropdown-arrow {
     transition: transform 0.2s ease;
+  }
+  
+  /* Ensure dropdown content is visible on desktop hover */
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
   }
   
   /* Improved touch targets for mobile */
