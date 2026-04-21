@@ -132,7 +132,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       <!-- Mobile CTA Button -->
       <div class="mt-auto pt-6">
         <a href="<?php echo $pathPrefix; ?>contact.php" class="block w-full text-center bg-lime text-ink px-6 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-colors">
-          Get Funded Today
+          Get Funded 
         </a>
         <p class="text-center text-white/30 text-[11px] mt-4">© 2024 BizCash&amp;Capital</p>
       </div>
