@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Business Loans — BizCash&Capital</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
   tailwind.config = {
     theme: {
@@ -15,8 +15,8 @@
           ink: '#0A0A0A' 
         },
         fontFamily: {
-          display: ['Bebas Neue', 'sans-serif'],
-          body: ['DM Sans', 'sans-serif'],
+          display: ['Space Grotesk', 'sans-serif'],
+          body: ['Inter', 'sans-serif'],
         },
         keyframes: {
           marquee: { '0%': { transform: 'translateX(0)' }, '100%': { transform: 'translateX(-50%)' } },
@@ -45,7 +45,7 @@
 
   * { margin:0; padding:0; box-sizing:border-box; }
   html { scroll-behavior: smooth; }
-  body { background: var(--ink); color: white; font-family: 'DM Sans', sans-serif; }
+  body { background: var(--ink); color: white; font-family: 'Inter', sans-serif; }
 
   /* Reveal animation */
   .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.22,1,0.36,1); }
@@ -102,7 +102,7 @@
   .eyebrow::before { content:''; display:inline-block; width:28px; height:1px; background:var(--lime); margin-right:10px; vertical-align:middle; }
 
   /* Hero headline */
-  .hero-hl { font-family:'Bebas Neue',sans-serif; font-size:clamp(66px,8vw,110px); line-height:0.88; letter-spacing:0.01em; }
+  .hero-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(42px, 8vw, 80px); line-height:0.88; letter-spacing:-0.02em; font-weight:700; }
 
   /* Dropdown styles */
   .dropdown-menu {
@@ -147,7 +147,7 @@
       At <strong class="text-white font-semibold">BizCash&amp;Capital</strong>, we offer tailored loans to adjust your unique specifications, with <strong class="text-lime font-semibold">low interest rates</strong> and flexible repayment terms. We understand the difficulties that businesses face and are committed to offering successful and dependable financial support.
     </p>
     <div class="pull-quote my-8 max-w-3xl mx-auto">
-      <p class="font-display text-[28px] text-white leading-snug">
+      <p class="font-display text-[24px] md:text-[28px] text-white leading-snug">
         "Whether you are a small startup or a large company — our specialists will help you secure the loans you need for development, equipment, or operations."
       </p>
     </div>
@@ -159,83 +159,83 @@
   <!-- Divider -->
   <div class="border-t border-white/[0.1] mb-14 max-w-4xl mx-auto"></div>
 
-  <!-- Loan Types -->
-  <div id="loan-types" class="reveal mb-14">
-    <div class="text-center mb-10">
-      <p class="chip mb-4 inline-block">Loan Products</p>
-      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-3 lime-underline">Types of Business Loans</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">We offer a comprehensive range of financing options designed to match the specific needs of your business at every stage of growth.</p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto">
-
-      <!-- Term Loans -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-white mb-2">Term Loans</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07] flex items-center gap-2">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Expansion</span>
-        </div>
-      </div>
-
-      <!-- Lines of Credit -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-white mb-2">Lines of Credit</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Cash Flow</span>
-        </div>
-      </div>
-
-      <!-- Equipment Financing -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-white mb-2">Equipment Financing</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">This type of loan allows you to purchase necessary business equipment without a large upfront payment. The equipment itself often serves as collateral for the loan.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Equipment</span>
-        </div>
-      </div>
-
-      <!-- Invoice Financing -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-        </div>
-        <h3 class="font-display text-2xl font-bold text-white mb-2">Invoice Financing</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">Invoice financing, or accounts receivable financing, provides a way to bridge the gap between invoicing and receiving payments, improving cash flow.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Receivables</span>
-        </div>
-      </div>
-
-      <!-- Merchant Cash Advances — full width -->
-      <div class="loan-card bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 rounded-xl p-6 md:col-span-2 flex flex-col md:flex-row gap-6 items-start">
-        <div class="w-[52px] h-[52px] rounded-full bg-lime/20 flex items-center justify-center flex-shrink-0">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-        </div>
-        <div>
-          <div class="flex items-center gap-3 mb-2">
-            <h3 class="font-display text-2xl font-bold text-white">Merchant Cash Advances</h3>
-            <span class="text-[11px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Popular</span>
-          </div>
-          <p class="text-[14px] text-white/60 leading-relaxed font-light max-w-[600px]">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds for various business needs.</p>
-          <div class="mt-4">
-            <a href="#apply" class="inline-block text-[13px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
+<!-- Loan Types -->
+<div id="loan-types" class="reveal mb-14">
+  <div class="text-center mb-10">
+    <p class="chip mb-4 inline-block">Loan Products</p>
+    <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Types of Business Loans</h2>
+    <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">We offer a comprehensive range of financing options designed to match the specific needs of your business at every stage of growth.</p>
   </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto">
+
+    <!-- Term Loans -->
+    <div class="loan-card rounded-xl p-6">
+      <div class="icon-circle mb-4">
+        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      </div>
+      <h3 class="font-display text-2xl text-white mb-2">Term Loans</h3>
+      <p class="text-[14px] text-white/50 leading-relaxed font-light">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
+      <div class="mt-4 pt-4 border-t border-white/[0.07] flex items-center gap-2">
+        <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Expansion</span>
+      </div>
+    </div>
+
+    <!-- Lines of Credit -->
+    <div class="loan-card rounded-xl p-6">
+      <div class="icon-circle mb-4">
+        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+      </div>
+      <h3 class="font-display text-2xl text-white mb-2">Lines of Credit</h3>
+      <p class="text-[14px] text-white/50 leading-relaxed font-light">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
+      <div class="mt-4 pt-4 border-t border-white/[0.07]">
+        <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Cash Flow</span>
+      </div>
+    </div>
+
+    <!-- Equipment Financing -->
+    <div class="loan-card rounded-xl p-6">
+      <div class="icon-circle mb-4">
+        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+      </div>
+      <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
+      <p class="text-[14px] text-white/50 leading-relaxed font-light">This type of loan allows you to purchase necessary business equipment without a large upfront payment. The equipment itself often serves as collateral for the loan.</p>
+      <div class="mt-4 pt-4 border-t border-white/[0.07]">
+        <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Equipment</span>
+      </div>
+    </div>
+
+    <!-- Invoice Financing -->
+    <div class="loan-card rounded-xl p-6">
+      <div class="icon-circle mb-4">
+        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+      </div>
+      <h3 class="font-display text-2xl text-white mb-2">Invoice Financing</h3>
+      <p class="text-[14px] text-white/50 leading-relaxed font-light">Invoice financing, or accounts receivable financing, provides a way to bridge the gap between invoicing and receiving payments, improving cash flow.</p>
+      <div class="mt-4 pt-4 border-t border-white/[0.07]">
+        <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Receivables</span>
+      </div>
+    </div>
+
+    <!-- Merchant Cash Advances — full width -->
+    <div class="loan-card bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 rounded-xl p-6 md:col-span-2 flex flex-col md:flex-row gap-6 items-start">
+      <div class="w-[52px] h-[52px] rounded-full bg-lime/20 flex items-center justify-center flex-shrink-0">
+        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+      </div>
+      <div>
+        <div class="flex items-center gap-3 mb-2">
+          <h3 class="font-display text-2xl text-white">Merchant Cash Advances</h3>
+          <span class="text-[11px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Popular</span>
+        </div>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light max-w-[600px]">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds for various business needs.</p>
+        <div class="mt-4">
+          <a href="#apply" class="inline-block text-[13px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
   <!-- CTA Banner inline -->
   <div class="reveal cta-band rounded-2xl p-8 md:p-10 mb-14 relative overflow-hidden max-w-6xl mx-auto">
@@ -243,7 +243,7 @@
     <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
       <div>
         <p class="text-lime text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Free Consultation</p>
-        <h3 class="font-display text-3xl md:text-4xl font-bold text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
+        <h3 class="font-display text-3xl md:text-4xl text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
       </div>
       <a href="#apply" class="btn-gold flex-shrink-0 text-[14px] px-8 py-4">Get Free Consultation →</a>
     </div>
@@ -253,7 +253,7 @@
   <div id="apply" class="reveal mb-14 max-w-6xl mx-auto">
     <div class="text-center mb-10">
       <p class="chip mb-4 inline-block">Simple Process</p>
-      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-3 lime-underline">How to Apply for a Business Loan</h2>
+      <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">How to Apply for a Business Loan</h2>
       <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Getting funded is simpler than you think. Follow these steps to put your best foot forward in the application process.</p>
     </div>
 
@@ -304,7 +304,7 @@
 
   <!-- Closing -->
   <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07] max-w-4xl mx-auto">
-    <h3 class="font-display text-3xl font-bold text-white mb-4 text-center">About BizCash&amp;Capital</h3>
+    <h3 class="font-display text-3xl text-white mb-4 text-center">About BizCash&amp;Capital</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4 text-center">
       We take the time to understand your business objectives, financial situation, and growth aspirations, tailoring our guidance to ensure you secure the most suitable financing option.
     </p>
@@ -318,14 +318,11 @@
 
 </main>
 
-<!-- ═══════════ CONTACT SECTION ═══════════ -->
-
-
 <!-- ═══════════ FOOTER ═══════════ -->
 <footer class="bg-ink mt-10 border-t border-white/[0.07]">
   <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
     <div class="md:col-span-2">
-      <p class="font-display text-[28px] font-bold text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
+      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
       <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Empowering entrepreneurs with the financial resources required to achieve business success. Contact us today.</p>
     </div>
     <div>
@@ -342,7 +339,7 @@
       <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
       <ul class="space-y-2 list-none">
         <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#contact" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
+        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
         <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
         <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
       </ul>
