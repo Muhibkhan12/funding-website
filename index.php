@@ -10,7 +10,7 @@
   tailwind.config = {
     theme: {
       extend: {
-        colors: { lime: '#CCFF00', ink: '#0A0A0A' },
+        colors: { lime: '#CCFF00', ink: '#1a1a1a' },
         fontFamily: {
           display: ['Bebas Neue', 'sans-serif'],
           body: ['DM Sans', 'sans-serif'],
@@ -31,7 +31,7 @@
   }
 </script>
 <style>
-  :root { --lime: #CCFF00; --ink: #0A0A0A; }
+  :root { --lime: #CCFF00; --ink: #1a1a1a; }
 
   /* Grain texture */
   body::after {
@@ -74,14 +74,14 @@
   #hero::before { content:''; position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse 58% 70% at 80% 50%, rgba(204,255,0,0.04) 0%, transparent 70%); }
 
   /* Scrollbar */
-  ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#111; } ::-webkit-scrollbar-thumb { background:#2a2a2a; }
+  ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#2a2a2a; } ::-webkit-scrollbar-thumb { background:#444; }
 
   /* financing cards */
-  .fin-card { background: #0d0d0d; border:1px solid rgba(255,255,255,0.055); transition: all 0.25s ease; }
-  .fin-card:hover { border-color: rgba(204,255,0,0.3); transform: translateY(-4px); background: #111; }
+  .fin-card { background: #222; border:1px solid rgba(255,255,255,0.055); transition: all 0.25s ease; }
+  .fin-card:hover { border-color: rgba(204,255,0,0.3); transform: translateY(-4px); background: #2a2a2a; }
 </style>
 </head>
-<body class="bg-ink text-white font-body overflow-x-hidden">
+<body class="bg-[#1a1a1a] text-white font-body overflow-x-hidden">
 
 <?php
 @include('header.php')
@@ -115,8 +115,8 @@
       <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial professional" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
       <div class="absolute bottom-0 left-0 w-[3px] h-[65%] bg-lime opacity-60"></div>
       <div class="absolute top-0 right-0 w-[3px] h-[30%] bg-lime opacity-35"></div>
-      <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-ink/80 to-transparent pointer-events-none"></div>
-      <div class="animate-floatUp1 absolute top-[68px] -right-10 bg-[rgba(10,10,10,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[215px] shadow-2xl">
+      <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent pointer-events-none"></div>
+      <div class="animate-floatUp1 absolute top-[68px] -right-10 bg-[rgba(26,26,26,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[215px] shadow-2xl">
         <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-3">Why VaultEdge</p>
         <div class="flex flex-col gap-[7px]">
           <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Fast & simple process</div>
@@ -125,7 +125,7 @@
           <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Clear terms, transparent</div>
         </div>
       </div>
-      <div class="animate-floatUp2 absolute bottom-24 -left-14 bg-[rgba(10,10,10,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[195px] shadow-2xl">
+      <div class="animate-floatUp2 absolute bottom-24 -left-14 bg-[rgba(26,26,26,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[195px] shadow-2xl">
         <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-2">Avg. Funding Speed</p>
         <p class="font-display text-[32px] text-white leading-none">24-48h</p>
         <p class="text-[11px] text-white/32 mt-1 tracking-[0.06em] uppercase">Approval to funding</p>
@@ -167,7 +167,7 @@
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
     <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
       <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
         <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Business Loans</h3>
         <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
@@ -175,7 +175,7 @@
     </div>
     <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
       <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
         <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Commercial Financing</h3>
         <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
@@ -183,7 +183,7 @@
     </div>
     <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
       <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
         <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">SBA Loan Assistance</h3>
         <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
@@ -191,7 +191,7 @@
     </div>
     <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
       <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
         <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Construction Financing</h3>
         <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
@@ -201,7 +201,7 @@
 </section>
 
 <!-- ══ WHY CHOOSE US (new section mirroring original brief) ══ -->
-<section class="px-6 md:px-12 py-16 border-t border-white/[0.07] bg-[#0A0A0A]/60">
+<section class="px-6 md:px-12 py-16 border-t border-white/[0.07] bg-[#222]/60">
   <div class="grid md:grid-cols-2 gap-12 items-center">
     <div>
       <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-lime mb-4">Why VaultEdge</p>
@@ -215,7 +215,7 @@
         <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Dedicated customer support team</li>
       </ul>
     </div>
-    <div class="bg-[#0d0d0d] border border-white/[0.07] rounded-2xl p-8">
+    <div class="bg-[#222] border border-white/[0.07] rounded-2xl p-8">
       <p class="text-lime text-sm font-semibold uppercase tracking-wider mb-2">Our goal</p>
       <p class="text-white/80 text-base leading-relaxed italic">"Simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. Every business deserves the opportunity to grow with the right financial support."</p>
       <div class="mt-6 pt-4 border-t border-white/[0.08] flex justify-between items-center">
@@ -256,25 +256,25 @@
     <p class="text-[14px] font-light text-white/38 max-w-[280px] md:text-right leading-relaxed">Apply in minutes, get matched, and receive funding quickly.</p>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-[2px]">
-    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">01</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 01</p>
       <p class="text-[18px] font-medium text-white leading-snug">Apply Online</p>
       <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Submit a simple application with your business details — only basic info required.</p>
     </div>
-    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.1s">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.1s">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">02</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 02</p>
       <p class="text-[18px] font-medium text-white leading-snug">Get Matched</p>
       <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">We review your information and connect you with suitable financing options from our partner network.</p>
     </div>
-    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.2s">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.2s">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">03</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 03</p>
       <p class="text-[18px] font-medium text-white leading-snug">Receive Funding</p>
       <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Once approved, funding is processed quickly through our lending partners. Capital in your account.</p>
     </div>
-    <div class="step-card reveal relative bg-[#0d0d0d] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.3s">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.3s">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">04</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 04</p>
       <p class="text-[18px] font-medium text-white leading-snug">Grow Your Business</p>
@@ -318,10 +318,6 @@
 <!-- ══ FOOTER (original structure intact) ══ -->
 <?php
 @include('footer.php')?>
-<div class="px-6 md:px-12 py-7 border-t border-white/[0.05] flex flex-col md:flex-row justify-between items-center gap-2">
-  <p class="text-[12px] font-light text-white/18">© 2026 VaultEdge — Business Financing Solutions. All rights reserved.</p>
-  <p class="text-[12px] font-light text-white/10">Fast funding • Transparent terms • Trusted partners</p>
-</div>
 
 <script>
   // reveal on scroll
