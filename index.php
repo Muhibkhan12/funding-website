@@ -303,100 +303,194 @@
   </div>
 </section>
 
-<!-- ══ TESTIMONIALS SECTION (Mono Grid) ══ -->
-<section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24 border-t border-white/[0.07] bg-[#0d0d0d]/30">
-  <div class="max-w-6xl mx-auto">
-    <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-8 sm:mb-12">
-      Testimonials <div class="flex-1 h-px bg-white/[0.07]"></div>
-    </div>
-    <div class="text-center mb-10 sm:mb-14 reveal">
-      <p class="inline-block bg-lime/15 text-lime text-[11px] font-bold tracking-[0.1em] uppercase px-4 py-2 rounded-full mb-4">Client Success Stories</p>
-      <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-4">What Our <span class="text-lime">Clients Say</span></h2>
-      <p class="text-white/40 text-sm sm:text-base max-w-2xl mx-auto">Trusted by hundreds of businesses across the nation</p>
-    </div>
-    
-    <!-- Mono Grid Layout - Single column, centered -->
-    <div class="max-w-3xl mx-auto">
-      
-      <!-- Testimonial 1 -->
-      <div class="reveal bg-[#1a1a1a] border border-white/[0.07] rounded-2xl p-6 sm:p-8 mb-6 hover:border-lime/30 transition-all duration-300">
-        <div class="flex items-center gap-1 mb-4">
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        </div>
-        <p class="text-white/80 text-base sm:text-lg leading-relaxed mb-6 italic">"VaultEdge helped us secure funding for our expansion within 48 hours. Their team was professional, responsive, and found us the perfect loan solution. Highly recommend!"</p>
-        <div class="flex items-center gap-4">
-          <div class="w-12 h-12 rounded-full bg-lime/20 flex items-center justify-center">
-            <span class="text-lime font-display text-xl">S</span>
-          </div>
-          <div>
-            <h4 class="font-semibold text-white">Sarah Johnson</h4>
-            <p class="text-white/40 text-sm">CEO, TechStart Solutions</p>
-          </div>
-        </div>
+<!-- ══ TESTIMONIALS SECTION (Slider/Carousel Style) ══ -->
+<!-- ══ TESTIMONIALS SECTION (Responsive Slider) ══ -->
+<section class="px-4 sm:px-6 md:px-12 py-12 sm:py-16 lg:py-24 border-t border-white/[0.07] relative overflow-hidden">
+  <!-- Background accent -->
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-lime/5 blur-3xl pointer-events-none"></div>
+  
+  <div class="max-w-6xl mx-auto relative z-10">
+    <!-- Section Header -->
+    <div class="text-center mb-10 sm:mb-16 reveal">
+      <div class="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6">
+        <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime animate-pulse"></span>
+        <span class="text-lime text-[10px] sm:text-[11px] font-bold tracking-[0.15em] sm:tracking-[0.2em] uppercase">Real Stories, Real Results</span>
       </div>
-      
-      <!-- Testimonial 2 -->
-      <div class="reveal bg-[#1a1a1a] border border-white/[0.07] rounded-2xl p-6 sm:p-8 mb-6 hover:border-lime/30 transition-all duration-300" style="transition-delay: 0.1s">
-        <div class="flex items-center gap-1 mb-4">
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime/40" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        </div>
-        <p class="text-white/80 text-base sm:text-lg leading-relaxed mb-6 italic">"The team at VaultEdge made the SBA loan process seamless. They guided us every step of the way and we received funding faster than expected. Our business has grown 40% since."</p>
-        <div class="flex items-center gap-4">
-          <div class="w-12 h-12 rounded-full bg-lime/20 flex items-center justify-center">
-            <span class="text-lime font-display text-xl">M</span>
-          </div>
-          <div>
-            <h4 class="font-semibold text-white">Michael Chen</h4>
-            <p class="text-white/40 text-sm">Owner, Chen Construction Group</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Testimonial 3 -->
-      <div class="reveal bg-[#1a1a1a] border border-white/[0.07] rounded-2xl p-6 sm:p-8 hover:border-lime/30 transition-all duration-300" style="transition-delay: 0.2s">
-        <div class="flex items-center gap-1 mb-4">
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-        </div>
-        <p class="text-white/80 text-base sm:text-lg leading-relaxed mb-6 italic">"Working with VaultEdge was a game-changer for our restaurant chain. They understood our unique needs and provided a customized financing solution. The entire process was transparent and efficient."</p>
-        <div class="flex items-center gap-4">
-          <div class="w-12 h-12 rounded-full bg-lime/20 flex items-center justify-center">
-            <span class="text-lime font-display text-xl">E</span>
-          </div>
-          <div>
-            <h4 class="font-semibold text-white">Elena Rodriguez</h4>
-            <p class="text-white/40 text-sm">Owner, Casa Bella Restaurants</p>
-          </div>
-        </div>
-      </div>
-      
+      <h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-3 sm:mb-4">
+        Trusted by <span class="text-lime">Business Owners</span>
+      </h2>
+      <p class="text-white/40 text-sm sm:text-base max-w-2xl mx-auto px-4">Don't just take our word for it — hear what our clients have to say about their experience</p>
     </div>
     
-    <!-- Trust Badge -->
-    <div class="text-center mt-10 sm:mt-12 reveal">
-      <div class="inline-flex items-center gap-3 bg-[#0d0d0d] border border-white/[0.07] rounded-full px-6 py-3">
-        <div class="flex -space-x-2">
-          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">S</div>
-          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">M</div>
-          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">J</div>
-          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">R</div>
+    <!-- Slider Container -->
+    <div class="relative px-2 sm:px-4 md:px-8 lg:px-12" x-data="{ currentSlide: 0, totalSlides: 3, touchStartX: 0, touchEndX: 0 }" 
+         @touchstart="touchStartX = $event.touches[0].clientX"
+         @touchend="touchEndX = $event.changedTouches[0].clientX; if(touchStartX - touchEndX > 50) currentSlide = (currentSlide + 1) % totalSlides; if(touchEndX - touchStartX > 50) currentSlide = (currentSlide - 1 + totalSlides) % totalSlides">
+      
+      <!-- Navigation Buttons - Hide on mobile, show on tablet/desktop -->
+      <button @click="currentSlide = (currentSlide - 1 + totalSlides) % totalSlides" class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer">
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </button>
+      <button @click="currentSlide = (currentSlide + 1) % totalSlides" class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer">
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </button>
+      
+      <!-- Slides -->
+      <div class="overflow-hidden rounded-2xl">
+        <div class="flex transition-transform duration-500 ease-out" :style="`transform: translateX(-${currentSlide * 100}%)`">
+          
+          <!-- Slide 1 - Sarah Johnson -->
+          <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
+            <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
+              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10">
+                <svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+              </div>
+              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start">
+                <div class="flex-shrink-0 self-center md:self-start">
+                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center">
+                    <span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">SJ</span>
+                  </div>
+                </div>
+                <div class="flex-1 text-center md:text-left">
+                  <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4">
+                    <div class="flex items-center gap-0.5 sm:gap-1">
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                  </div>
+                  <p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"VaultEdge helped us secure funding for our expansion within 48 hours. Their team was professional, responsive, and found us the perfect loan solution. The entire process was seamless from start to finish."</p>
+                  <div>
+                    <h4 class="font-semibold text-white text-base sm:text-lg">Sarah Johnson</h4>
+                    <p class="text-white/40 text-xs sm:text-sm">CEO, TechStart Solutions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 2 - Michael Chen -->
+          <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
+            <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
+              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10">
+                <svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+              </div>
+              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start">
+                <div class="flex-shrink-0 self-center md:self-start">
+                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center">
+                    <span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">MC</span>
+                  </div>
+                </div>
+                <div class="flex-1 text-center md:text-left">
+                  <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4">
+                    <div class="flex items-center gap-0.5 sm:gap-1">
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime/40" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                  </div>
+                  <p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"The team made the SBA loan process seamless. They guided us every step of the way and we received funding faster than expected. Our business has grown 40% since working with VaultEdge."</p>
+                  <div>
+                    <h4 class="font-semibold text-white text-base sm:text-lg">Michael Chen</h4>
+                    <p class="text-white/40 text-xs sm:text-sm">Owner, Chen Construction Group</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 3 - Elena Rodriguez -->
+          <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
+            <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
+              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10">
+                <svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+              </div>
+              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start">
+                <div class="flex-shrink-0 self-center md:self-start">
+                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center">
+                    <span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">ER</span>
+                  </div>
+                </div>
+                <div class="flex-1 text-center md:text-left">
+                  <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4">
+                    <div class="flex items-center gap-0.5 sm:gap-1">
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                  </div>
+                  <p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"Working with VaultEdge was a game-changer for our restaurant chain. They understood our unique needs and provided a customized financing solution. The entire process was transparent and efficient."</p>
+                  <div>
+                    <h4 class="font-semibold text-white text-base sm:text-lg">Elena Rodriguez</h4>
+                    <p class="text-white/40 text-xs sm:text-sm">Owner, Casa Bella Restaurants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
-        <span class="text-white/60 text-sm">Join <span class="text-lime font-semibold">1,200+</span> satisfied business owners</span>
+      </div>
+      
+      <!-- Dots Indicator -->
+      <div class="flex justify-center gap-1.5 sm:gap-2 mt-4 sm:mt-6 md:mt-8">
+        <template x-for="(slide, index) in totalSlides" :key="index">
+          <button @click="currentSlide = index" class="h-1.5 sm:h-2 rounded-full transition-all duration-300" :class="currentSlide === index ? 'w-6 sm:w-8 bg-lime' : 'w-1.5 sm:w-2 bg-white/30 hover:bg-white/50'"></button>
+        </template>
+      </div>
+      
+      <!-- Mobile Swipe Hint -->
+      <div class="text-center mt-3 sm:hidden">
+        <p class="text-white/25 text-[10px] uppercase tracking-wider">← Swipe to see more →</p>
+      </div>
+      
+    </div>
+    
+    <!-- Stats Row - Responsive Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-white/[0.07] reveal">
+      <div class="text-center">
+        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">1,200+</p>
+        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Businesses Funded</p>
+      </div>
+      <div class="text-center">
+        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">98%</p>
+        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Client Satisfaction</p>
+      </div>
+      <div class="text-center">
+        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">$75M+</p>
+        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Capital Deployed</p>
+      </div>
+      <div class="text-center">
+        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">24-48h</p>
+        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Avg. Funding Time</p>
       </div>
     </div>
+    
   </div>
 </section>
+
+<!-- Add Alpine.js for slider functionality -->
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<!-- Add Alpine.js for slider functionality -->
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 
 <!-- ══ ABOUT US SECTION ══ -->
 <section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 border-t border-white/[0.07]">
