@@ -121,9 +121,6 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           </div>
         </div>
         
-        <!-- Resources Link -->
-        <a href="<?php echo $pathPrefix; ?>resources.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Resources</a>
-        
         <!-- Mobile Contact Link -->
         <a href="<?php echo $pathPrefix; ?>contact.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Contact Us</a>
         
