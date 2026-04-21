@@ -318,55 +318,6 @@
 
 </main>
 
-<!-- ═══════════ FINANCING SOLUTIONS SECTION (Image Cards) ═══════════ -->
-<section class="px-6 md:px-12 py-24 border-t border-white/[0.07] bg-ink">
-  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
-    Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
-  </div>
-  <div class="flex flex-col md:flex-row items-end justify-between gap-6 mb-14">
-    <h2 class="font-display text-white text-5xl md:text-6xl">Our Financing<br/>Solutions</h2>
-    <p class="text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto">
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">💼</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Business Loans</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
-      </div>
-    </div>
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">🏢</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Commercial Financing</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
-      </div>
-    </div>
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">🏛️</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">SBA Loan Assistance</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
-      </div>
-    </div>
-    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <span class="text-4xl mb-3 block drop-shadow-lg">🏗️</span>
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Construction Financing</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ═══════════ CONTACT SECTION ═══════════ -->
 <section id="contact" class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
   <div class="max-w-6xl mx-auto">
