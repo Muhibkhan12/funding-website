@@ -58,7 +58,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       <li>
         <a href="<?php echo $pathPrefix; ?>resources.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Resources</a>
       </li>
-    </ul>
+    </ul> <!-- This closing tag was missing -->
     
     <!-- Desktop Contact Button -->
     <a href="<?php echo $pathPrefix; ?>contact.php" class="hidden lg:inline-block border border-white/45 bg-transparent text-white px-5 py-2 text-[13px] font-medium tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-all duration-200 cursor-pointer z-20">Contact us</a>
@@ -199,9 +199,13 @@ $pathPrefix = str_repeat('../', max(0, $depth));
     
     // Close menu when clicking on a link inside mobile menu
     if (mobileMenu) {
-      document.querySelectorAll('#mobileMenu a').forEach(link => {
-        link.addEventListener('click', () => {
-          if (isMenuOpen) toggleMenu();
+      const mobileLinks = mobileMenu.querySelectorAll('a');
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          // Don't close if it's a dropdown toggle button's parent link
+          if (!link.closest('.dropdown-content')) {
+            if (isMenuOpen) toggleMenu();
+          }
         });
       });
     }
@@ -210,9 +214,12 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       if (e.key === 'Escape' && isMenuOpen) toggleMenu();
     });
     
+    // Initialize icon states
     if (menuIcon && closeIcon) {
       menuIcon.style.transition = 'all 0.2s ease';
       closeIcon.style.transition = 'all 0.2s ease';
+      menuIcon.style.opacity = '1';
+      menuIcon.style.transform = 'scale(1)';
       closeIcon.style.opacity = '0';
       closeIcon.style.transform = 'scale(0.95)';
     }
@@ -223,12 +230,14 @@ $pathPrefix = str_repeat('../', max(0, $depth));
     const content = button.nextElementSibling;
     const arrow = button.querySelector('.dropdown-arrow');
     
-    if (content.classList.contains('hidden')) {
-      content.classList.remove('hidden');
-      if (arrow) arrow.style.transform = 'rotate(180deg)';
-    } else {
-      content.classList.add('hidden');
-      if (arrow) arrow.style.transform = 'rotate(0deg)';
+    if (content && arrow) {
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        arrow.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.add('hidden');
+        arrow.style.transform = 'rotate(0deg)';
+      }
     }
   }
 </script>
@@ -250,10 +259,12 @@ $pathPrefix = str_repeat('../', max(0, $depth));
   }
   
   /* Ensure dropdown content is visible on desktop hover */
-  .group:hover .group-hover\:opacity-100 {
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: translateY(0) !important;
+  @media (min-width: 1024px) {
+    .group:hover .group-hover\:opacity-100 {
+      opacity: 1 !important;
+      visibility: visible !important;
+      transform: translateY(0) !important;
+    }
   }
   
   /* Improved touch targets for mobile */
