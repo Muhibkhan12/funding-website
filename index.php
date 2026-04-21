@@ -83,17 +83,9 @@
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
-<!-- ══ NAV ══ (preserved) -->
-<nav class="fixed top-0 inset-x-0 z-50 bg-ink border-b border-white/[0.07] flex items-center justify-between px-6 md:px-12 h-16">
-  <div class="font-display text-[22px] tracking-[0.12em]">Vault<span class="text-lime">Edge</span></div>
-  <ul class="hidden md:flex gap-9 list-none">
-    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Services</a></li>
-    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Portfolio</a></li>
-    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">About</a></li>
-    <li><a href="#" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Insights</a></li>
-  </ul>
-  <button class="border border-white/45 bg-transparent text-white px-5 py-2 text-[13px] font-medium tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-all duration-200 cursor-pointer">Contact us</button>
-</nav>
+<?php
+@include('header.php')
+?>
 
 <!-- ══ HERO (original content preserved but messaging tuned to financing) ══ -->
 <section id="hero" class="relative min-h-screen grid grid-cols-1 md:grid-cols-2 items-center pt-16 px-6 md:px-12 overflow-hidden">
@@ -164,7 +156,6 @@
   </div>
 </div>
 
-<!-- ══ NEW SECTION: FINANCING SOLUTIONS (Business Loans, Commercial, SBA, Construction) ══ -->
 <section class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
   <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
     Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
@@ -174,25 +165,37 @@
     <p class="text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-    <div class="fin-card rounded-2xl p-6 flex flex-col">
-      <span class="text-3xl mb-4">💼</span>
-      <h3 class="font-display text-2xl text-lime mb-2">Business Loans</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
+    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Business Loans</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
+      </div>
     </div>
-    <div class="fin-card rounded-2xl p-6 flex flex-col">
-      <span class="text-3xl mb-4">🏢</span>
-      <h3 class="font-display text-2xl text-lime mb-2">Commercial Financing</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Capital solutions for real estate, equipment purchases, and large business investments.</p>
+    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Commercial Financing</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
+      </div>
     </div>
-    <div class="fin-card rounded-2xl p-6 flex flex-col">
-      <span class="text-3xl mb-4">🏛️</span>
-      <h3 class="font-display text-2xl text-lime mb-2">SBA Loan Assistance</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Access to government-backed loan programs designed to support small business growth.</p>
+    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">SBA Loan Assistance</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
+      </div>
     </div>
-    <div class="fin-card rounded-2xl p-6 flex flex-col">
-      <span class="text-3xl mb-4">🏗️</span>
-      <h3 class="font-display text-2xl text-lime mb-2">Construction Financing</h3>
-      <p class="text-white/50 text-sm leading-relaxed">Funding solutions tailored for construction projects and development needs.</p>
+    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Construction Financing</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
+      </div>
     </div>
   </div>
 </section>
