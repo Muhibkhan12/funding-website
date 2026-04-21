@@ -6,10 +6,10 @@
   <div>
     <h4 class="text-[10px] font-bold tracking-[0.16em] uppercase text-white/20 mb-5">Solutions</h4>
     <ul class="space-y-3 list-none">
-      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Business Loans</a></li>
-      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">SBA Loans</a></li>
-      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Commercial Financing</a></li>
-      <li><a href="#" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Construction Loans</a></li>
+      <li><a href="loans/business-loans.php" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Business Loans</a></li>
+      <li><a href="loans/sba-loan.php" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">SBA Loans</a></li>
+      <li><a href="loans/commercial-loans.php" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Commercial Financing</a></li>
+      <li><a href="loans/construction-loan.php" class="text-[14px] font-light text-white/52 hover:text-white transition-colors">Construction Loans</a></li>
     </ul>
   </div>
   <div>
