@@ -181,24 +181,31 @@ $pathPrefix = str_repeat('../', max(0, $depth));
   </div>
 </section>
 
-<!-- ═══════════ TYPES OF SBA LOANS SECTION ═══════════ -->
-<section class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
-  <div class="max-w-6xl mx-auto">
+<section class="px-6 md:px-12 py-24 border-t border-white/[0.07] relative overflow-hidden">
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80" alt="SBA Loans Background" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/70"></div>
+  </div>
+  
+  <div class="max-w-6xl mx-auto relative z-10">
     <div class="text-center mb-12 reveal">
       <p class="chip mb-4 inline-block">SBA Loan Programs</p>
       <h2 class="section-hl text-white mb-4">Types of SBA <span class="text-lime">Business Loans</span></h2>
-      <p class="text-white/40 text-base max-w-2xl mx-auto">For the benefit of small businesses, the Small Business Administration provides many financing options. SBA-supported loans that we offer include:</p>
+      <p class="text-white/70 text-base max-w-2xl mx-auto">For the benefit of small businesses, the Small Business Administration provides many financing options. SBA-supported loans that we offer include:</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       
       <!-- SBA 7(a) Loan -->
-      <div class="loan-card rounded-2xl p-6 reveal">
+      <div class="loan-card rounded-2xl p-6 reveal bg-[#0d0d0d]/90 backdrop-blur-sm">
         <div class="w-14 h-14 rounded-full bg-lime/20 flex items-center justify-center mb-5">
-          <span class="text-3xl">🏦</span>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/>
+          </svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">SBA 7(a) Loan</h3>
-        <p class="text-white/50 text-sm leading-relaxed mb-4">The most popular and versatile SBA loan provides funds for working capital, equipment purchase, debt consolidation, and more.</p>
+        <p class="text-white/60 text-sm leading-relaxed mb-4">The most popular and versatile SBA loan provides funds for working capital, equipment purchase, debt consolidation, and more.</p>
         <div class="mt-4 pt-4 border-t border-white/[0.07] flex flex-wrap gap-2">
           <span class="text-[11px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Up to $5M</span>
           <span class="text-[11px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Flexible Terms</span>
@@ -206,12 +213,14 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       </div>
       
       <!-- SBA 504 Loan -->
-      <div class="loan-card rounded-2xl p-6 reveal" style="transition-delay: 0.1s">
+      <div class="loan-card rounded-2xl p-6 reveal bg-[#0d0d0d]/90 backdrop-blur-sm" style="transition-delay: 0.1s">
         <div class="w-14 h-14 rounded-full bg-lime/20 flex items-center justify-center mb-5">
-          <span class="text-3xl">🏢</span>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6h1.5m-1.5 3h1.5m-1.5 3h1.5M9 21v-3.75c0-.621.504-1.125 1.125-1.125h1.5c.621 0 1.125.504 1.125 1.125V21"/>
+          </svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">SBA 504 Loan</h3>
-        <p class="text-white/50 text-sm leading-relaxed mb-4">Ideal for businesses requiring real estate or equipment financing, providing long-term, fixed-rate financing for major assets.</p>
+        <p class="text-white/60 text-sm leading-relaxed mb-4">Ideal for businesses requiring real estate or equipment financing, providing long-term, fixed-rate financing for major assets.</p>
         <div class="mt-4 pt-4 border-t border-white/[0.07] flex flex-wrap gap-2">
           <span class="text-[11px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Real Estate</span>
           <span class="text-[11px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Fixed-Rate</span>
@@ -219,12 +228,14 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       </div>
       
       <!-- SBA Microloan -->
-      <div class="loan-card rounded-2xl p-6 reveal" style="transition-delay: 0.2s">
+      <div class="loan-card rounded-2xl p-6 reveal bg-[#0d0d0d]/90 backdrop-blur-sm" style="transition-delay: 0.2s">
         <div class="w-14 h-14 rounded-full bg-lime/20 flex items-center justify-center mb-5">
-          <span class="text-3xl">🌱</span>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">SBA Microloan</h3>
-        <p class="text-white/50 text-sm leading-relaxed mb-4">For startups and small businesses, microloans offer up to $50,000 to cover working capital, equipment, or inventory expenses.</p>
+        <p class="text-white/60 text-sm leading-relaxed mb-4">For startups and small businesses, microloans offer up to $50,000 to cover working capital, equipment, or inventory expenses.</p>
         <div class="mt-4 pt-4 border-t border-white/[0.07] flex flex-wrap gap-2">
           <span class="text-[11px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Up to $50K</span>
           <span class="text-[11px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Startups Welcome</span>
@@ -235,20 +246,6 @@ $pathPrefix = str_repeat('../', max(0, $depth));
   </div>
 </section>
 
-<!-- ═══════════ CTA BANNER ═══════════ -->
-<section class="px-6 md:px-12 py-16">
-  <div class="max-w-5xl mx-auto">
-    <div class="cta-band rounded-2xl p-8 md:p-12 text-center reveal">
-      <p class="text-lime text-[11px] font-bold tracking-[0.12em] uppercase mb-3">Free Consultation</p>
-      <h3 class="font-display text-3xl md:text-4xl font-bold text-white mb-4">Talk to Our Trusted<br/>Financial Advisors</h3>
-      <p class="text-white/50 text-sm max-w-lg mx-auto mb-6">Get expert guidance on SBA loans and find the best financing option for your business.</p>
-      <div class="flex flex-wrap gap-4 justify-center">
-        <a href="#contact" class="btn-gold">Get Free Consultation →</a>
-        <a href="tel:+18005551234" class="btn-outline">Call Us Today</a>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ═══════════ HOW TO APPLY SECTION ═══════════ -->
 <section id="apply" class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
@@ -309,7 +306,9 @@ $pathPrefix = str_repeat('../', max(0, $depth));
 <section class="px-6 md:px-12 py-24 border-t border-white/[0.07] bg-[#0d0d0d]/30">
   <div class="max-w-4xl mx-auto text-center reveal">
     <div class="w-16 h-16 rounded-full bg-lime/20 flex items-center justify-center mx-auto mb-6">
-      <span class="text-3xl">👥</span>
+      <svg class="w-8 h-8 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"/>
+      </svg>
     </div>
     <h2 class="section-hl text-white mb-4">Talk to Our Trusted <span class="text-lime">Financial Advisors</span></h2>
     <p class="text-white/50 text-base leading-relaxed mb-6">
