@@ -58,7 +58,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       <li>
         <a href="<?php echo $pathPrefix; ?>resources.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors">Resources</a>
       </li>
-    </ul> <!-- This closing tag was missing -->
+    </ul>
     
     <!-- Desktop Contact Button -->
     <a href="<?php echo $pathPrefix; ?>contact.php" class="hidden lg:inline-block border border-white/45 bg-transparent text-white px-5 py-2 text-[13px] font-medium tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-all duration-200 cursor-pointer z-20">Contact us</a>
@@ -75,8 +75,8 @@ $pathPrefix = str_repeat('../', max(0, $depth));
     </button>
   </div>
   
-  <!-- Mobile Menu Overlay -->
-  <div id="mobileMenu" class="fixed top-0 right-0 bottom-0 w-full max-w-sm z-40 bg-ink border-l border-white/[0.07] shadow-2xl translate-x-full transition-transform duration-300 ease-out lg:hidden">
+  <!-- Mobile Menu Overlay - Full screen -->
+  <div id="mobileMenu" class="fixed inset-0 z-40 bg-[#0a0a0a] translate-x-full transition-transform duration-300 ease-out lg:hidden" style="width: 100vw; height: 100vh;">
     <div class="flex flex-col h-full pt-20 pb-8 px-6 overflow-y-auto">
       
       <!-- Mobile Navigation Links -->
@@ -140,8 +140,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
     </div>
   </div>
   
-  <!-- Overlay backdrop -->
-  <div id="menuOverlay" class="fixed inset-0 bg-black/50 z-35 opacity-0 invisible transition-all duration-300 lg:hidden"></div>
+  <!-- Overlay backdrop - removed since menu is full screen -->
 </header>
 
 <!-- Mobile Menu Toggle JavaScript -->
@@ -150,51 +149,58 @@ $pathPrefix = str_repeat('../', max(0, $depth));
   (function() {
     const mobileMenuButton = document.getElementById('mobileMenuButton');
     const mobileMenu = document.getElementById('mobileMenu');
-    const menuOverlay = document.getElementById('menuOverlay');
     const menuIcon = document.getElementById('menuIcon');
     const closeIcon = document.getElementById('closeIcon');
     let isMenuOpen = false;
+    let scrollPosition = 0;
     
     function toggleMenu() {
       isMenuOpen = !isMenuOpen;
       
       if (isMenuOpen) {
+        // Open menu
         mobileMenu.classList.remove('translate-x-full');
         mobileMenu.classList.add('translate-x-0');
-        if (menuOverlay) {
-          menuOverlay.classList.remove('opacity-0', 'invisible');
-          menuOverlay.classList.add('opacity-100', 'visible');
-        }
+        
+        // Change icons
         if (menuIcon && closeIcon) {
           menuIcon.style.opacity = '0';
           menuIcon.style.transform = 'scale(0.95)';
           closeIcon.style.opacity = '1';
           closeIcon.style.transform = 'scale(1)';
         }
+        
+        // Lock scroll - save current position
+        scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
         document.body.style.overflow = 'hidden';
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollPosition}px`;
+        document.body.style.width = '100%';
+        
       } else {
+        // Close menu
         mobileMenu.classList.remove('translate-x-0');
         mobileMenu.classList.add('translate-x-full');
-        if (menuOverlay) {
-          menuOverlay.classList.remove('opacity-100', 'visible');
-          menuOverlay.classList.add('opacity-0', 'invisible');
-        }
+        
+        // Change icons
         if (menuIcon && closeIcon) {
           menuIcon.style.opacity = '1';
           menuIcon.style.transform = 'scale(1)';
           closeIcon.style.opacity = '0';
           closeIcon.style.transform = 'scale(0.95)';
         }
+        
+        // Unlock scroll - restore position
         document.body.style.overflow = '';
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        window.scrollTo(0, scrollPosition);
       }
     }
     
     if (mobileMenuButton) {
       mobileMenuButton.addEventListener('click', toggleMenu);
-    }
-    
-    if (menuOverlay) {
-      menuOverlay.addEventListener('click', toggleMenu);
     }
     
     // Close menu when clicking on a link inside mobile menu
@@ -223,6 +229,13 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       closeIcon.style.opacity = '0';
       closeIcon.style.transform = 'scale(0.95)';
     }
+    
+    // Handle window resize - close menu if resizing to desktop view
+    window.addEventListener('resize', function() {
+      if (window.innerWidth >= 1024 && isMenuOpen) {
+        toggleMenu();
+      }
+    });
   })();
   
   // Mobile dropdown toggle function
@@ -243,14 +256,25 @@ $pathPrefix = str_repeat('../', max(0, $depth));
 </script>
 
 <style>
-  /* Mobile menu styles */
+  /* Mobile menu styles - full screen */
   #mobileMenu {
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #0a0a0a;
+    overflow-y: auto;
   }
   
-  #menuOverlay {
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 35;
+  /* Hide scrollbar on mobile menu but keep functionality */
+  #mobileMenu::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  #mobileMenu::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  #mobileMenu::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
   }
   
   /* Dropdown arrow transition */
@@ -280,8 +304,10 @@ $pathPrefix = str_repeat('../', max(0, $depth));
     }
   }
   
-  /* Prevent body scroll when menu is open */
-  body.menu-open {
+  /* Body lock styles when menu is open */
+  body.menu-open-fixed {
     overflow: hidden;
+    position: fixed;
+    width: 100%;
   }
 </style>
