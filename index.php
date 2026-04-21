@@ -2,8 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>VaultEdge — Flexible Business Financing for Growth</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="description" content="VaultEdge provides fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans. Get funded in 24-48 hours." />
+<meta name="keywords" content="business loans, SBA loans, commercial financing, construction loans, equipment financing, business funding, small business loans" />
+<meta name="author" content="VaultEdge" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="English" />
+<meta property="og:title" content="VaultEdge — Flexible Business Financing for Growth" />
+<meta property="og:description" content="Access fast and reliable funding solutions designed to support your business at every stage of growth." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&q=80" />
+<meta property="og:url" content="https://www.vaultedge.com" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="VaultEdge — Flexible Business Financing for Growth" />
+<meta name="twitter:description" content="Fast capital to help your business grow. Apply in minutes, get funded in 24-48 hours." />
+<link rel="canonical" href="https://www.vaultedge.com" />
+<title>VaultEdge — Fast Business Financing & SBA Loans | Get Funded in 24-48 Hours</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -58,17 +72,17 @@
   .step-card:hover { transform:translateY(-7px); box-shadow:0 20px 64px rgba(204,255,0,0.13); }
 
   /* Stat num */
-  .stat-num { font-family:'Space Grotesk',sans-serif; font-size:clamp(78px,9.5vw,130px); color:var(--lime); line-height:0.85; letter-spacing:-0.02em; font-weight:600; }
+  .stat-num { font-family:'Space Grotesk',sans-serif; font-size:clamp(48px,9.5vw,130px); color:var(--lime); line-height:0.85; letter-spacing:-0.02em; font-weight:600; }
 
   /* Step decorative bg number */
-  .step-bg-num { font-family:'Space Grotesk',sans-serif; font-size:clamp(160px,16vw,230px); color:rgba(204,255,0,0.055); line-height:1; user-select:none; transition:color 0.3s; font-weight:600; }
+  .step-bg-num { font-family:'Space Grotesk',sans-serif; font-size:clamp(120px,16vw,230px); color:rgba(204,255,0,0.055); line-height:1; user-select:none; transition:color 0.3s; font-weight:600; }
   .step-card:hover .step-bg-num { color:rgba(204,255,0,0.11); }
 
   /* Hero headline */
-  .hero-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(66px,8vw,110px); line-height:0.88; letter-spacing:-0.02em; font-weight:700; }
-  .how-hl  { font-family:'Space Grotesk',sans-serif; font-size:clamp(52px,6vw,84px); line-height:0.9; font-weight:700; }
-  .cta-hl  { font-family:'Space Grotesk',sans-serif; font-size:clamp(48px,6vw,86px); line-height:0.9; font-weight:700; }
-  .financing-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(48px,5vw,72px); line-height:1; font-weight:700; }
+  .hero-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(42px,8vw,110px); line-height:0.88; letter-spacing:-0.02em; font-weight:700; }
+  .how-hl  { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,6vw,84px); line-height:0.9; font-weight:700; }
+  .cta-hl  { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,6vw,86px); line-height:0.9; font-weight:700; }
+  .financing-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(32px,5vw,72px); line-height:1; font-weight:700; }
 
   /* Hero glow */
   #hero::before { content:''; position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse 58% 70% at 80% 50%, rgba(204,255,0,0.04) 0%, transparent 70%); }
@@ -79,6 +93,13 @@
   /* financing cards */
   .fin-card { background: #222; border:1px solid rgba(255,255,255,0.055); transition: all 0.25s ease; }
   .fin-card:hover { border-color: rgba(204,255,0,0.3); transform: translateY(-4px); background: #2a2a2a; }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .step-card { padding: 1.5rem !important; min-height: auto !important; }
+    .btn-sweep, .btn-outline { padding: 10px 20px !important; font-size: 11px !important; }
+    .stat-row { gap: 1rem !important; }
+  }
 </style>
 </head>
 <body class="bg-[#1a1a1a] text-white font-body overflow-x-hidden">
@@ -87,32 +108,32 @@
 @include('header.php')
 ?>
 
-<!-- ══ HERO (original content preserved but messaging tuned to financing) ══ -->
-<section id="hero" class="relative min-h-screen grid grid-cols-1 md:grid-cols-2 items-center pt-16 px-6 md:px-12 overflow-hidden">
-  <div class="pr-0 md:pr-14 py-20 md:py-0 z-10">
-    <p class="eyebrow inline-flex items-center text-[11px] font-semibold tracking-[0.16em] uppercase text-white/38 mb-7">Flexible Business Financing</p>
-    <h1 class="hero-hl text-white mb-8">
+<!-- ══ HERO SECTION ══ -->
+<section id="hero" class="relative min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center pt-20 lg:pt-16 px-4 sm:px-6 md:px-12 overflow-hidden">
+  <div class="pr-0 lg:pr-14 py-12 sm:py-16 lg:py-20 z-10 text-center lg:text-left">
+    <p class="eyebrow inline-flex items-center text-[11px] font-semibold tracking-[0.16em] uppercase text-white/38 mb-5 sm:mb-7">Flexible Business Financing</p>
+    <h1 class="hero-hl text-white mb-6 sm:mb-8">
       Fast Capital<br/>
       to Help Your<br/>
       <span class="text-lime">Business Grow</span>
     </h1>
-    <p class="text-[15px] leading-[1.75] text-white/48 font-light max-w-[440px] mb-10">
+    <p class="text-[14px] sm:text-[15px] leading-[1.75] text-white/48 font-light max-w-[440px] mx-auto lg:mx-0 mb-8 sm:mb-10">
       Access fast and reliable funding solutions designed to support your business at every stage of growth — expand, manage cash flow, or invest in new opportunities.
     </p>
-    <div class="flex flex-wrap gap-4">
-      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-9 py-[14px] text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
+    <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
+      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
         <span>Apply in Minutes →</span>
       </a>
-      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-9 py-[14px] text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
+      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
         Talk to an Expert
       </a>
     </div>
   </div>
 
-  <!-- Right photo + cards (unchanged layout) -->
-  <div class="relative hidden md:flex items-center justify-center h-full min-h-[82vh]">
+  <!-- Right photo + cards - Hidden on mobile, visible on desktop -->
+  <div class="relative hidden lg:flex items-center justify-center h-full min-h-[82vh]">
     <div class="relative w-full max-w-[500px]">
-      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial professional" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
+      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial professional helping businesses with funding solutions" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
       <div class="absolute bottom-0 left-0 w-[3px] h-[65%] bg-lime opacity-60"></div>
       <div class="absolute top-0 right-0 w-[3px] h-[30%] bg-lime opacity-35"></div>
       <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent pointer-events-none"></div>
@@ -138,76 +159,75 @@
   </div>
 </section>
 
-<!-- ══ MARQUEE (original untouched) ══ -->
-<div class="border-t border-b border-white/[0.07] overflow-hidden py-5">
+<!-- ══ MARQUEE (responsive) ══ -->
+<div class="border-t border-b border-white/[0.07] overflow-hidden py-3 sm:py-5">
   <div class="flex whitespace-nowrap animate-marquee">
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Commercial Real Estate <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Equipment Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Construction Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Cash Flow Solutions <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Commercial Real Estate <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Equipment Financing <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Construction Loans <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
-    <span class="inline-flex items-center gap-10 px-10 font-display text-[30px] text-white/[0.1] tracking-[0.04em] uppercase shrink-0">Cash Flow Solutions <span class="w-2 h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">Commercial Real Estate <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">Equipment Financing <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">Construction Loans <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
+    <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">Cash Flow Solutions <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
   </div>
 </div>
 
-<section class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
-  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
+<!-- ══ FINANCING SOLUTIONS SECTION (responsive grid) ══ -->
+<section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24 border-t border-white/[0.07]">
+  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-8 sm:mb-12">
     Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
   </div>
-  <div class="flex flex-col md:flex-row items-end justify-between gap-6 mb-14">
+  <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-10 sm:mb-14">
     <h2 class="financing-hl text-white">Our Financing<br/>Solutions</h2>
-    <p class="text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
+    <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
   </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+    <!-- Business Loans -->
+    <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">Business Loans</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
+      <div class="relative z-10 p-5 sm:p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-xl sm:text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">Business Loans</h3>
+        <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
       </div>
     </div>
-    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+    <!-- Commercial Financing -->
+    <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">Commercial Financing</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
+      <div class="relative z-10 p-5 sm:p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-xl sm:text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">Commercial Financing</h3>
+        <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
       </div>
     </div>
-    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+    <!-- SBA Loan Assistance -->
+    <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">SBA Loan Assistance</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
+      <div class="relative z-10 p-5 sm:p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-xl sm:text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">SBA Loan Assistance</h3>
+        <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
       </div>
     </div>
-    <div class="relative rounded-2xl overflow-hidden min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+    <!-- Construction Financing -->
+    <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
-      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
-        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">Construction Financing</h3>
-        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
+      <div class="relative z-10 p-5 sm:p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <h3 class="font-display text-xl sm:text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors font-bold">Construction Financing</h3>
+        <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══ WHY CHOOSE US (new section mirroring original brief) ══ -->
-<section class="px-6 md:px-12 py-16 border-t border-white/[0.07] bg-[#222]/60">
-  <div class="grid md:grid-cols-2 gap-12 items-center">
-    <div>
+<!-- ══ WHY CHOOSE US (responsive) ══ -->
+<section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 border-t border-white/[0.07] bg-[#222]/60">
+  <div class="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
+    <div class="text-center md:text-left">
       <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-lime mb-4">Why VaultEdge</p>
-      <h2 class="how-hl text-white mb-6">Financing that <br/><span class="text-lime">Fits Your Business</span></h2>
-      <p class="text-white/40 text-sm leading-relaxed mb-8">We focus on finding the right funding solution based on your business needs—not just a one-size-fits-all loan. Our transparent process and dedicated support set you up for success.</p>
-      <ul class="space-y-3">
+      <h2 class="how-hl text-white mb-6">Financing that <br class="hidden sm:block"/><span class="text-lime">Fits Your Business</span></h2>
+      <p class="text-white text-sm leading-relaxed mb-8">We focus on finding the right funding solution based on your business needs—not just a one-size-fits-all loan. Our transparent process and dedicated support set you up for success.</p>
+      <ul class="space-y-3 max-w-md mx-auto md:mx-0">
         <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Fast and simple application process</li>
         <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Flexible financing options tailored to your business</li>
         <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Transparent process with clear terms</li>
@@ -215,7 +235,7 @@
         <li class="flex items-center gap-3 text-white/70 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-lime"></span> Dedicated customer support team</li>
       </ul>
     </div>
-    <div class="bg-[#222] border border-white/[0.07] rounded-2xl p-8">
+    <div class="bg-[#222] border border-white/[0.07] rounded-2xl p-6 sm:p-8">
       <p class="text-lime text-sm font-semibold uppercase tracking-wider mb-2">Our goal</p>
       <p class="text-white/80 text-base leading-relaxed italic">"Simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. Every business deserves the opportunity to grow with the right financial support."</p>
       <div class="mt-6 pt-4 border-t border-white/[0.08] flex justify-between items-center">
@@ -226,98 +246,222 @@
   </div>
 </section>
 
-<!-- ══ STATS (preserved original, numbers updated to reflect financing context) ══ -->
-<section id="stats" class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
-  <p class="font-display text-[13px] tracking-[0.22em] uppercase text-white/28 mb-14">Our impact in numbers</p>
-  <div class="stat-row reveal grid grid-cols-[56px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-8 md:gap-10 py-12 border-t border-white/[0.07]">
+<!-- ══ STATS SECTION (responsive) ══ -->
+<section id="stats" class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24 border-t border-white/[0.07]">
+  <p class="font-display text-[13px] tracking-[0.22em] uppercase text-white/28 mb-10 sm:mb-14 text-center">Our impact in numbers</p>
+  <div class="stat-row reveal grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-4 md:gap-10 py-8 sm:py-12 border-t border-white/[0.07]">
     <span class="text-[11px] font-medium tracking-[0.1em] text-white/18">01</span>
     <span class="stat-num" data-target="1200" data-suffix="+">0</span>
     <div class="hidden md:block"><p class="text-[15px] font-medium text-white mb-1">Businesses Funded</p><p class="text-[13px] font-light text-white/38 leading-relaxed">From startups to established enterprises — we've powered growth nationwide.</p></div>
   </div>
-  <div class="stat-row reveal grid grid-cols-[56px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-8 md:gap-10 py-12 border-t border-white/[0.07]">
+  <div class="stat-row reveal grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-4 md:gap-10 py-8 sm:py-12 border-t border-white/[0.07]">
     <span class="text-[11px] font-medium tracking-[0.1em] text-white/18">02</span>
     <span class="stat-num" data-target="98" data-suffix="%">0</span>
     <div class="hidden md:block"><p class="text-[15px] font-medium text-white mb-1">Client Satisfaction</p><p class="text-[13px] font-light text-white/38 leading-relaxed">Rated excellent for fast approvals and transparent loan matching.</p></div>
   </div>
-  <div class="stat-row reveal grid grid-cols-[56px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-8 md:gap-10 py-12 border-t border-b border-white/[0.07]">
+  <div class="stat-row reveal grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-4 md:gap-10 py-8 sm:py-12 border-t border-b border-white/[0.07]">
     <span class="text-[11px] font-medium tracking-[0.1em] text-white/18">03</span>
     <span class="stat-num" data-target="75" data-prefix="$" data-suffix="M">0</span>
     <div class="hidden md:block"><p class="text-[15px] font-medium text-white mb-1">Capital Deployed (YTD)</p><p class="text-[13px] font-light text-white/38 leading-relaxed">Empowering SMEs with working capital, commercial loans, and SBA funding.</p></div>
   </div>
 </section>
 
-<!-- ══ HOW IT WORKS (original step cards but content tailored to financing application flow) ══ -->
-<section id="how" class="px-6 md:px-12 py-24">
-  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
+<!-- ══ HOW IT WORKS SECTION (responsive) ══ -->
+<section id="how" class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24">
+  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-8 sm:mb-12">
     Simple Process <div class="flex-1 h-px bg-white/[0.07]"></div>
   </div>
-  <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-14">
+  <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-10 sm:mb-14">
     <h2 class="how-hl text-white">How It<br/>Works</h2>
-    <p class="text-[14px] font-light text-white/38 max-w-[280px] md:text-right leading-relaxed">Apply in minutes, get matched, and receive funding quickly.</p>
+    <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[280px] md:text-right leading-relaxed">Apply in minutes, get matched, and receive funding quickly.</p>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-[2px]">
-    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">01</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 01</p>
-      <p class="text-[18px] font-semibold text-white leading-snug">Apply Online</p>
-      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Submit a simple application with your business details — only basic info required.</p>
+      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Apply Online</p>
+      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">Submit a simple application with your business details — only basic info required.</p>
     </div>
-    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.1s">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.1s">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">02</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 02</p>
-      <p class="text-[18px] font-semibold text-white leading-snug">Get Matched</p>
-      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">We review your information and connect you with suitable financing options from our partner network.</p>
+      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Get Matched</p>
+      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">We review your information and connect you with suitable financing options from our partner network.</p>
     </div>
-    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.2s">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.2s">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">03</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 03</p>
-      <p class="text-[18px] font-semibold text-white leading-snug">Receive Funding</p>
-      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Once approved, funding is processed quickly through our lending partners. Capital in your account.</p>
+      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Receive Funding</p>
+      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">Once approved, funding is processed quickly through our lending partners. Capital in your account.</p>
     </div>
-    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-10 min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.3s">
+    <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.3s">
       <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none">04</div>
       <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 04</p>
-      <p class="text-[18px] font-semibold text-white leading-snug">Grow Your Business</p>
-      <p class="text-[13px] font-light text-white/32 mt-2 leading-relaxed">Use the capital to expand, manage cash flow, or invest — we're with you at every stage.</p>
+      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Grow Your Business</p>
+      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">Use the capital to expand, manage cash flow, or invest — we're with you at every stage.</p>
     </div>
   </div>
 </section>
 
-<!-- ══ ABOUT US (new but preserving design, adds "About Us" content from brief) ══ -->
-<section class="px-6 md:px-12 py-20 border-t border-white/[0.07]">
+<!-- ══ TESTIMONIALS SECTION (Mono Grid) ══ -->
+<section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24 border-t border-white/[0.07] bg-[#0d0d0d]/30">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-8 sm:mb-12">
+      Testimonials <div class="flex-1 h-px bg-white/[0.07]"></div>
+    </div>
+    <div class="text-center mb-10 sm:mb-14 reveal">
+      <p class="inline-block bg-lime/15 text-lime text-[11px] font-bold tracking-[0.1em] uppercase px-4 py-2 rounded-full mb-4">Client Success Stories</p>
+      <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-4">What Our <span class="text-lime">Clients Say</span></h2>
+      <p class="text-white/40 text-sm sm:text-base max-w-2xl mx-auto">Trusted by hundreds of businesses across the nation</p>
+    </div>
+    
+    <!-- Mono Grid Layout - Single column, centered -->
+    <div class="max-w-3xl mx-auto">
+      
+      <!-- Testimonial 1 -->
+      <div class="reveal bg-[#1a1a1a] border border-white/[0.07] rounded-2xl p-6 sm:p-8 mb-6 hover:border-lime/30 transition-all duration-300">
+        <div class="flex items-center gap-1 mb-4">
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="text-white/80 text-base sm:text-lg leading-relaxed mb-6 italic">"VaultEdge helped us secure funding for our expansion within 48 hours. Their team was professional, responsive, and found us the perfect loan solution. Highly recommend!"</p>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-lime/20 flex items-center justify-center">
+            <span class="text-lime font-display text-xl">S</span>
+          </div>
+          <div>
+            <h4 class="font-semibold text-white">Sarah Johnson</h4>
+            <p class="text-white/40 text-sm">CEO, TechStart Solutions</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 2 -->
+      <div class="reveal bg-[#1a1a1a] border border-white/[0.07] rounded-2xl p-6 sm:p-8 mb-6 hover:border-lime/30 transition-all duration-300" style="transition-delay: 0.1s">
+        <div class="flex items-center gap-1 mb-4">
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime/40" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="text-white/80 text-base sm:text-lg leading-relaxed mb-6 italic">"The team at VaultEdge made the SBA loan process seamless. They guided us every step of the way and we received funding faster than expected. Our business has grown 40% since."</p>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-lime/20 flex items-center justify-center">
+            <span class="text-lime font-display text-xl">M</span>
+          </div>
+          <div>
+            <h4 class="font-semibold text-white">Michael Chen</h4>
+            <p class="text-white/40 text-sm">Owner, Chen Construction Group</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 3 -->
+      <div class="reveal bg-[#1a1a1a] border border-white/[0.07] rounded-2xl p-6 sm:p-8 hover:border-lime/30 transition-all duration-300" style="transition-delay: 0.2s">
+        <div class="flex items-center gap-1 mb-4">
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="text-white/80 text-base sm:text-lg leading-relaxed mb-6 italic">"Working with VaultEdge was a game-changer for our restaurant chain. They understood our unique needs and provided a customized financing solution. The entire process was transparent and efficient."</p>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-lime/20 flex items-center justify-center">
+            <span class="text-lime font-display text-xl">E</span>
+          </div>
+          <div>
+            <h4 class="font-semibold text-white">Elena Rodriguez</h4>
+            <p class="text-white/40 text-sm">Owner, Casa Bella Restaurants</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- Trust Badge -->
+    <div class="text-center mt-10 sm:mt-12 reveal">
+      <div class="inline-flex items-center gap-3 bg-[#0d0d0d] border border-white/[0.07] rounded-full px-6 py-3">
+        <div class="flex -space-x-2">
+          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">S</div>
+          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">M</div>
+          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">J</div>
+          <div class="w-8 h-8 rounded-full bg-lime/20 flex items-center justify-center text-xs font-bold text-lime">R</div>
+        </div>
+        <span class="text-white/60 text-sm">Join <span class="text-lime font-semibold">1,200+</span> satisfied business owners</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT US SECTION ══ -->
+<section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 border-t border-white/[0.07]">
   <div class="max-w-3xl mx-auto text-center reveal">
     <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-lime mb-3">About VaultEdge</p>
     <h2 class="financing-hl text-white mb-6">We help SMEs access<br/>the capital they need</h2>
-    <p class="text-white/40 text-base leading-relaxed mb-6">We are a business financing solutions provider focused on helping small and medium-sized businesses access the capital they need to grow and succeed. Our mission is to simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. We believe every business deserves the opportunity to grow with the right financial support.</p>
-    <div class="flex justify-center gap-5 pt-4">
-      <span class="text-white/20 text-sm uppercase tracking-wider border-r border-white/10 pr-4">Trusted partners</span>
-      <span class="text-white/20 text-sm uppercase tracking-wider">0% hidden fees</span>
+    <p class="text-white text-sm sm:text-base leading-relaxed mb-6">We are a business financing solutions provider focused on helping small and medium-sized businesses access the capital they need to grow and succeed. Our mission is to simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. We believe every business deserves the opportunity to grow with the right financial support.</p>
+    <div class="flex flex-wrap justify-center gap-5 pt-4">
+      <span class="text-white text-xs sm:text-sm uppercase tracking-wider border-r border-white/10 pr-4">Trusted partners</span>
+      <span class="text-white text-xs sm:text-sm uppercase tracking-wider">0% hidden fees</span>
     </div>
   </div>
 </section>
 
-<!-- ══ CTA BAND (updated with "Get Started" and "Talk to Expert") ══ -->
-<section class="reveal px-6 md:px-12 py-28 border-t border-white/[0.07] flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
-  <div>
+<!-- ══ CTA BAND (responsive) ══ -->
+<section class="reveal px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-28 border-t border-white/[0.07] flex flex-col md:flex-row items-start md:items-center justify-between gap-8 sm:gap-10">
+  <div class="text-center md:text-left">
     <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-white/22 mb-4">Ready to Grow?</p>
     <h2 class="cta-hl text-white">Take the Next<br/><span class="text-lime">Step Today</span></h2>
   </div>
-  <div class="flex flex-col items-start md:items-end gap-5">
-    <p class="text-[14px] font-light text-white/38 max-w-[300px] md:text-right leading-relaxed">Explore financing options designed to help your business move forward. Apply now or speak with a funding specialist.</p>
-    <div class="flex flex-wrap gap-4">
-      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-9 py-[14px] text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
+  <div class="flex flex-col items-start md:items-end gap-5 w-full md:w-auto">
+    <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[300px] md:text-right leading-relaxed">Explore financing options designed to help your business move forward. Apply now or speak with a funding specialist.</p>
+    <div class="flex flex-wrap gap-4 justify-center md:justify-end w-full">
+      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
         <span>Apply Now →</span>
       </a>
-      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-9 py-[14px] text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
+      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
         Talk to Expert
       </a>
     </div>
   </div>
 </section>
 
-<!-- ══ FOOTER (original structure intact) ══ -->
+<!-- ══ FOOTER ══ -->
 <?php
 @include('footer.php')?>
+
+<!-- JSON-LD Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "VaultEdge",
+  "url": "https://www.vaultedge.com",
+  "logo": "https://www.vaultedge.com/logo.png",
+  "description": "Fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-800-555-1234",
+    "contactType": "customer service",
+    "email": "hello@vaultedge.com"
+  },
+  "sameAs": [
+    "https://www.facebook.com/vaultedge",
+    "https://www.twitter.com/vaultedge",
+    "https://www.linkedin.com/company/vaultedge"
+  ]
+}
+</script>
 
 <script>
   // reveal on scroll
