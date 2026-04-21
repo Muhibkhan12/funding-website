@@ -98,289 +98,360 @@
   /* CTA band */
   .cta-band { background: #0d0d0d; border: 1px solid rgba(204,255,0,0.15); }
 
-  /* Table of contents */
-  .toc-link { display:flex; align-items:center; gap:8px; font-size:14px; color: #9ca3af; text-decoration:none; padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.08); transition:color 0.2s; }
-  .toc-link:hover { color: var(--lime); }
-  .toc-link::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--lime); opacity:0.5; flex-shrink:0; }
-
   /* Eyebrow line */
   .eyebrow::before { content:''; display:inline-block; width:28px; height:1px; background:var(--lime); margin-right:10px; vertical-align:middle; }
 
   /* Hero headline */
   .hero-hl { font-family:'Bebas Neue',sans-serif; font-size:clamp(66px,8vw,110px); line-height:0.88; letter-spacing:0.01em; }
 
-  @media(max-width:768px) {
-    .blog-layout { grid-template-columns: 1fr !important; }
-    .sidebar { display: none; }
+  /* Dropdown styles */
+  .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.2s ease-out;
+  }
+  .dropdown-trigger:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
 </style>
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
-<!-- ═══════════ INCLUDE HEADER.PHP ═══════════ -->
 <?php
-@include('../funding-website/header.php')?>
+@include('../header.php')?>
 
-<!-- ═══════════ HERO ═══════════ -->
-
-<!-- ═══════════ BREADCRUMB ═══════════ -->
-<div class="border-b border-white/[0.07] bg-[#0d0d0d]">
-  <div class="max-w-7xl mx-auto px-6 py-3 flex items-center gap-2 text-[13px] text-white/40">
-    <a href="#" class="hover:text-lime transition-colors">Home</a>
-    <span>›</span>
-    <a href="#" class="hover:text-lime transition-colors">Resources</a>
-    <span>›</span>
-    <span class="text-white font-medium">Business Loans</span>
+<!-- ═══════════ HERO SECTION ═══════════ -->
+<section class="hero-pattern relative overflow-hidden min-h-[50vh] flex items-center justify-center pt-16">
+  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1600&q=80'); opacity: 0.35;"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+  
+  <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full text-center">
+    <h1 class="font-display text-white text-6xl md:text-7xl lg:text-8xl tracking-tight">
+      Business <span class="text-lime">Loans</span>
+    </h1>
   </div>
-</div>
 
-<!-- ═══════════ MAIN BLOG LAYOUT ═══════════ -->
+  <!-- Decorative lime bar -->
+  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
+</section>
+
+<!-- ═══════════ MAIN CONTENT - FULL WIDTH (No Sidebar) ═══════════ -->
 <main class="max-w-7xl mx-auto px-6 py-16">
-  <div class="blog-layout grid gap-12" style="grid-template-columns: 1fr 320px;">
-
-    <!-- ── Article Body ── -->
-    <article>
-
-      <!-- Intro -->
-      <div class="reveal mb-14">
-        <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5">
-          At <strong class="text-white font-semibold">BizCash&amp;Capital</strong>, we offer tailored loans to adjust your unique specifications, with <strong class="text-lime font-semibold">low interest rates</strong> and flexible repayment terms. We understand the difficulties that businesses face and are committed to offering successful and dependable financial support.
-        </p>
-        <div class="pull-quote my-8">
-          <p class="font-display text-[28px] text-white font-semibold leading-snug">
-            "Whether you are a small startup or a large company — our specialists will help you secure the loans you need for development, equipment, or operations."
-          </p>
-        </div>
-        <p class="text-[16px] leading-[1.85] text-white/50 font-light">
-          Our team of specialists will guide you through the application process and help you gain the funding you need. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
-        </p>
-      </div>
-
-      <!-- Divider -->
-      <div class="border-t border-white/[0.1] mb-14"></div>
-
-      <!-- Loan Types -->
-      <div id="loan-types" class="reveal mb-14">
-        <p class="chip mb-4">Loan Products</p>
-        <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-3 lime-underline">Types of Business Loans</h2>
-        <p class="text-white/40 text-[15px] mt-6 mb-10 leading-relaxed">We offer a comprehensive range of financing options designed to match the specific needs of your business at every stage of growth.</p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-          <!-- Term Loans -->
-          <div class="loan-card rounded-xl p-6">
-            <div class="icon-circle mb-4">
-              <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-            </div>
-            <h3 class="font-display text-2xl font-bold text-white mb-2">Term Loans</h3>
-            <p class="text-[14px] text-white/50 leading-relaxed font-light">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
-            <div class="mt-4 pt-4 border-t border-white/[0.07] flex items-center gap-2">
-              <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Expansion</span>
-            </div>
-          </div>
-
-          <!-- Lines of Credit -->
-          <div class="loan-card rounded-xl p-6">
-            <div class="icon-circle mb-4">
-              <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
-            </div>
-            <h3 class="font-display text-2xl font-bold text-white mb-2">Lines of Credit</h3>
-            <p class="text-[14px] text-white/50 leading-relaxed font-light">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
-            <div class="mt-4 pt-4 border-t border-white/[0.07]">
-              <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Cash Flow</span>
-            </div>
-          </div>
-
-          <!-- Equipment Financing -->
-          <div class="loan-card rounded-xl p-6">
-            <div class="icon-circle mb-4">
-              <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-            </div>
-            <h3 class="font-display text-2xl font-bold text-white mb-2">Equipment Financing</h3>
-            <p class="text-[14px] text-white/50 leading-relaxed font-light">This type of loan allows you to purchase necessary business equipment without a large upfront payment. The equipment itself often serves as collateral for the loan.</p>
-            <div class="mt-4 pt-4 border-t border-white/[0.07]">
-              <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Equipment</span>
-            </div>
-          </div>
-
-          <!-- Invoice Financing -->
-          <div class="loan-card rounded-xl p-6">
-            <div class="icon-circle mb-4">
-              <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-            </div>
-            <h3 class="font-display text-2xl font-bold text-white mb-2">Invoice Financing</h3>
-            <p class="text-[14px] text-white/50 leading-relaxed font-light">Invoice financing, or accounts receivable financing, provides a way to bridge the gap between invoicing and receiving payments, improving cash flow.</p>
-            <div class="mt-4 pt-4 border-t border-white/[0.07]">
-              <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Receivables</span>
-            </div>
-          </div>
-
-          <!-- Merchant Cash Advances — full width -->
-          <div class="loan-card bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 rounded-xl p-6 md:col-span-2 flex flex-col md:flex-row gap-6 items-start">
-            <div class="w-[52px] h-[52px] rounded-full bg-lime/20 flex items-center justify-center flex-shrink-0">
-              <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-            </div>
-            <div>
-              <div class="flex items-center gap-3 mb-2">
-                <h3 class="font-display text-2xl font-bold text-white">Merchant Cash Advances</h3>
-                <span class="text-[11px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Popular</span>
-              </div>
-              <p class="text-[14px] text-white/60 leading-relaxed font-light max-w-[600px]">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds for various business needs.</p>
-              <div class="mt-4">
-                <a href="#apply" class="inline-block text-[13px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- CTA Banner inline -->
-      <div class="reveal cta-band rounded-2xl p-8 md:p-10 mb-14 relative overflow-hidden">
-        <div class="absolute inset-0 opacity-5 bg-lime"></div>
-        <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div>
-            <p class="text-lime text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Free Consultation</p>
-            <h3 class="font-display text-3xl md:text-4xl font-bold text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
-          </div>
-          <a href="#apply" class="btn-gold flex-shrink-0 text-[14px] px-8 py-4">Get Free Consultation →</a>
-        </div>
-      </div>
-
-      <!-- How to Apply -->
-      <div id="apply" class="reveal mb-14">
-        <p class="chip mb-4">Simple Process</p>
-        <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-3 lime-underline">How to Apply for a Business Loan</h2>
-        <p class="text-white/40 text-[15px] mt-6 mb-10 leading-relaxed max-w-[560px]">Getting funded is simpler than you think. Follow these steps to put your best foot forward in the application process.</p>
-
-        <div class="flex flex-col gap-5">
-
-          <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal">
-            <div class="step-circle">1</div>
-            <div>
-              <h4 class="font-semibold text-white text-[16px] mb-1">Meet the Eligibility Criteria</h4>
-              <p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the specific loan you are applying for. Each loan type has different requirements.</p>
-            </div>
-          </div>
-
-          <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.08s">
-            <div class="step-circle">2</div>
-            <div>
-              <h4 class="font-semibold text-white text-[16px] mb-1">Have a Solid Business Plan</h4>
-              <p class="text-[14px] text-white/50 font-light leading-relaxed">Lenders want to see a clear vision. A well-prepared business plan demonstrates your ability to repay and grow.</p>
-            </div>
-          </div>
-
-          <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.16s">
-            <div class="step-circle">3</div>
-            <div>
-              <h4 class="font-semibold text-white text-[16px] mb-1">Complete the Necessary Paperwork</h4>
-              <p class="text-[14px] text-white/50 font-light leading-relaxed">Gather all required documents in advance to speed up the process and avoid delays.</p>
-            </div>
-          </div>
-
-          <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.24s">
-            <div class="step-circle">4</div>
-            <div>
-              <h4 class="font-semibold text-white text-[16px] mb-1">Be Ready to Answer Questions</h4>
-              <p class="text-[14px] text-white/50 font-light leading-relaxed">Be prepared to respond to queries about your business operations, revenue, and financial history.</p>
-            </div>
-          </div>
-
-          <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
-            <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
-            <div>
-              <h4 class="font-semibold text-white text-[16px] mb-1">Be Patient — But Expect Speed From Us</h4>
-              <p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a traditional SBA loan can take weeks or even months. But here at <strong class="text-white">BizCash&amp;Capital</strong>, we get you funding as soon as possible!</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Closing -->
-      <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07]">
-        <h3 class="font-display text-3xl font-bold text-white mb-4">About BizCash&amp;Capital</h3>
-        <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-          We take the time to understand your business objectives, financial situation, and growth aspirations, tailoring our guidance to ensure you secure the most suitable financing option.
-        </p>
-        <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-8">
-          At BizCash&amp;Capital, we are committed to empowering entrepreneurs with the financial resources required to achieve business success. Contact us today to begin your journey towards harnessing the benefits of business loans and merchant cash advances and unlocking the potential of your enterprise.
-        </p>
-        <a href="#apply" class="btn-gold">Start Your Application</a>
-      </div>
-
-    </article>
-
-    <!-- ── Sidebar ── -->
-    <aside class="sidebar">
-      <div class="sticky top-24 flex flex-col gap-6">
-
-        <!-- Apply CTA card -->
-        <div class="bg-[#0d0d0d] border border-lime/20 rounded-2xl p-6 text-center">
-          <p class="text-lime text-[11px] font-bold tracking-[0.12em] uppercase mb-2">Free Consultation</p>
-          <h3 class="font-display text-[24px] font-bold text-white mb-3">Ready to Get Funded?</h3>
-          <p class="text-white/55 text-[13px] font-light leading-relaxed mb-5">Talk to a specialist and get a customized financing plan for your business.</p>
-          <a href="#" class="btn-gold w-full block text-center text-[14px]">Apply Now →</a>
-          <p class="text-white/30 text-[12px] mt-3">No credit impact. Free to apply.</p>
-        </div>
-
-        <!-- Table of Contents -->
-        <div class="bg-[#0d0d0d] border border-white/[0.07] rounded-2xl p-6">
-          <h4 class="font-semibold text-white text-[14px] mb-4">In This Article</h4>
-          <nav class="flex flex-col">
-            <a href="#loan-types" class="toc-link">Types of Business Loans</a>
-            <a href="#apply" class="toc-link">How to Apply</a>
-            <a href="#" class="toc-link">Eligibility Requirements</a>
-            <a href="#" class="toc-link border-b-0">About BizCash&amp;Capital</a>
-          </nav>
-        </div>
-
-        <!-- Trust badges -->
-        <div class="bg-[#0d0d0d] border border-white/[0.07] rounded-2xl p-6">
-          <h4 class="font-semibold text-white text-[14px] mb-4">Why Choose Us</h4>
-          <div class="flex flex-col gap-4">
-            <div class="flex items-center gap-3">
-              <div class="w-9 h-9 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              </div>
-              <p class="text-[13px] text-white/60 font-medium">Rates from 3.9% APR</p>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-9 h-9 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              </div>
-              <p class="text-[13px] text-white/60 font-medium">Funds in as little as 24hrs</p>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-9 h-9 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              </div>
-              <p class="text-[13px] text-white/60 font-medium">Dedicated loan specialist</p>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-9 h-9 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              </div>
-              <p class="text-[13px] text-white/60 font-medium">Flexible repayment terms</p>
-            </div>
-            <div class="flex items-center gap-3">
-              <div class="w-9 h-9 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              </div>
-              <p class="text-[13px] text-white/60 font-medium">Loans up to $5 million</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Disclaimer -->
-        <p class="text-[11px] text-white/30 leading-relaxed px-1">* Rates and terms subject to credit approval. Not all applicants qualify. BizCash&amp;Capital is not a lender; we connect businesses with funding solutions.</p>
-
-      </div>
-    </aside>
-
+  
+  <!-- Intro -->
+  <div class="reveal mb-14 max-w-4xl mx-auto">
+    <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
+      At <strong class="text-white font-semibold">BizCash&amp;Capital</strong>, we offer tailored loans to adjust your unique specifications, with <strong class="text-lime font-semibold">low interest rates</strong> and flexible repayment terms. We understand the difficulties that businesses face and are committed to offering successful and dependable financial support.
+    </p>
+    <div class="pull-quote my-8 max-w-3xl mx-auto">
+      <p class="font-display text-[28px] text-white leading-snug">
+        "Whether you are a small startup or a large company — our specialists will help you secure the loans you need for development, equipment, or operations."
+      </p>
+    </div>
+    <p class="text-[16px] leading-[1.85] text-white/50 font-light text-center">
+      Our team of specialists will guide you through the application process and help you gain the funding you need. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
+    </p>
   </div>
+
+  <!-- Divider -->
+  <div class="border-t border-white/[0.1] mb-14 max-w-4xl mx-auto"></div>
+
+  <!-- Loan Types -->
+  <div id="loan-types" class="reveal mb-14">
+    <div class="text-center mb-10">
+      <p class="chip mb-4 inline-block">Loan Products</p>
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-3 lime-underline">Types of Business Loans</h2>
+      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">We offer a comprehensive range of financing options designed to match the specific needs of your business at every stage of growth.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto">
+
+      <!-- Term Loans -->
+      <div class="loan-card rounded-xl p-6">
+        <div class="icon-circle mb-4">
+          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="font-display text-2xl font-bold text-white mb-2">Term Loans</h3>
+        <p class="text-[14px] text-white/50 leading-relaxed font-light">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
+        <div class="mt-4 pt-4 border-t border-white/[0.07] flex items-center gap-2">
+          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Expansion</span>
+        </div>
+      </div>
+
+      <!-- Lines of Credit -->
+      <div class="loan-card rounded-xl p-6">
+        <div class="icon-circle mb-4">
+          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+        </div>
+        <h3 class="font-display text-2xl font-bold text-white mb-2">Lines of Credit</h3>
+        <p class="text-[14px] text-white/50 leading-relaxed font-light">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
+        <div class="mt-4 pt-4 border-t border-white/[0.07]">
+          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Cash Flow</span>
+        </div>
+      </div>
+
+      <!-- Equipment Financing -->
+      <div class="loan-card rounded-xl p-6">
+        <div class="icon-circle mb-4">
+          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3 class="font-display text-2xl font-bold text-white mb-2">Equipment Financing</h3>
+        <p class="text-[14px] text-white/50 leading-relaxed font-light">This type of loan allows you to purchase necessary business equipment without a large upfront payment. The equipment itself often serves as collateral for the loan.</p>
+        <div class="mt-4 pt-4 border-t border-white/[0.07]">
+          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Equipment</span>
+        </div>
+      </div>
+
+      <!-- Invoice Financing -->
+      <div class="loan-card rounded-xl p-6">
+        <div class="icon-circle mb-4">
+          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <h3 class="font-display text-2xl font-bold text-white mb-2">Invoice Financing</h3>
+        <p class="text-[14px] text-white/50 leading-relaxed font-light">Invoice financing, or accounts receivable financing, provides a way to bridge the gap between invoicing and receiving payments, improving cash flow.</p>
+        <div class="mt-4 pt-4 border-t border-white/[0.07]">
+          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Receivables</span>
+        </div>
+      </div>
+
+      <!-- Merchant Cash Advances — full width -->
+      <div class="loan-card bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 rounded-xl p-6 md:col-span-2 flex flex-col md:flex-row gap-6 items-start">
+        <div class="w-[52px] h-[52px] rounded-full bg-lime/20 flex items-center justify-center flex-shrink-0">
+          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+        </div>
+        <div>
+          <div class="flex items-center gap-3 mb-2">
+            <h3 class="font-display text-2xl font-bold text-white">Merchant Cash Advances</h3>
+            <span class="text-[11px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Popular</span>
+          </div>
+          <p class="text-[14px] text-white/60 leading-relaxed font-light max-w-[600px]">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds for various business needs.</p>
+          <div class="mt-4">
+            <a href="#apply" class="inline-block text-[13px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CTA Banner inline -->
+  <div class="reveal cta-band rounded-2xl p-8 md:p-10 mb-14 relative overflow-hidden max-w-6xl mx-auto">
+    <div class="absolute inset-0 opacity-5 bg-lime"></div>
+    <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div>
+        <p class="text-lime text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Free Consultation</p>
+        <h3 class="font-display text-3xl md:text-4xl font-bold text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
+      </div>
+      <a href="#apply" class="btn-gold flex-shrink-0 text-[14px] px-8 py-4">Get Free Consultation →</a>
+    </div>
+  </div>
+
+  <!-- How to Apply -->
+  <div id="apply" class="reveal mb-14 max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+      <p class="chip mb-4 inline-block">Simple Process</p>
+      <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-3 lime-underline">How to Apply for a Business Loan</h2>
+      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Getting funded is simpler than you think. Follow these steps to put your best foot forward in the application process.</p>
+    </div>
+
+    <div class="flex flex-col gap-5 max-w-3xl mx-auto">
+
+      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal">
+        <div class="step-circle">1</div>
+        <div>
+          <h4 class="font-semibold text-white text-[16px] mb-1">Meet the Eligibility Criteria</h4>
+          <p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the specific loan you are applying for. Each loan type has different requirements.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.08s">
+        <div class="step-circle">2</div>
+        <div>
+          <h4 class="font-semibold text-white text-[16px] mb-1">Have a Solid Business Plan</h4>
+          <p class="text-[14px] text-white/50 font-light leading-relaxed">Lenders want to see a clear vision. A well-prepared business plan demonstrates your ability to repay and grow.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.16s">
+        <div class="step-circle">3</div>
+        <div>
+          <h4 class="font-semibold text-white text-[16px] mb-1">Complete the Necessary Paperwork</h4>
+          <p class="text-[14px] text-white/50 font-light leading-relaxed">Gather all required documents in advance to speed up the process and avoid delays.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.24s">
+        <div class="step-circle">4</div>
+        <div>
+          <h4 class="font-semibold text-white text-[16px] mb-1">Be Ready to Answer Questions</h4>
+          <p class="text-[14px] text-white/50 font-light leading-relaxed">Be prepared to respond to queries about your business operations, revenue, and financial history.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
+        <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
+        <div>
+          <h4 class="font-semibold text-white text-[16px] mb-1">Be Patient — But Expect Speed From Us</h4>
+          <p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a traditional SBA loan can take weeks or even months. But here at <strong class="text-white">BizCash&amp;Capital</strong>, we get you funding as soon as possible!</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Closing -->
+  <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07] max-w-4xl mx-auto">
+    <h3 class="font-display text-3xl font-bold text-white mb-4 text-center">About BizCash&amp;Capital</h3>
+    <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4 text-center">
+      We take the time to understand your business objectives, financial situation, and growth aspirations, tailoring our guidance to ensure you secure the most suitable financing option.
+    </p>
+    <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-8 text-center">
+      At BizCash&amp;Capital, we are committed to empowering entrepreneurs with the financial resources required to achieve business success. Contact us today to begin your journey towards harnessing the benefits of business loans and merchant cash advances and unlocking the potential of your enterprise.
+    </p>
+    <div class="text-center">
+      <a href="#apply" class="btn-gold">Start Your Application</a>
+    </div>
+  </div>
+
 </main>
+
+<!-- ═══════════ FINANCING SOLUTIONS SECTION (Image Cards) ═══════════ -->
+<section class="px-6 md:px-12 py-24 border-t border-white/[0.07] bg-ink">
+  <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
+    Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
+  </div>
+  <div class="flex flex-col md:flex-row items-end justify-between gap-6 mb-14">
+    <h2 class="font-display text-white text-5xl md:text-6xl">Our Financing<br/>Solutions</h2>
+    <p class="text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto">
+    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <span class="text-4xl mb-3 block drop-shadow-lg">💼</span>
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Business Loans</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
+      </div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <span class="text-4xl mb-3 block drop-shadow-lg">🏢</span>
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Commercial Financing</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
+      </div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <span class="text-4xl mb-3 block drop-shadow-lg">🏛️</span>
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">SBA Loan Assistance</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
+      </div>
+    </div>
+    <div class="group relative rounded-2xl overflow-hidden min-h-[280px] flex items-end cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 group-hover:from-black/70 group-hover:via-black/40 transition-all duration-500"></div>
+      <div class="relative z-10 p-6 w-full transform transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <span class="text-4xl mb-3 block drop-shadow-lg">🏗️</span>
+        <h3 class="font-display text-2xl text-lime mb-2 group-hover:text-lime-300 transition-colors">Construction Financing</h3>
+        <p class="text-white/70 text-sm leading-relaxed group-hover:text-white/90 transition-colors">Funding solutions tailored for construction projects and development needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT SECTION ═══════════ -->
+<section id="contact" class="px-6 md:px-12 py-24 border-t border-white/[0.07]">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-12">
+      Get In Touch <div class="flex-1 h-px bg-white/[0.07]"></div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-12">
+      <div>
+        <h2 class="font-display text-white text-5xl md:text-6xl tracking-tight mb-6">Let's Talk<br/>About Your<br/><span class="text-lime">Business Goals</span></h2>
+        <p class="text-white/40 text-base leading-relaxed mb-8">Whether you have a question about our loan programs, need guidance on which financing option fits your business, or want to start an application — our team is here to help.</p>
+        
+        <div class="space-y-6">
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-white mb-1">Email Us</h4>
+              <p class="text-white/50 text-sm">hello@bizcashcapital.com</p>
+              <p class="text-white/40 text-xs mt-1">Response within 24 hours</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-white mb-1">Call Us</h4>
+              <p class="text-white/50 text-sm">+1 (800) 555-1234</p>
+              <p class="text-white/40 text-xs mt-1">Mon-Fri, 9am - 6pm EST</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-lime/15 flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-white mb-1">Visit Us</h4>
+              <p class="text-white/50 text-sm">200 Park Avenue, Suite 1700</p>
+              <p class="text-white/40 text-xs">New York, NY 10166</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="bg-[#0d0d0d] border border-white/[0.07] rounded-2xl p-8">
+        <h3 class="font-display text-2xl text-white mb-6">Send us a message</h3>
+        <form class="space-y-5">
+          <div>
+            <label class="block text-white/60 text-sm mb-2">Full Name</label>
+            <input type="text" class="w-full bg-ink border border-white/[0.1] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-lime transition-colors" placeholder="John Smith">
+          </div>
+          <div>
+            <label class="block text-white/60 text-sm mb-2">Email Address</label>
+            <input type="email" class="w-full bg-ink border border-white/[0.1] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-lime transition-colors" placeholder="john@company.com">
+          </div>
+          <div>
+            <label class="block text-white/60 text-sm mb-2">Phone Number</label>
+            <input type="tel" class="w-full bg-ink border border-white/[0.1] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-lime transition-colors" placeholder="(555) 123-4567">
+          </div>
+          <div>
+            <label class="block text-white/60 text-sm mb-2">Loan Type Interested In</label>
+            <select class="w-full bg-ink border border-white/[0.1] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-lime transition-colors">
+              <option>Business Loan</option>
+              <option>Commercial Financing</option>
+              <option>SBA Loan</option>
+              <option>Construction Financing</option>
+              <option>Equipment Financing</option>
+              <option>Line of Credit</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-white/60 text-sm mb-2">Message</label>
+            <textarea rows="4" class="w-full bg-ink border border-white/[0.1] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-lime transition-colors" placeholder="Tell us about your business and funding needs..."></textarea>
+          </div>
+          <button type="submit" class="btn-gold w-full text-center">Send Message →</button>
+          <p class="text-white/25 text-xs text-center mt-4">We'll get back to you within 24 hours. No obligation.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ═══════════ FOOTER ═══════════ -->
 <footer class="bg-ink mt-10 border-t border-white/[0.07]">
@@ -403,14 +474,14 @@
       <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
       <ul class="space-y-2 list-none">
         <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
+        <li><a href="#contact" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
         <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
         <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
       </ul>
     </div>
   </div>
   <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2023 BizCash&amp;Capital. All rights reserved.</p>
+    <p class="text-[12px] text-white/25">© 2024 BizCash&amp;Capital. All rights reserved.</p>
     <p class="text-[12px] text-white/18">Equal Opportunity Lender</p>
   </div>
 </footer>
@@ -419,10 +490,6 @@
   // Reveal on scroll
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
-
-  // Nav shadow on scroll
-  const nav = document.getElementById('navbar');
-  window.addEventListener('scroll', () => { if(nav) nav.classList.toggle('nav-scrolled', window.scrollY > 20); });
 </script>
 </body>
 </html>
