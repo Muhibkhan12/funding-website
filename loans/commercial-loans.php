@@ -87,6 +87,15 @@ $pathPrefix = str_repeat('../', max(0, $depth));
             animation: fadeInUp 0.6s ease-out forwards;
         }
         
+        /* Image hover effects */
+        .image-overlay {
+            transition: all 0.3s ease;
+        }
+        
+        .image-container:hover .image-overlay {
+            opacity: 1;
+        }
+        
         /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
@@ -110,42 +119,59 @@ $pathPrefix = str_repeat('../', max(0, $depth));
 
     <main class="pt-8 pb-20">
         
-        <!-- Introduction Section -->
+        <!-- Introduction Section with Image -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-16">
-            <div class="max-w-4xl mx-auto text-center">
-                <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10">
-                    <span class="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
-                    <span class="text-[11px] font-medium tracking-[0.1em] uppercase text-white/60">Commercial Financing Solutions</span>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10">
+                        <span class="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
+                        <span class="text-[11px] font-medium tracking-[0.1em] uppercase text-white/60">Commercial Financing Solutions</span>
+                    </div>
+                    <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-white via-white to-white/70 bg-clip-text text-transparent">
+                        Commercial Loans
+                    </h1>
+                    <p class="text-base md:text-lg text-white/60 leading-relaxed">
+                        Commercial loans are financing options that help businesses meet their financial freedom and accomplish certain goals. These loans can finance capital investments or buy merchandise, grow business operations, buy real estate, or expand business activities. BizCash&Capital offers an ultimate guide to help you understand the ins and outs of securing a commercial loan for your business.
+                    </p>
                 </div>
-                <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-r from-white via-white to-white/70 bg-clip-text text-transparent">
-                    Commercial Loans
-                </h1>
-                <p class="text-base md:text-lg text-white/60 leading-relaxed">
-                    Commercial loans are financing options that help businesses meet their financial freedom and accomplish certain goals. These loans can finance capital investments or buy merchandise, grow business operations, buy real estate, or expand business activities. BizCash&Capital offers an ultimate guide to help you understand the ins and outs of securing a commercial loan for your business.
-                </p>
+                <div class="relative image-container group">
+                    <div class="absolute inset-0 bg-gradient-to-r from-lime/20 to-transparent rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?w=600&h=450&fit=crop" alt="Business meeting discussing commercial loans" class="rounded-2xl shadow-2xl w-full h-auto object-cover border border-white/10 group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl opacity-0 image-overlay flex items-end p-6">
+                        <p class="text-white text-sm font-medium">Expert guidance for your business growth</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- Low Interest Program Banner -->
+        <!-- Low Interest Program Banner with Image -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
             <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-lime/10 via-lime/5 to-transparent border border-lime/20 p-8 md:p-12">
                 <div class="absolute top-0 right-0 w-64 h-64 bg-lime/5 rounded-full blur-3xl"></div>
                 <div class="absolute bottom-0 left-0 w-64 h-64 bg-lime/5 rounded-full blur-3xl"></div>
                 
-                <div class="relative z-10 text-center">
-                    <span class="text-lime text-sm font-semibold tracking-[0.2em] uppercase mb-3 block">Limited Time Offer</span>
-                    <h2 class="font-display text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-                        Best Low-Interest Rate Commercial Loan Program For 2025
-                    </h2>
-                    <p class="text-white/70 text-base md:text-lg max-w-3xl mx-auto mb-8">
-                        Whether you are a small startup or a major corporation, our team of experts can guide you through the application process and help you obtain the Commercial loans you require for construction, real-estate purchase, or operating costs.
-                    </p>
-                    <a href="#apply" class="inline-flex items-center gap-2 bg-lime text-ink px-8 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-all duration-200 transform hover:scale-105">
-                        Get Free Consultation
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center relative z-10">
+                    <div class="text-center lg:text-left">
+                        <span class="text-lime text-sm font-semibold tracking-[0.2em] uppercase mb-3 block">Limited Time Offer</span>
+                        <h2 class="font-display text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
+                            Best Low-Interest Rate Commercial Loan Program For 2025
+                        </h2>
+                        <p class="text-white/70 text-base md:text-lg mb-8">
+                            Whether you are a small startup or a major corporation, our team of experts can guide you through the application process and help you obtain the Commercial loans you require for construction, real-estate purchase, or operating costs.
+                        </p>
+                        <a href="#apply" class="inline-flex items-center gap-2 bg-lime text-ink px-8 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-all duration-200 transform hover:scale-105">
+                            Get Free Consultation
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500&h=350&fit=crop" alt="Low interest rates concept" class="rounded-xl shadow-xl w-full h-auto object-cover border border-lime/20">
+                        <div class="absolute -bottom-3 -right-3 bg-lime/20 backdrop-blur-sm rounded-lg px-3 py-1 border border-lime/30">
+                            <span class="text-lime text-xs font-bold">As low as 4.5% APR</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,6 +197,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
                     <p class="text-white/60 text-sm leading-relaxed">
                         Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.
                     </p>
+                    <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&h=200&fit=crop" alt="Term loans" class="mt-4 rounded-lg w-full h-32 object-cover opacity-80 hover:opacity-100 transition-opacity">
                 </div>
                 
                 <!-- Commercial Real Estate Loans -->
@@ -184,6 +211,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
                     <p class="text-white/60 text-sm leading-relaxed">
                         A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.
                     </p>
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=200&fit=crop" alt="Commercial real estate" class="mt-4 rounded-lg w-full h-32 object-cover opacity-80 hover:opacity-100 transition-opacity">
                 </div>
                 
                 <!-- Equipment Financing -->
@@ -197,6 +225,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
                     <p class="text-white/60 text-sm leading-relaxed">
                         Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.
                     </p>
+                    <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=400&h=200&fit=crop" alt="Equipment financing" class="mt-4 rounded-lg w-full h-32 object-cover opacity-80 hover:opacity-100 transition-opacity">
                 </div>
                 
                 <!-- Working Capital Loans -->
@@ -210,6 +239,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
                     <p class="text-white/60 text-sm leading-relaxed">
                         Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.
                     </p>
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop" alt="Working capital" class="mt-4 rounded-lg w-full h-32 object-cover opacity-80 hover:opacity-100 transition-opacity">
                 </div>
                 
                 <!-- Merchant Cash Advances -->
@@ -223,12 +253,27 @@ $pathPrefix = str_repeat('../', max(0, $depth));
                     <p class="text-white/60 text-sm leading-relaxed">
                         Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds for various business needs.
                     </p>
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop" alt="Merchant cash advances" class="mt-4 rounded-lg w-full h-32 object-cover opacity-80 hover:opacity-100 transition-opacity">
+                </div>
+                
+                <!-- Bridge Loans - Extra -->
+                <div class="loan-card bg-gradient-card backdrop-blur-sm rounded-xl border border-white/10 p-6 hover:border-lime/30 transition-all duration-300">
+                    <div class="w-12 h-12 bg-lime/10 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                        </svg>
+                    </div>
+                    <h3 class="font-display text-xl font-bold mb-2">Bridge Loans</h3>
+                    <p class="text-white/60 text-sm leading-relaxed">
+                        Short-term financing solutions to bridge the gap between immediate needs and long-term funding. Perfect for time-sensitive opportunities.
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=200&fit=crop" alt="Bridge loans" class="mt-4 rounded-lg w-full h-32 object-cover opacity-80 hover:opacity-100 transition-opacity">
                 </div>
                 
             </div>
         </div>
 
-        <!-- How to Apply Section -->
+        <!-- How to Apply Section with Image -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 
@@ -292,8 +337,16 @@ $pathPrefix = str_repeat('../', max(0, $depth));
                     </div>
                 </div>
                 
-                <!-- Right Side - CTA Card -->
-                <div class="lg:pl-8">
+                <!-- Right Side - Image and CTA -->
+                <div>
+                    <div class="relative mb-6">
+                        <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=600&h=400&fit=crop" alt="Financial advisors helping client" class="rounded-2xl shadow-xl w-full h-auto object-cover border border-white/10">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-2xl"></div>
+                        <div class="absolute bottom-4 left-4 right-4">
+                            <p class="text-white text-sm font-medium">Expert advisors ready to guide you</p>
+                        </div>
+                    </div>
+                    
                     <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-lime/5 via-lime/10 to-transparent border border-lime/20 p-8 md:p-10">
                         <div class="absolute top-0 right-0 w-40 h-40 bg-lime/10 rounded-full blur-2xl"></div>
                         <div class="absolute bottom-0 left-0 w-40 h-40 bg-lime/5 rounded-full blur-2xl"></div>
@@ -319,27 +372,35 @@ $pathPrefix = str_repeat('../', max(0, $depth));
             </div>
         </div>
 
-        <!-- Closing Statement Section -->
+        <!-- Closing Statement Section with Image -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
-            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-white/5 via-transparent to-white/5 border border-white/10 p-8 md:p-12 text-center">
+            <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-white/5 via-transparent to-white/5 border border-white/10 p-8 md:p-12">
                 <div class="absolute inset-0 bg-gradient-to-r from-lime/5 via-transparent to-lime/5"></div>
-                <div class="relative z-10">
-                    <svg class="w-12 h-12 text-lime/30 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path>
-                    </svg>
-                    <p class="text-white/80 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
-                        At BizCash&Capital, we are dedicated to empowering businesses with the financial resources required for ambitious projects and sustained growth. Contact us today to initiate your journey towards harnessing the benefits of commercial loans and propelling your business to greater heights.
-                    </p>
-                    <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="#apply" class="inline-flex items-center justify-center gap-2 bg-lime text-ink px-8 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-all duration-200">
-                            Apply Now
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                            </svg>
-                        </a>
-                        <a href="#learn-more" class="inline-flex items-center justify-center gap-2 border border-white/20 text-white px-8 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-white/10 transition-all duration-200">
-                            Learn More
-                        </a>
+                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="text-center lg:text-left">
+                        <svg class="w-12 h-12 text-lime/30 mx-auto lg:mx-0 mb-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path>
+                        </svg>
+                        <p class="text-white/80 text-lg md:text-xl leading-relaxed">
+                            At BizCash&Capital, we are dedicated to empowering businesses with the financial resources required for ambitious projects and sustained growth. Contact us today to initiate your journey towards harnessing the benefits of commercial loans and propelling your business to greater heights.
+                        </p>
+                        <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                            <a href="#apply" class="inline-flex items-center justify-center gap-2 bg-lime text-ink px-8 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-all duration-200">
+                                Apply Now
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                            <a href="#learn-more" class="inline-flex items-center justify-center gap-2 border border-white/20 text-white px-8 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-white/10 transition-all duration-200">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&h=350&fit=crop" alt="Business growth and success" class="rounded-xl shadow-xl w-full h-auto object-cover border border-white/10">
+                        <div class="absolute -top-3 -left-3 bg-lime/20 backdrop-blur-sm rounded-lg px-3 py-1 border border-lime/30">
+                            <span class="text-lime text-xs font-bold">Your Success Partner</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -381,8 +442,26 @@ $pathPrefix = str_repeat('../', max(0, $depth));
         }, observerOptions);
         
         // Observe sections for animation
-        document.querySelectorAll('.loan-card, .step-item, .bg-gradient-card, .rounded-2xl').forEach(el => {
+        document.querySelectorAll('.loan-card, .step-item, .bg-gradient-card, .rounded-2xl, .image-container').forEach(el => {
             observer.observe(el);
+        });
+        
+        // Lazy loading for images
+        const images = document.querySelectorAll('img');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.classList.add('opacity-100');
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+        
+        images.forEach(img => {
+            img.classList.add('transition-opacity', 'duration-500', 'opacity-0');
+            imageObserver.observe(img);
+            img.onload = () => img.classList.add('opacity-100');
         });
     </script>
     
