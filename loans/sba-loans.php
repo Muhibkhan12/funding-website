@@ -100,7 +100,7 @@
 </head>
 
 <?php
-@include('header.php')?>
+@include('../header.php')?>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
 <!-- ═══════════ HERO SECTION (SBA Business Loans) ═══════════ -->

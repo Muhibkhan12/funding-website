@@ -109,10 +109,11 @@
   ::-webkit-scrollbar-thumb:hover { background: #b0e02a; }
 </style>
 </head>
-
-<?php
-@include('header.php')?>
 <body class="bg-ink text-white font-body overflow-x-hidden">
+
+<!-- Include header INSIDE body -->
+<?php
+@include('../header.php')?>
 
 <!-- ═══════════ HERO SECTION (Construction Loans) ═══════════ -->
 <section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
