@@ -109,7 +109,7 @@
 <?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Industries) ═══════════ -->
-<section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+<section class="relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80'); opacity: 0.3;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   
@@ -127,8 +127,6 @@
       <a href="#approach" class="btn-outline">Our Approach</a>
     </div>
   </div>
-
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
 </section>
 
 <!-- ═══════════ OUR TAILORED APPROACH SECTION ═══════════ -->
@@ -199,7 +197,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Auto Repair</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Equipment financing, shop upgrades, and working capital for mechanics and collision centers.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="auto-repair.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -217,7 +215,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Attorney</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Practice acquisition, case cost funding, technology upgrades, and working capital for law firms.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="attorney.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -235,7 +233,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Cleaning Business</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Equipment purchases, fleet expansion, payroll support, and seasonal cash flow solutions.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="cleaning-business.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -243,7 +241,7 @@
     <!-- Construction -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1503387762-592b1451e3f1?w=800&h=600&fit=crop" alt="Construction" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80" alt="Construction" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
       <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
@@ -253,7 +251,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Construction</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Equipment financing, project-based loans, material purchasing, and contract bridge funding.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="construction.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -261,7 +259,7 @@
     <!-- Convenience Store -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1594751543129-6701ad444259?w=800&h=600&fit=crop" alt="Convenience Store" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Convenience Store" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
       <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
@@ -271,7 +269,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Convenience Store</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Inventory financing, store renovations, equipment upgrades, and working capital for gas stations.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="Convenience-store.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -289,7 +287,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Daycare</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Facility expansion, playground equipment, licensing costs, and operational bridge funding.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="day-care.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -307,7 +305,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Beauty Salon</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Salon equipment, product inventory, leasehold improvements, and marketing campaigns.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="beauty-salon.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -325,7 +323,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Accounting</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Practice acquisition, software upgrades, seasonal staffing, and working capital for CPAs.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="accounting.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
