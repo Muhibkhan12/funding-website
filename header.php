@@ -45,7 +45,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           <a href="<?php echo $pathPrefix; ?>industry/cleaning-business.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Cleaning Business</a>
           <a href="<?php echo $pathPrefix; ?>industry/construction.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction</a>
           <a href="<?php echo $pathPrefix; ?>industry/Convenience-store.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Convenience Store</a>
-          <a href="<?php echo $pathPrefix; ?>industries/technology.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Day Care</a>
+          <a href="<?php echo $pathPrefix; ?>industry/day-care.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Day Care</a>
           <a href="<?php echo $pathPrefix; ?>industries/transportation.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Beauty Salon</a>
           <a href="<?php echo $pathPrefix; ?>industries/real-estate.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Accounting</a>
         </div>
