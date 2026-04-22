@@ -109,6 +109,9 @@
   ::-webkit-scrollbar-thumb:hover { background: #b0e02a; }
 </style>
 </head>
+
+<?php
+@include('header.php')?>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
 <!-- ═══════════ HERO SECTION (Construction Loans) ═══════════ -->
