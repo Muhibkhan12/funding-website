@@ -47,7 +47,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           <a href="<?php echo $pathPrefix; ?>industry/Convenience-store.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Convenience Store</a>
           <a href="<?php echo $pathPrefix; ?>industry/day-care.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Day Care</a>
           <a href="<?php echo $pathPrefix; ?>industry/beauty-salon.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Beauty Salon</a>
-          <a href="<?php echo $pathPrefix; ?>industries/real-estate.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Accounting</a>
+          <a href="<?php echo $pathPrefix; ?>industry/accounting.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Accounting</a>
         </div>
       </li>
     
