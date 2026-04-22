@@ -21,7 +21,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       
       <!-- Dropdown 1: Loan Programs -->
       <li class="relative group">
-        <a href="loans/loan.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors flex items-center gap-1">
+        <a href="<?php echo $pathPrefix; ?>loans/loan.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors flex items-center gap-1">
           Loan Programs 
           <svg class="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
         </a>
@@ -36,7 +36,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       
       <!-- Dropdown 2: Industry -->
       <li class="relative group">
-        <a href="Industry/industry.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors flex items-center gap-1">
+        <a href="<?php echo $pathPrefix; ?>Industry/industry.php" class="text-[13px] font-medium tracking-[0.06em] uppercase text-white/55 hover:text-white transition-colors flex items-center gap-1">
           Industry 
           <svg class="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
         </a>

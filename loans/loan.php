@@ -106,7 +106,7 @@
 <?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Loan Programs) ═══════════ -->
-<section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+<section class="relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1600&q=80'); opacity: 0.3;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   
@@ -124,8 +124,6 @@
       <a href="#compare" class="btn-outline">Compare Options</a>
     </div>
   </div>
-
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
 </section>
 
 <!-- ═══════════ INTRODUCTION SECTION ═══════════ -->
