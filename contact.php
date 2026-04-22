@@ -424,18 +424,6 @@ $pathPrefix = str_repeat('../', max(0, $depth));
       
     </div>
     
-    <!-- Still have questions CTA -->
-    <div class="text-center mt-10 sm:mt-12 p-6 sm:p-8 bg-gradient-to-br from-lime/5 to-transparent rounded-2xl border border-white/[0.05] reveal">
-      <p class="text-white/60 text-sm sm:text-base mb-3">Still have questions?</p>
-      <h3 class="font-display text-xl sm:text-2xl text-white mb-4">We're here to <span class="text-lime">help</span></h3>
-      <a href="#contact" class="inline-flex items-center gap-2 text-lime hover:text-lime-300 transition-colors group">
-        <span class="text-xs sm:text-sm font-medium uppercase tracking-wider">Contact our support team</span>
-        <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-      </a>
-    </div>
-    
   </div>
 </section>
 

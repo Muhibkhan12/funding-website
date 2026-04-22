@@ -110,6 +110,13 @@
 
 <!-- ══ HERO SECTION ══ -->
 <section id="hero" class="relative min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center pt-20 lg:pt-16 px-4 sm:px-6 md:px-12 overflow-hidden">
+
+  <!-- Mobile/Tablet background image (hidden on lg+) -->
+  <div class="absolute inset-0 lg:hidden">
+    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="" class="w-full h-full object-cover object-top" style="filter:grayscale(100%) contrast(1.1) brightness(0.5);" />
+    <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/60 via-[#1a1a1a]/40 to-[#1a1a1a]/80"></div>
+  </div>
+
   <div class="pr-0 lg:pr-14 py-12 sm:py-16 lg:py-20 z-10 text-center lg:text-left">
     <p class="eyebrow inline-flex items-center text-[11px] font-semibold tracking-[0.16em] uppercase text-white/38 mb-5 sm:mb-7">Flexible Business Financing</p>
     <h1 class="hero-hl text-white mb-6 sm:mb-8">
@@ -130,7 +137,7 @@
     </div>
   </div>
 
-  <!-- Right photo + cards - Hidden on mobile, visible on desktop -->
+  <!-- Right photo + cards - Hidden on mobile/tablet, visible on desktop -->
   <div class="relative hidden lg:flex items-center justify-center h-full min-h-[82vh]">
     <div class="relative w-full max-w-[500px]">
       <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial professional helping businesses with funding solutions" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
@@ -240,7 +247,6 @@
       <p class="text-white/80 text-base leading-relaxed italic">"Simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. Every business deserves the opportunity to grow with the right financial support."</p>
       <div class="mt-6 pt-4 border-t border-white/[0.08] flex justify-between items-center">
         <span class="text-white/30 text-xs uppercase tracking-wider">VaultEdge Team</span>
-        <span class="text-lime text-lg">⚡</span>
       </div>
     </div>
   </div>
