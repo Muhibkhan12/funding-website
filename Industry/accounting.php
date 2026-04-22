@@ -107,7 +107,7 @@
 <?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Accounting Firm Funding) ═══════════ -->
-<section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+<section class=" relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&q=80'); opacity: 0.3;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   
@@ -121,8 +121,6 @@
     </h1>
     <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Tailored financing solutions for accounting practices — empowering you to enhance services, expand your client base, and fuel business growth.</p>
   </div>
-
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
 </section>
 
 <!-- ═══════════ INTRODUCTION SECTION ═══════════ -->

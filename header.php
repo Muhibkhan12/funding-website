@@ -30,7 +30,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           <a href="<?php echo $pathPrefix; ?>loans/commercial-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Commercial Financing</a>
           <a href="<?php echo $pathPrefix; ?>loans/sba-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">SBA Loan Assistance</a>
           <a href="<?php echo $pathPrefix; ?>loans/construction-financing.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction Financing</a>
-          <a href="<?php echo $pathPrefix; ?>loans/bridge-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction Financing</a>
+          <a href="<?php echo $pathPrefix; ?>loans/bridge-loans.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Bridge Loans</a>
         </div>
       </li>
       
