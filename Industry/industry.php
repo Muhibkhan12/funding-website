@@ -106,7 +106,7 @@
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
 <!-- Include header -->
-<?php include('../funding-website/header.php'); ?>
+<?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Industries) ═══════════ -->
 <section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
@@ -176,7 +176,7 @@
 
 <div class="border-t border-white/[0.1] max-w-7xl mx-auto"></div>
 
-<!-- ═══════════ INDUSTRIES SECTION (8 Industries with Background Images) ═══════════ -->
+<!-- ═══════════ INDUSTRIES SECTION (8 Industries with Background Images - Larger Cards) ═══════════ -->
 <div id="industries" class="max-w-7xl mx-auto px-6 py-16">
   <div class="text-center mb-12 reveal">
     <p class="chip mb-4 inline-block">Expertise Across Sectors</p>
@@ -184,22 +184,22 @@
     <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">From main street to commercial enterprises — we provide fast, flexible funding for a wide range of industries.</p>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
     
     <!-- Auto Repair -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600&h=450&fit=crop" alt="Auto Repair" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&h=600&fit=crop" alt="Auto Repair" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.22-1.113-.615-1.53a15.822 15.822 0 00-2.427-1.928M6.75 12.75h3.75"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.22-1.113-.615-1.53a15.822 15.822 0 00-2.427-1.928M6.75 12.75h3.75"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Auto Repair</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Equipment financing, shop upgrades, and working capital for mechanics and collision centers.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Equipment financing, shop upgrades, and working capital for mechanics and collision centers.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -207,17 +207,17 @@
     <!-- Attorney -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=450&fit=crop" alt="Attorney Law Firm" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=600&fit=crop" alt="Attorney Law Firm" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Attorney</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Practice acquisition, case cost funding, technology upgrades, and working capital for law firms.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Practice acquisition, case cost funding, technology upgrades, and working capital for law firms.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -225,17 +225,17 @@
     <!-- Cleaning Business -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=450&fit=crop" alt="Cleaning Business" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop" alt="Cleaning Business" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Cleaning Business</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Equipment purchases, fleet expansion, payroll support, and seasonal cash flow solutions.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Equipment purchases, fleet expansion, payroll support, and seasonal cash flow solutions.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -243,17 +243,17 @@
     <!-- Construction -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1503387762-592b1451e3f1?w=600&h=450&fit=crop" alt="Construction" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1503387762-592b1451e3f1?w=800&h=600&fit=crop" alt="Construction" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Construction</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Equipment financing, project-based loans, material purchasing, and contract bridge funding.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Equipment financing, project-based loans, material purchasing, and contract bridge funding.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -261,17 +261,17 @@
     <!-- Convenience Store -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1594751543129-6701ad444259?w=600&h=450&fit=crop" alt="Convenience Store" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1594751543129-6701ad444259?w=800&h=600&fit=crop" alt="Convenience Store" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Convenience Store</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Inventory financing, store renovations, equipment upgrades, and working capital for gas stations.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Inventory financing, store renovations, equipment upgrades, and working capital for gas stations.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -279,17 +279,17 @@
     <!-- Daycare -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&h=450&fit=crop" alt="Daycare" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&h=600&fit=crop" alt="Daycare" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Daycare</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Facility expansion, playground equipment, licensing costs, and operational bridge funding.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Facility expansion, playground equipment, licensing costs, and operational bridge funding.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -297,17 +297,17 @@
     <!-- Beauty Salon -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=450&fit=crop" alt="Beauty Salon" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop" alt="Beauty Salon" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Beauty Salon</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Salon equipment, product inventory, leasehold improvements, and marketing campaigns.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Salon equipment, product inventory, leasehold improvements, and marketing campaigns.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -315,17 +315,17 @@
     <!-- Accounting -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=450&fit=crop" alt="Accounting" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop" alt="Accounting" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[280px] flex flex-col">
+      <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z"/></svg>
+          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z"/></svg>
         </div>
         <h3 class="font-display text-2xl text-white mb-2">Accounting</h3>
-        <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Practice acquisition, software upgrades, seasonal staffing, and working capital for CPAs.</p>
+        <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Practice acquisition, software upgrades, seasonal staffing, and working capital for CPAs.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="#" class="text-[12px] text-lime hover:underline">Learn more →</a>
+          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
