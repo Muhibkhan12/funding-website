@@ -117,7 +117,7 @@
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
 <!-- Include header -->
-<?php include('../funding-website/header.php'); ?>
+<?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Auto Repair Funding) ═══════════ -->
 <section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
