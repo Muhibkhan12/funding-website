@@ -170,94 +170,113 @@
 
   <div class="border-t border-white/[0.1] mb-14 max-w-5xl mx-auto"></div>
 
-  <!-- Types of Business Loans Section (Full original content, 6 types) -->
-  <div id="loan-types" class="reveal mb-14">
+  <!-- Types of Business Loans Section - Full Grid with Background Images on Cards -->
+<div id="loan-types" class="reveal mb-14">
     <div class="text-center mb-10">
-      <p class="chip mb-4 inline-block">Loan Products</p>
-      <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Types of Business Loans</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Choose the right financing option for your business needs — tailored solutions for every growth stage.</p>
+        <p class="chip mb-4 inline-block">Loan Products</p>
+        <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Types of Business Loans</h2>
+        <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Choose the right financing option for your business needs — tailored solutions for every growth stage.</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl mx-auto">
-      
-      <!-- Term Loans -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+    <!-- Professional 3-Column Grid Layout with Image Backgrounds -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+        
+        <!-- Card 1: Term Loans -->
+        <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+            <!-- Background Image -->
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=450&fit=crop" alt="Term loans background" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+            </div>
+            <!-- Content -->
+            <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
+                <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+                    <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl text-white mb-2">Term Loans</h3>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
+                <div class="mt-4 pt-4 border-t border-white/10 flex items-center gap-2">
+                    <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Expansion</span>
+                </div>
+            </div>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Term Loans</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07] flex items-center gap-2">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Expansion</span>
+        
+        <!-- Card 2: Commercial Real Estate Loans -->
+        <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=450&fit=crop" alt="Commercial real estate background" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+            </div>
+            <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
+                <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+                    <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                </div>
+                <h3 class="font-display text-2xl text-white mb-2">Commercial Real Estate Loans</h3>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
+                <div class="mt-4 pt-4 border-t border-white/10">
+                    <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Property & Cash Flow</span>
+                </div>
+            </div>
         </div>
-      </div>
-      
-      <!-- Commercial Real Estate Loans (replaces generic lines of credit, keeping original content) -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+        
+        <!-- Card 3: Equipment Financing -->
+        <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=600&h=450&fit=crop" alt="Equipment financing background" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+            </div>
+            <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
+                <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+                    <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.</p>
+                <div class="mt-4 pt-4 border-t border-white/10">
+                    <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Machinery & Tech</span>
+                </div>
+            </div>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Commercial Real Estate Loans</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Property & Cash Flow</span>
+        
+        <!-- Card 4: Working Capital Loans -->
+        <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=450&fit=crop" alt="Working capital background" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+            </div>
+            <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
+                <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+                    <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl text-white mb-2">Working Capital Loans</h3>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.</p>
+                <div class="mt-4 pt-4 border-t border-white/10">
+                    <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Daily Operations</span>
+                </div>
+            </div>
         </div>
-      </div>
-      
-      <!-- Equipment Financing -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        
+        <!-- Card 5: Merchant Cash Advances (Featured - spans full width on mobile, normal on desktop) -->
+        <div class="group relative rounded-2xl overflow-hidden bg-ink border border-lime/20 hover:border-lime/50 transition-all duration-500 hover:-translate-y-2 md:col-span-1 lg:col-span-1">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=450&fit=crop" alt="Merchant cash advances background" class="w-full h-full object-cover opacity-35 group-hover:opacity-45 transition-opacity duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/85 to-transparent"></div>
+            </div>
+            <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
+                <div class="flex items-center justify-between mb-3">
+                    <div class="icon-circle bg-lime/20 backdrop-blur-sm border border-lime/30">
+                        <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+                    </div>
+                    <span class="text-[10px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Fast Access</span>
+                </div>
+                <h3 class="font-display text-2xl text-white mb-2">Merchant Cash Advances</h3>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds.</p>
+                <div class="mt-4 pt-4 border-t border-white/10">
+                    <a href="#apply" class="inline-block text-[12px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
+                </div>
+            </div>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Machinery & Tech</span>
-        </div>
-      </div>
-      
-      <!-- Working Capital Loans -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
-        </div>
-        <h3 class="font-display text-2xl text-white mb-2">Working Capital Loans</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Daily Operations</span>
-        </div>
-      </div>
-      
-      <!-- Merchant Cash Advances - Featured -->
-      <div class="loan-card bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 rounded-xl p-6 md:col-span-2 flex flex-col md:flex-row gap-6 items-start">
-        <div class="w-[52px] h-[52px] rounded-full bg-lime/20 flex items-center justify-center flex-shrink-0">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
-        </div>
-        <div>
-          <div class="flex items-center gap-3 mb-2">
-            <h3 class="font-display text-2xl text-white">Merchant Cash Advances</h3>
-            <span class="text-[11px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Fast Access</span>
-          </div>
-          <p class="text-[14px] text-white/60 leading-relaxed font-light max-w-[600px]">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds for various business needs.</p>
-          <div class="mt-4">
-            <a href="#apply" class="inline-block text-[13px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Bridge Loans (extra, preserving original content) -->
-      <div class="loan-card rounded-xl p-6">
-        <div class="icon-circle mb-4">
-          <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
-        </div>
-        <h3 class="font-display text-2xl text-white mb-2">Bridge Loans</h3>
-        <p class="text-[14px] text-white/50 leading-relaxed font-light">Short-term financing solutions to bridge the gap between immediate needs and long-term funding. Perfect for time-sensitive opportunities.</p>
-        <div class="mt-4 pt-4 border-t border-white/[0.07]">
-          <span class="text-[12px] font-semibold text-lime bg-lime/10 px-3 py-1 rounded-full">Best for: Timely opportunities</span>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
   <!-- CTA Banner (Financial advisors) -->
   <div class="reveal cta-band rounded-2xl p-8 md:p-10 mb-14 relative overflow-hidden max-w-6xl mx-auto">
