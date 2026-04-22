@@ -107,9 +107,12 @@
 <?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Convenience Store Funding) ═══════════ -->
-<section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
-  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1594751543129-6701ad444259?w=1600&q=80'); opacity: 0.3;"></div>
-  <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+<!-- ═══════════ HERO SECTION (Convenience Store Funding) ═══════════ -->
+<section class="relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Convenience Store" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+  </div>
   
   <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full text-center">
     <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10">
@@ -121,8 +124,6 @@
     </h1>
     <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Tailored financing solutions for convenience store owners — ensuring you have the financial support required to thrive and serve your community.</p>
   </div>
-
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
 </section>
 
 <!-- ═══════════ INTRODUCTION SECTION ═══════════ -->
