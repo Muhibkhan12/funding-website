@@ -108,8 +108,10 @@
 
 <!-- ═══════════ HERO SECTION (Construction Industry Funding) ═══════════ -->
 <section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
-  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1503387762-592b1451e3f1?w=1600&q=80'); opacity: 0.3;"></div>
-  <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Construction Industry" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/70"></div>
+  </div>
   
   <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full text-center">
     <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10">
