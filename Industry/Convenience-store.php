@@ -181,7 +181,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Working Capital Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Short-term loans designed to cover day-to-day operational costs, such as purchasing inventory, paying staff, and utility bills. Ensures consistent cash flow to keep your store running efficiently.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -200,7 +200,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Secure funding specifically for acquiring equipment vital for your store's operations, such as refrigeration units, point-of-sale systems, and shelving. Provides efficient service to customers.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -219,7 +219,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Merchant Cash Advances</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Receive a lump sum payment in exchange for a percentage of your daily credit and debit card sales. Quick infusion of capital for restocking inventory or marketing efforts.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -238,7 +238,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Store Expansion Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Tailored funding to support the expansion of your convenience store. Whether opening a new location or adding space to your existing store, these loans provide capital for growth.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -257,7 +257,7 @@
         <h3 class="font-display text-2xl text-white mb-2">SBA Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Government-backed financing options offering favorable terms and rates. Ideal for convenience stores looking for substantial funding for expansion, equipment purchases, or working capital.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -276,7 +276,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Business Lines of Credit</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Establishing a business line of credit provides flexibility in managing cash flow. Draw funds as needed to cover operational expenses during slow periods or invest in inventory for busy seasons.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -295,7 +295,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Inventory Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Inventory financing specifically addresses the need to purchase or replenish stock. Ensures your convenience store has a diverse range of products to offer customers, keeping them satisfied and coming back.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -314,7 +314,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Franchise Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">If your convenience store is part of a franchise, specific funding programs are available. Franchise financing assists in expanding your franchise's reach, upgrading existing stores, or meeting corporate standards.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>

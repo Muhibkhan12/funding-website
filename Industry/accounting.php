@@ -178,7 +178,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Working Capital Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Working capital loans provide the flexibility to cover day-to-day operational expenses, hire additional staff, and manage cash flow fluctuations. They ensure your firm remains financially stable during business cycles.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -197,7 +197,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Business Expansion Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Expand your practice, open new branches, or invest in marketing campaigns to reach a broader clientele. Business expansion loans provide the capital needed to fund growth initiatives.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -216,7 +216,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Technology and Software Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Upgrade your technology infrastructure by financing hardware, software, and IT solutions. Stay ahead in the digital landscape and offer enhanced services to your clients.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -235,7 +235,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Mergers and Acquisitions Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">If you're considering merging with or acquiring another accounting firm, specialized financing options are available to facilitate a smooth transition and integration.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -254,7 +254,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Debt Consolidation Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Streamline your finances and simplify debt management by consolidating existing loans or debts into a single, manageable debt consolidation loan. Potentially lower interest rates and reduce monthly payments.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -273,7 +273,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Account Receivables Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Optimize cash flow by leveraging your accounts receivables. Receive a portion of outstanding payments from clients upfront, ensuring consistent cash flow to meet operational needs.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -292,7 +292,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Tax Season Preparation Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Prepare for the busy tax season by securing a specialized loan to cover temporary staffing, marketing efforts, and operational expenses. Ensure you can manage the influx of clients effectively.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -311,7 +311,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Professional Development Funding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Invest in the continuous education and skill development of your team through professional development funding. Enhancing your team's knowledge contributes to delivering exceptional services.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -330,7 +330,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Client Acquisition Funding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Fuel your efforts to acquire new clients with specialized funding to cover marketing and client acquisition costs. Effective marketing campaigns can significantly impact your client base and revenue.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -349,7 +349,7 @@
         <h3 class="font-display text-2xl text-white mb-2">SBA Loans for Accounting Firms</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Government-backed financing offering attractive terms and rates. Ideal for accounting firms looking for substantial funding for expansion, technology upgrades, or working capital.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>

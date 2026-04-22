@@ -182,7 +182,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Secure funding specifically for acquiring construction equipment and machinery. Get the latest tools necessary for project success without a significant upfront payment.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -201,7 +201,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Project-Based Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Tailored funding for specific construction projects, providing capital to cover labor costs, materials, permits, and other project-related expenses for smooth execution.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -220,7 +220,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Working Capital Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Short-term loans designed to cover day-to-day operational costs, such as payroll, material purchases, and utilities, ensuring your construction projects run seamlessly.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -239,7 +239,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Contract Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Obtain funding based on approved contracts. Access capital tied to specific projects, ensuring you have the necessary funds to initiate and complete the work.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -258,7 +258,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Construction Factoring</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Sell your accounts receivable to a factoring company for immediate cash. Provides a quick infusion of funds to cover project costs and operational expenses.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -277,7 +277,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Lines of Credit for Contractors</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Establish a flexible funding option. Draw funds as needed, providing financial stability during lean periods or unexpected expenses.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -296,7 +296,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Bridge Loans for Real Estate Development</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Short-term loans that bridge the financing gap between property acquisitions and long-term financing, ensuring projects move forward smoothly.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -315,7 +315,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Construction Management Software Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Funding options specifically for acquiring and implementing construction management software to streamline your construction processes.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>

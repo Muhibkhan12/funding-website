@@ -185,22 +185,22 @@
       
       <!-- Card 1: Emergency Repair Line of Credit -->
       <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
-        <div class="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1619642751034-7651f2faecf2?w=600&h=450&fit=crop" alt="Emergency repair" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
-          <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
-        </div>
-        <div class="relative z-10 p-6 min-h-[340px] flex flex-col">
-          <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-            <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/></svg>
-          </div>
-          <h3 class="font-display text-xl text-white mb-2">Emergency Repair Line of Credit</h3>
-          <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Designed to provide immediate funds for urgent auto repairs. Access the credit line whenever unexpected repairs arise, ensuring you can address them swiftly.</p>
-          <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
-            <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
-          </div>
-        </div>
-      </div>
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&auto=format" alt="Emergency auto repair" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+  </div>
+  <div class="relative z-10 p-6 min-h-[340px] flex flex-col">
+    <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+      <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/></svg>
+    </div>
+    <h3 class="font-display text-xl text-white mb-2">Emergency Repair Line of Credit</h3>
+    <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Designed to provide immediate funds for urgent auto repairs. Access the credit line whenever unexpected repairs arise, ensuring you can address them swiftly.</p>
+    <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
+      <a href="#" class="feedback-link text-[11px]"></a>
+      <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
+    </div>
+  </div>
+</div>
       
       <!-- Card 2: Extended-Term Auto Repair Loans -->
       <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
@@ -215,7 +215,7 @@
           <h3 class="font-display text-xl text-white mb-2">Extended-Term Auto Repair Loans</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Longer repayment periods to ease the financial burden of significant repair expenses. Manage major fixes over time with affordable payments.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -234,7 +234,7 @@
           <h3 class="font-display text-xl text-white mb-2">Vehicle Component-Specific Funding</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Tailored for costly component repairs — engine, transmission fixes, or braking system replacements. Get precise funding for what needs attention.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -253,7 +253,7 @@
           <h3 class="font-display text-xl text-white mb-2">Fleet Repair Financing</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">For businesses with a fleet of vehicles — funding specifically crafted for managing repairs and maintenance across your entire vehicle fleet.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -272,7 +272,7 @@
           <h3 class="font-display text-xl text-white mb-2">Collateral-Based Repair Loans</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">If you have valuable assets or collateral, get lower interest rates and favorable terms. Your assets secure the loan for auto repairs.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -291,7 +291,7 @@
           <h3 class="font-display text-xl text-white mb-2">Customized Repair Financing Packages</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Every repair situation is unique. Our team creates a customized package matching your specific repair needs, budget, and financial circumstances.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -310,7 +310,7 @@
           <h3 class="font-display text-xl text-white mb-2">Auto Repair Loans</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Traditional lump sum loans to cover repair costs, whether minor or major. Structured repayment plans that fit your budget.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -329,7 +329,7 @@
           <h3 class="font-display text-xl text-white mb-2">Lines of Credit for Auto Repairs</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Revolving credit line offers flexibility for ongoing or anticipated expenses. Only pay interest on the amount you use.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>
@@ -348,7 +348,7 @@
           <h3 class="font-display text-xl text-white mb-2">Emergency Repair Funds</h3>
           <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Specifically designed for unexpected emergencies — immediate financial assistance to cover sudden and urgent auto repairs.</p>
           <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-            <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+            <a href="#" class="feedback-link text-[11px]"></a>
             <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
           </div>
         </div>

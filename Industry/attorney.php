@@ -178,7 +178,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Law Firm Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Traditional loans designed to provide law firms with a lump sum amount for various financial needs, including case financing, practice expansion, or technology investments.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -197,7 +197,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Lawyer Lines of Credit</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Establishing a line of credit can provide attorney firms with flexibility in managing cash flow, covering operating expenses, or investing in case-specific requirements.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -216,7 +216,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Litigation Funding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Tailored funding options for specific cases, ensuring adequate resources are available to pursue litigation. Includes pre-settlement funding, post-settlement funding, or appellate funding.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -235,7 +235,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Structured Settlement Funding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Funding to attorneys against future structured settlements, providing immediate access to capital rather than waiting for periodic payments.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -254,7 +254,7 @@
         <h3 class="font-display text-2xl text-white mb-2">SBA 7(a) Loan for Law Firms</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Government-backed funding with competitive terms and rates. Suitable for law firms looking for significant capital for practice acquisition or expansion.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -273,7 +273,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Attorney Fee Advances</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Attorney fee advances allow law firms to receive immediate funding against expected future legal fees. Helps in managing cash flow and taking on new cases without delay.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -292,7 +292,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Law Practice Acquisition Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Specialized funding to support law practice acquisitions. Whether acquiring a solo practice or merging with another firm, these loans provide the necessary capital for a smooth transition.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -311,7 +311,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Real Estate Financing for Law Firms</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Tailored financing options to assist law firms in purchasing or refinancing office space and legal facilities. Ensures your firm operates in a suitable and professional workspace.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>

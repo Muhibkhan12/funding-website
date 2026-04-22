@@ -178,7 +178,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Lines of Credit</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">A revolving line of credit offers flexibility in managing cash flow. You can draw funds as needed, making it ideal for ongoing expenses and unexpected investments.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -197,7 +197,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Crowdfunding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Utilize online platforms to raise funds from many people interested in supporting your cleaning business. Crowdfunding can fund specific projects or overall business needs.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -216,7 +216,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Merchant Cash Advances</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Merchant cash advances provide quick access to funds based on your business's credit card sales. A swift solution for managing immediate financial needs and ensuring smooth operations.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -235,7 +235,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Business Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Traditional business loans provide a lump sum amount that can be used for various business needs, including upgrading equipment, expanding services, or hiring staff.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -254,7 +254,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">This financing option allows you to acquire the latest cleaning equipment without a significant upfront payment. The equipment itself often serves as collateral for the loan.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -273,7 +273,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Peer-to-Peer Lending</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Peer-to-peer lending platforms connect cleaning business owners with individual lenders willing to fund their businesses. An alternative to traditional loans with competitive interest rates.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>

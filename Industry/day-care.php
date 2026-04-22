@@ -179,7 +179,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Business Loans</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Traditional business loans provide a lump sum amount that can be used for various daycare center needs, from facility upgrades to hiring additional staff.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -198,7 +198,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Lines of Credit</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">A revolving line of credit offers flexibility in managing cash flow. Daycare centers can use this for day-to-day expenses, unexpected costs, or short-term needs.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -217,7 +217,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">This financing option allows daycare centers to acquire the latest educational equipment without a significant upfront payment. The equipment itself often serves as collateral for the loan.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -236,7 +236,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Community Funding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Engage with your local community and parents to seek funding or donations. Establish partnerships with local businesses, conduct fundraising events, or create donation campaigns to gather financial support.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -255,7 +255,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Crowdfunding</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Utilize online crowdfunding platforms to raise funds for specific projects or improvements within your daycare center. Engage with parents, families, and supporters to contribute towards achieving your center's goals.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -274,7 +274,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Angel Investors or Venture Capitalists</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Explore the possibility of securing investment from angel investors or venture capitalists interested in supporting educational ventures. Present your daycare center's vision and growth potential to attract investors.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>
@@ -293,7 +293,7 @@
         <h3 class="font-display text-2xl text-white mb-2">SBA Loans for Daycare Centers</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Government-backed financing offering favorable terms and rates. Ideal for daycare centers looking for substantial funding for expansion, facility improvements, or working capital.</p>
         <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-          <a href="#" class="feedback-link text-[11px]">Leave a Feedback →</a>
+          <a href="#" class="feedback-link text-[11px]"></a>
           <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
         </div>
       </div>

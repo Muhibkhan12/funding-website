@@ -305,7 +305,7 @@
         <h3 class="font-display text-2xl text-white mb-2">Beauty Salon</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Salon equipment, product inventory, leasehold improvements, and marketing campaigns.</p>
         <div class="mt-4 pt-4 border-t border-white/10">
-          <a href="beauty-salon.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="beauty-saloon.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
