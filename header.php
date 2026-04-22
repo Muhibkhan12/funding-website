@@ -43,7 +43,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
           <a href="<?php echo $pathPrefix; ?>industry/auto-repair.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Auto Repair</a>
           <a href="<?php echo $pathPrefix; ?>industry/attorney.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Attorney</a>
           <a href="<?php echo $pathPrefix; ?>industry/cleaning-business.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Cleaning Business</a>
-          <a href="<?php echo $pathPrefix; ?>industries/manufacturing.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction</a>
+          <a href="<?php echo $pathPrefix; ?>industry/.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Construction</a>
           <a href="<?php echo $pathPrefix; ?>industries/hospitality.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Convenience Store</a>
           <a href="<?php echo $pathPrefix; ?>industries/technology.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Day Care</a>
           <a href="<?php echo $pathPrefix; ?>industries/transportation.php" class="block px-5 py-3 text-[14px] text-white/70 hover:text-lime hover:bg-white/5 transition-colors">Beauty Salon</a>
