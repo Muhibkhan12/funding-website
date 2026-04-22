@@ -124,7 +124,7 @@
 @include('../header.php')?>
 
 <!-- ═══════════ HERO SECTION ═══════════ -->
-<section class="hero-pattern relative overflow-hidden min-h-[50vh] flex items-center justify-center pt-16">
+<section class=" relative overflow-hidden min-h-[50vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1600&q=80'); opacity: 0.35;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   
@@ -133,9 +133,6 @@
       Business <span class="text-lime">Loans</span>
     </h1>
   </div>
-
-  <!-- Decorative lime bar -->
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
 </section>
 
 <!-- ═══════════ MAIN CONTENT - FULL WIDTH (No Sidebar) ═══════════ -->

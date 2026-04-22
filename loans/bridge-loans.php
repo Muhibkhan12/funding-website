@@ -82,7 +82,7 @@
 <?php @include('../header.php'); ?>
 
 <!-- Hero Section -->
-<section class="hero-pattern relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+<section class=" relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1600&q=80'); opacity: 0.3;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full text-center">
@@ -95,7 +95,6 @@
     </h1>
     <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Temporary financing to bridge financial gaps during transitions, expansions, or immediate needs</p>
   </div>
-  <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-lime via-lime to-lime opacity-80"></div>
 </section>
 
 <main class="max-w-7xl mx-auto px-6 py-16">
