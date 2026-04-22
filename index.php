@@ -273,37 +273,36 @@
   </div>
   <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-6 mb-10 sm:mb-14">
     <h2 class="how-hl text-white">How It<br/>Works</h2>
-    <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[280px] md:text-right leading-relaxed">Apply in minutes, get matched, and receive funding quickly.</p>
+    <p class="text-[14px] sm:text-[15px] font-light text-white/38 max-w-[280px] md:text-right leading-relaxed">Apply in minutes, get matched, and receive funding quickly.</p>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-[2px]">
     <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden">
-      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none text-lime">01</div>
-      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 01</p>
-      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Apply Online</p>
-      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">Submit a simple application with your business details — only basic info required.</p>
+      <div class="step-bg-num absolute top-[-10px] left-3 pointer-events-none text-lime" style="font-size: clamp(7rem, 14vw, 11rem); font-weight: 800; line-height: 1; opacity: 0.07; letter-spacing: -0.04em;">01</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-3">Step 01</p>
+      <p class="text-[20px] sm:text-[22px] font-semibold text-white leading-snug mb-2">Apply Online</p>
+      <p class="text-[13px] sm:text-[14px] font-light text-white/40 leading-relaxed">Submit a simple application with your business details — only basic info required.</p>
     </div>
     <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.1s">
-      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none text-lime">02</div>
-      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 02</p>
-      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Get Matched</p>
-      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">We review your information and connect you with suitable financing options from our partner network.</p>
+      <div class="step-bg-num absolute top-[-10px] left-3 pointer-events-none text-lime" style="font-size: clamp(7rem, 14vw, 11rem); font-weight: 800; line-height: 1; opacity: 0.07; letter-spacing: -0.04em;">02</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-3">Step 02</p>
+      <p class="text-[20px] sm:text-[22px] font-semibold text-white leading-snug mb-2">Get Matched</p>
+      <p class="text-[13px] sm:text-[14px] font-light text-white/40 leading-relaxed">We review your information and connect you with suitable financing options from our partner network.</p>
     </div>
     <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.2s">
-      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none text-lime">03</div>
-      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 03</p>
-      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Receive Funding</p>
-      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">Once approved, funding is processed quickly through our lending partners. Capital in your account.</p>
+      <div class="step-bg-num absolute top-[-10px] left-3 pointer-events-none text-lime" style="font-size: clamp(7rem, 14vw, 11rem); font-weight: 800; line-height: 1; opacity: 0.07; letter-spacing: -0.04em;">03</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-3">Step 03</p>
+      <p class="text-[20px] sm:text-[22px] font-semibold text-white leading-snug mb-2">Receive Funding</p>
+      <p class="text-[13px] sm:text-[14px] font-light text-white/40 leading-relaxed">Once approved, funding is processed quickly through our lending partners. Capital in your account.</p>
     </div>
     <div class="step-card reveal relative bg-[#222] border border-white/[0.055] rounded-sm p-6 sm:p-10 min-h-[250px] sm:min-h-[300px] flex flex-col justify-end overflow-hidden" style="transition-delay:0.3s">
-      <div class="step-bg-num absolute top-[-18px] left-4 pointer-events-none text-lime">04</div>
-      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-2">Step 04</p>
-      <p class="text-[16px] sm:text-[18px] font-semibold text-white leading-snug">Grow Your Business</p>
-      <p class="text-[12px] sm:text-[13px] font-light text-white/32 mt-2 leading-relaxed">Use the capital to expand, manage cash flow, or invest — we're with you at every stage.</p>
+      <div class="step-bg-num absolute top-[-10px] left-3 pointer-events-none text-lime" style="font-size: clamp(7rem, 14vw, 11rem); font-weight: 800; line-height: 1; opacity: 0.07; letter-spacing: -0.04em;">04</div>
+      <p class="text-[10px] font-bold tracking-[0.18em] uppercase text-lime mb-3">Step 04</p>
+      <p class="text-[20px] sm:text-[22px] font-semibold text-white leading-snug mb-2">Grow Your Business</p>
+      <p class="text-[13px] sm:text-[14px] font-light text-white/40 leading-relaxed">Use the capital to expand, manage cash flow, or invest — we're with you at every stage.</p>
     </div>
   </div>
 </section>
 
-<!-- ══ TESTIMONIALS SECTION (Slider/Carousel Style) ══ -->
 <!-- ══ TESTIMONIALS SECTION (Responsive Slider) ══ -->
 <section class="px-4 sm:px-6 md:px-12 py-12 sm:py-16 lg:py-24 border-t border-white/[0.07] relative overflow-hidden">
   <!-- Background accent -->
