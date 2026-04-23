@@ -172,7 +172,7 @@
         </ul>
         <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
           <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 4.5% APR</span>
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="sba-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -197,7 +197,7 @@
         </ul>
         <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
           <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 5.99% APR</span>
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="business-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -222,7 +222,7 @@
         </ul>
         <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
           <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 6.25% APR</span>
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="commercial-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -230,7 +230,7 @@
     <!-- Card 4: Construction Loan -->
     <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1503387762-592b1451e3f1?w=800&h=600&fit=crop" alt="Construction Loan" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80" alt="Construction Loan" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
       <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
@@ -247,7 +247,7 @@
         </ul>
         <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
           <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 7.5% APR</span>
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="construction-financing.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -272,7 +272,7 @@
         </ul>
         <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
           <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 8.99% APR</span>
-          <a href="#" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+          <a href="bridge-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
@@ -297,7 +297,7 @@
           <li>✓ Transparent terms, no hidden fees</li>
         </ul>
         <div class="mt-auto pt-4 border-t border-white/10">
-          <a href="#contact" class="text-[13px] text-lime hover:underline font-medium">Talk to an advisor →</a>
+          <a href="../contact.php" class="text-[13px] text-lime hover:underline font-medium">Talk to an advisor →</a>
         </div>
       </div>
     </div>
