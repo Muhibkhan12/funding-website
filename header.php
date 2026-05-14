@@ -58,8 +58,17 @@ $pathPrefix = str_repeat('../', max(0, $depth));
 
     </ul>
 
-    <!-- Desktop Contact Button -->
-    <a href="<?php echo $pathPrefix; ?>contact.php" class="hidden lg:inline-block border border-white/45 bg-transparent text-white px-5 py-2 text-[13px] font-medium tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-all duration-200 cursor-pointer z-20">Contact us</a>
+    <!-- Desktop Buttons -->
+    <div class="hidden lg:flex items-center gap-4">
+      <!-- Apply Now Button -->
+      <a href="<?php echo $pathPrefix; ?>apply-now.php" class="bg-lime text-ink px-5 py-2 text-[13px] font-bold tracking-[0.06em] uppercase rounded-md hover:bg-lime/90 transition-all duration-200 cursor-pointer z-20">
+        Apply Now
+      </a>
+      <!-- Contact Us Button -->
+      <a href="<?php echo $pathPrefix; ?>contact.php" class="border border-white/45 bg-transparent text-white px-5 py-2 text-[13px] font-medium tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-all duration-200 cursor-pointer z-20">
+        Contact us
+      </a>
+    </div>
 
     <!-- Mobile Menu Button -->
     <button id="mobileMenuButton" class="lg:hidden relative w-10 h-10 rounded-lg border border-white/20 bg-white/5 flex items-center justify-center cursor-pointer z-50 hover:bg-white/10 transition-colors">
@@ -116,7 +125,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
             <a href="<?php echo $pathPrefix; ?>industry/accounting.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Accounting</a>
           </div>
         </div>
-
+        
         <!-- Mobile Contact Link -->
         <a href="<?php echo $pathPrefix; ?>contact.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Contact Us</a>
 
@@ -124,7 +133,11 @@ $pathPrefix = str_repeat('../', max(0, $depth));
 
       <!-- Mobile CTA Button -->
       <div class="mt-auto pt-6">
-        <a href="<?php echo $pathPrefix; ?>contact.php" class="block w-full text-center bg-lime text-ink px-6 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-colors">
+        <!-- Apply Now Button in Mobile Menu -->
+        <a href="<?php echo $pathPrefix; ?>apply-now.php" class="block w-full text-center bg-lime text-ink px-6 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-colors mb-3">
+          Apply Now
+        </a>
+        <a href="<?php echo $pathPrefix; ?>contact.php" class="block w-full text-center border border-white/30 bg-transparent text-white px-6 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-white hover:text-ink transition-colors">
           Get Funded
         </a>
         <p class="text-center text-white/30 text-[11px] mt-4">© 2024 HarbourFundingSolutions</p>

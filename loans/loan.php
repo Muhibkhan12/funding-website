@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Our Loan Programs | BizCashAndCapital — SBA, Business, Commercial, Construction, Bridge Loans</title>
-<meta name="description" content="Explore BizCashAndCapital's comprehensive loan programs: SBA Loans, Business Loans, Commercial Loans, Construction Loans, and Bridge Loans. Find the perfect financing solution for your business needs.">
+<title>Our Loan Programs | HarbourFundingSolutions — SBA, Business, Commercial, Construction, Bridge Loans</title>
+<meta name="description" content="Explore HarbourFundingSolutions' comprehensive loan programs: SBA Loans, Business Loans, Commercial Loans, Construction Loans, and Bridge Loans. Find the perfect financing solution for your business needs.">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -130,7 +130,7 @@
 <div class="reveal max-w-7xl mx-auto px-6 py-16">
   <div class="text-center max-w-3xl mx-auto">
     <p class="text-white/60 text-lg leading-relaxed">
-      At BizCashAndCapital, we believe every business deserves access to capital that fuels growth. Whether you're a startup seeking working capital, an established company expanding operations, or a developer breaking ground on a new project — our diverse loan programs are designed to meet you where you are.
+      At HarbourFundingSolutions, we believe every business deserves access to capital that fuels growth. Whether you're a startup seeking working capital, an established company expanding operations, or a developer breaking ground on a new project — our diverse loan programs are designed to meet you where you are.
     </p>
     <div class="pull-quote my-8 max-w-2xl mx-auto" style="border-left-color: #CCFF00;">
       <p class="font-display text-[22px] md:text-[26px] text-white leading-snug">
@@ -287,7 +287,7 @@
         <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
           <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Why Choose BizCash&Capital?</h3>
+        <h3 class="font-display text-2xl text-white mb-2">Why Choose HarbourFundingSolutions?</h3>
         <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">We're more than lenders — we're partners in your success.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>✓ 500+ businesses funded</li>
@@ -337,28 +337,28 @@
           <td class="py-4 px-4 text-white/60">$5K - $2M</td>
           <td class="py-4 px-4 text-white/60">1-7 years</td>
           <td class="py-4 px-4 text-white/60">Fast (24-48h)</td>
-        </tr>
+         </tr>
         <tr class="border-b border-white/5 hover:bg-white/5 transition">
           <td class="py-4 px-4 text-lime font-semibold">Commercial Loan</td>
           <td class="py-4 px-4 text-white/60">Real estate & property</td>
           <td class="py-4 px-4 text-white/60">Up to $10M</td>
           <td class="py-4 px-4 text-white/60">5-20 years</td>
           <td class="py-4 px-4 text-white/60">Standard</td>
-        </tr>
+         </tr>
         <tr class="border-b border-white/5 hover:bg-white/5 transition">
           <td class="py-4 px-4 text-lime font-semibold">Construction Loan</td>
           <td class="py-4 px-4 text-white/60">New builds & renovations</td>
           <td class="py-4 px-4 text-white/60">Varies by project</td>
           <td class="py-4 px-4 text-white/60">6-24 months (draw period)</td>
           <td class="py-4 px-4 text-white/60">Project-dependent</td>
-        </tr>
+         </tr>
         <tr class="hover:bg-white/5 transition">
           <td class="py-4 px-4 text-lime font-semibold">Bridge Loan</td>
           <td class="py-4 px-4 text-white/60">Short-term gaps & opportunities</td>
           <td class="py-4 px-4 text-white/60">Up to $3M</td>
           <td class="py-4 px-4 text-white/60">6-18 months</td>
           <td class="py-4 px-4 text-white/60">Very Fast (5-7 days)</td>
-        </tr>
+         </tr>
       </tbody>
     </table>
   </div>
@@ -382,38 +382,8 @@
   </div>
 </div>
 
-<!-- ═══════════ FOOTER ═══════════ -->
-<footer class="bg-ink mt-6 border-t border-white/[0.07]">
-  <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
-    <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
-      <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Comprehensive loan programs designed to help businesses grow, expand, and thrive.</p>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Loan Programs</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">SBA Loan</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Business Loan</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Commercial Loan</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Construction Loan</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Bridge Loan</a></li>
-      </ul>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2025 BizCashAndCapital. All rights reserved.</p>
-    <p class="text-[12px] text-white/18">Your Partner in Business Growth</p>
-  </div>
-</footer>
+<?php
+@include('../footer.php')?>
 
 <script>
   // Reveal on scroll (Intersection Observer)

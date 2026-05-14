@@ -4,22 +4,41 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <meta name="description" content="HarbourFundingSolutions provides fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans. Get funded in 24-48 hours." />
-<meta name="keywords" content="business loans, SBA loans, commercial financing, construction loans, equipment financing, business funding, small business loans" />
+<meta name="keywords" content="business loans, SBA loans, commercial financing, construction loans, equipment financing, business funding, small business loans, working capital, bridge loans, merchant cash advance" />
 <meta name="author" content="HarbourFundingSolutions" />
 <meta name="robots" content="index, follow" />
 <meta name="language" content="English" />
+<meta name="geo.region" content="US" />
+<meta name="geo.placename" content="United States" />
+<link rel="canonical" href="https://www.harbourfundingsolutions.com" />
+
+<!-- Open Graph / Social Media Meta Tags -->
 <meta property="og:title" content="HarbourFundingSolutions — Flexible Business Financing for Growth" />
 <meta property="og:description" content="Access fast and reliable funding solutions designed to support your business at every stage of growth." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&q=80" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://www.harbourfundingsolutions.com" />
+<meta property="og:site_name" content="HarbourFundingSolutions" />
+
+<!-- Twitter Card Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="HarbourFundingSolutions — Flexible Business Financing for Growth" />
 <meta name="twitter:description" content="Fast capital to help your business grow. Apply in minutes, get funded in 24-48 hours." />
-<link rel="canonical" href="https://www.harbourfundingsolutions.com" />
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&q=80" />
+
 <title>HarbourFundingSolutions — Fast Business Financing & SBA Loans | Get Funded in 24-48 Hours</title>
+
+<!-- Preconnect for faster external resource loading -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.tailwindcss.com">
+
+<!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
 <script>
   tailwind.config = {
     theme: {
@@ -44,53 +63,54 @@
     },
   }
 </script>
+
 <style>
   :root { --lime: #CCFF00; --ink: #1a1a1a; }
 
-  /* Grain texture */
+  /* Grain texture for visual depth */
   body::after {
     content:''; position:fixed; inset:0; pointer-events:none; z-index:9999; opacity:0.028;
     background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     background-size:128px;
   }
 
-  /* Reveal */
+  /* Reveal animation for scroll-triggered elements */
   .reveal { opacity:0; transform:translateY(28px); transition:opacity 0.7s ease, transform 0.75s cubic-bezier(0.22,1,0.36,1); }
   .reveal.visible { opacity:1; transform:translateY(0); }
 
-  /* Eyebrow line */
+  /* Eyebrow line style */
   .eyebrow::before { content:''; display:inline-block; width:28px; height:1px; background:var(--lime); margin-right:10px; vertical-align:middle; }
 
-  /* CTA sweep */
+  /* CTA sweep effect */
   .btn-sweep { position:relative; overflow:hidden; }
   .btn-sweep::after { content:''; position:absolute; inset:0; background:#fff; transform:translateX(-101%); transition:transform 0.32s cubic-bezier(0.77,0,0.18,1); }
   .btn-sweep:hover::after { transform:translateX(0); }
   .btn-sweep span { position:relative; z-index:1; }
 
-  /* Step hover */
+  /* Step card hover */
   .step-card { transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s; }
   .step-card:hover { transform:translateY(-7px); box-shadow:0 20px 64px rgba(204,255,0,0.13); }
 
-  /* Stat num */
+  /* Stat number styling */
   .stat-num { font-family:'Space Grotesk',sans-serif; font-size:clamp(48px,9.5vw,130px); color:var(--lime); line-height:0.85; letter-spacing:-0.02em; font-weight:600; }
 
-  /* Step decorative bg number */
+  /* Step background numbers */
   .step-bg-num { font-family:'Space Grotesk',sans-serif; font-size:clamp(120px,16vw,230px); color:rgba(204,255,0,0.055); line-height:1; user-select:none; transition:color 0.3s; font-weight:600; }
   .step-card:hover .step-bg-num { color:rgba(204,255,0,0.11); }
 
-  /* Hero headline */
+  /* Headline typography */
   .hero-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(42px,8vw,110px); line-height:0.88; letter-spacing:-0.02em; font-weight:700; }
   .how-hl  { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,6vw,84px); line-height:0.9; font-weight:700; }
   .cta-hl  { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,6vw,86px); line-height:0.9; font-weight:700; }
   .financing-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(32px,5vw,72px); line-height:1; font-weight:700; }
 
-  /* Hero glow */
+  /* Hero gradient glow */
   #hero::before { content:''; position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse 58% 70% at 80% 50%, rgba(204,255,0,0.04) 0%, transparent 70%); }
 
-  /* Scrollbar */
+  /* Custom scrollbar */
   ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-track { background:#2a2a2a; } ::-webkit-scrollbar-thumb { background:#444; }
 
-  /* financing cards */
+  /* Financing cards */
   .fin-card { background: #222; border:1px solid rgba(255,255,255,0.055); transition: all 0.25s ease; }
   .fin-card:hover { border-color: rgba(204,255,0,0.3); transform: translateY(-4px); background: #2a2a2a; }
 
@@ -102,8 +122,9 @@
   }
 </style>
 </head>
-<?php
-@include('header.php');?>
+
+<?php @include('header.php'); ?>
+
 <body class="bg-[#1a1a1a] text-white font-body overflow-x-hidden">
 
 <!-- ══ HERO SECTION ══ -->
@@ -111,7 +132,7 @@
 
   <!-- Mobile/Tablet background image (hidden on lg+) -->
   <div class="absolute inset-0 lg:hidden">
-    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="" class="w-full h-full object-cover object-top" style="filter:grayscale(100%) contrast(1.1) brightness(0.5);" />
+    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Business financing professional helping clients" class="w-full h-full object-cover object-top" style="filter:grayscale(100%) contrast(1.1) brightness(0.5);" />
     <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/60 via-[#1a1a1a]/40 to-[#1a1a1a]/80"></div>
   </div>
 
@@ -126,10 +147,10 @@
       Access fast and reliable funding solutions designed to support your business at every stage of growth — expand, manage cash flow, or invest in new opportunities.
     </p>
     <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
-      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
+      <a href="/apply-now.php" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
         <span>Apply in Minutes →</span>
       </a>
-      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
+      <a href="/contact.php" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
         Talk to an Expert
       </a>
     </div>
@@ -138,7 +159,7 @@
   <!-- Right photo + cards - Hidden on mobile/tablet, visible on desktop -->
   <div class="relative hidden lg:flex items-center justify-center h-full min-h-[82vh]">
     <div class="relative w-full max-w-[500px]">
-      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial professional helping businesses with funding solutions" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
+      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial advisor discussing business funding options" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
       <div class="absolute bottom-0 left-0 w-[3px] h-[65%] bg-lime opacity-60"></div>
       <div class="absolute top-0 right-0 w-[3px] h-[30%] bg-lime opacity-35"></div>
       <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent pointer-events-none"></div>
@@ -164,8 +185,8 @@
   </div>
 </section>
 
-<!-- ══ MARQUEE (responsive) ══ -->
-<div class="border-t border-b border-white/[0.07] overflow-hidden py-3 sm:py-5">
+<!-- ══ MARQUEE SECTION (Service highlights) ══ -->
+<div class="border-t border-b border-white/[0.07] overflow-hidden py-3 sm:py-5" aria-label="Services marquee">
   <div class="flex whitespace-nowrap animate-marquee">
     <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">Business Loans <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
     <span class="inline-flex items-center gap-6 sm:gap-10 px-6 sm:px-10 font-display text-[20px] sm:text-[30px] text-white tracking-[0.04em] uppercase shrink-0">SBA Financing <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime opacity-45 inline-block"></span></span>
@@ -176,7 +197,7 @@
   </div>
 </div>
 
-<!-- ══ FINANCING SOLUTIONS SECTION (responsive grid) ══ -->
+<!-- ══ FINANCING SOLUTIONS SECTION ══ -->
 <section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24 border-t border-white/[0.07]">
   <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-8 sm:mb-12">
     Funding Solutions <div class="flex-1 h-px bg-white/[0.07]"></div>
@@ -186,7 +207,7 @@
     <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[320px] md:text-right leading-relaxed">From working capital to large investments — flexible options tailored for your business.</p>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-    <!-- Business Loans -->
+    <!-- Business Loans Card -->
     <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
@@ -195,7 +216,7 @@
         <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Flexible funding to manage operations, expand, or improve cash flow. Fast approval and competitive terms.</p>
       </div>
     </div>
-    <!-- Commercial Financing -->
+    <!-- Commercial Financing Card -->
     <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
@@ -204,7 +225,7 @@
         <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Capital solutions for real estate, equipment purchases, and large business investments.</p>
       </div>
     </div>
-    <!-- SBA Loan Assistance -->
+    <!-- SBA Loan Assistance Card -->
     <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
@@ -213,7 +234,7 @@
         <p class="text-white/70 text-xs sm:text-sm leading-relaxed group-hover:text-white/90 transition-colors">Access to government-backed loan programs designed to support small business growth.</p>
       </div>
     </div>
-    <!-- Construction Financing -->
+    <!-- Construction Financing Card -->
     <div class="relative rounded-2xl overflow-hidden min-h-[240px] sm:min-h-[280px] flex items-end group cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500">
       <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80');"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/90 via-[#1a1a1a]/50 to-black/20 group-hover:from-[#1a1a1a]/70 group-hover:via-[#1a1a1a]/40 transition-all duration-500"></div>
@@ -225,7 +246,7 @@
   </div>
 </section>
 
-<!-- ══ WHY CHOOSE US (responsive) ══ -->
+<!-- ══ WHY CHOOSE US SECTION ══ -->
 <section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 border-t border-white/[0.07] bg-[#222]/60">
   <div class="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
     <div class="text-center md:text-left">
@@ -250,7 +271,7 @@
   </div>
 </section>
 
-<!-- ══ STATS SECTION (responsive) ══ -->
+<!-- ══ STATS SECTION (with count-up animation) ══ -->
 <section id="stats" class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24 border-t border-white/[0.07]">
   <p class="font-display text-[13px] tracking-[0.22em] uppercase text-white/28 mb-10 sm:mb-14 text-center">Our impact in numbers</p>
   <div class="stat-row reveal grid grid-cols-[40px_1fr] md:grid-cols-[80px_1fr_300px] items-center gap-4 md:gap-10 py-8 sm:py-12 border-t border-white/[0.07]">
@@ -270,7 +291,7 @@
   </div>
 </section>
 
-<!-- ══ HOW IT WORKS SECTION (responsive) ══ -->
+<!-- ══ HOW IT WORKS SECTION ══ -->
 <section id="how" class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-24">
   <div class="flex items-center gap-4 text-[11px] font-semibold tracking-[0.18em] uppercase text-white/28 mb-8 sm:mb-12">
     Simple Process <div class="flex-1 h-px bg-white/[0.07]"></div>
@@ -326,16 +347,16 @@
          @touchstart="touchStartX = $event.touches[0].clientX"
          @touchend="touchEndX = $event.changedTouches[0].clientX; if(touchStartX - touchEndX > 50) currentSlide = (currentSlide + 1) % totalSlides; if(touchEndX - touchStartX > 50) currentSlide = (currentSlide - 1 + totalSlides) % totalSlides">
       
-      <button @click="currentSlide = (currentSlide - 1 + totalSlides) % totalSlides" class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer">
+      <button @click="currentSlide = (currentSlide - 1 + totalSlides) % totalSlides" class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer" aria-label="Previous testimonial">
         <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
       </button>
-      <button @click="currentSlide = (currentSlide + 1) % totalSlides" class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer">
+      <button @click="currentSlide = (currentSlide + 1) % totalSlides" class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer" aria-label="Next testimonial">
         <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
       </button>
       
       <div class="overflow-hidden rounded-2xl">
         <div class="flex transition-transform duration-500 ease-out" :style="`transform: translateX(-${currentSlide * 100}%)`">
-          <!-- Slide 1 - Sarah Johnson -->
+          <!-- Testimonial slides (Sarah Johnson, Michael Chen, Elena Rodriguez) -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
               <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
@@ -345,14 +366,12 @@
               </div>
             </div>
           </div>
-          <!-- Slide 2 - Michael Chen -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
               <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
               <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start"><div class="flex-shrink-0 self-center md:self-start"><div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center"><span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">MC</span></div></div><div class="flex-1 text-center md:text-left"><div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4"><div class="flex items-center gap-0.5 sm:gap-1"><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime/40" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div></div><p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"The team made the SBA loan process seamless. They guided us every step of the way and we received funding faster than expected. Our business has grown 40% since working with HarbourFundingSolutions."</p><div><h4 class="font-semibold text-white text-base sm:text-lg">Michael Chen</h4><p class="text-white/40 text-xs sm:text-sm">Owner, Chen Construction Group</p></div></div></div>
             </div>
           </div>
-          <!-- Slide 3 - Elena Rodriguez -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
               <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
@@ -364,7 +383,7 @@
       
       <div class="flex justify-center gap-1.5 sm:gap-2 mt-4 sm:mt-6 md:mt-8">
         <template x-for="(slide, index) in totalSlides" :key="index">
-          <button @click="currentSlide = index" class="h-1.5 sm:h-2 rounded-full transition-all duration-300" :class="currentSlide === index ? 'w-6 sm:w-8 bg-lime' : 'w-1.5 sm:w-2 bg-white/30 hover:bg-white/50'"></button>
+          <button @click="currentSlide = index" class="h-1.5 sm:h-2 rounded-full transition-all duration-300" :class="currentSlide === index ? 'w-6 sm:w-8 bg-lime' : 'w-1.5 sm:w-2 bg-white/30 hover:bg-white/50'" :aria-label="'Go to slide ' + (index + 1)"></button>
         </template>
       </div>
       <div class="text-center mt-3 sm:hidden"><p class="text-white/25 text-[10px] uppercase tracking-wider">← Swipe to see more →</p></div>
@@ -394,7 +413,7 @@
   </div>
 </section>
 
-<!-- ══ CTA BAND (responsive) ══ -->
+<!-- ══ CTA BAND ══ -->
 <section class="reveal px-4 sm:px-6 md:px-12 py-16 sm:py-20 lg:py-28 border-t border-white/[0.07] flex flex-col md:flex-row items-start md:items-center justify-between gap-8 sm:gap-10">
   <div class="text-center md:text-left">
     <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-white/22 mb-4">Ready to Grow?</p>
@@ -403,8 +422,8 @@
   <div class="flex flex-col items-start md:items-end gap-5 w-full md:w-auto">
     <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[300px] md:text-right leading-relaxed">Explore financing options designed to help your business move forward. Apply now or speak with a funding specialist.</p>
     <div class="flex flex-wrap gap-4 justify-center md:justify-end w-full">
-      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer"><span>Apply Now →</span></a>
-      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">Talk to Expert</a>
+      <a href="/apply-now.php" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer"><span>Apply Now →</span></a>
+      <a href="/contact.php" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">Talk to Expert</a>
     </div>
   </div>
 </section>
@@ -412,9 +431,10 @@
 <!-- ══ FOOTER ══ -->
 <footer class="border-t border-white/[0.07] py-12 px-4 sm:px-12 text-center text-white/40 text-xs">
   <p>© 2025 HarbourFundingSolutions — Empowering Business Growth. All rights reserved.</p>
-  <div class="flex justify-center gap-6 mt-4"><a href="#" class="hover:text-lime">Privacy</a><a href="#" class="hover:text-lime">Terms</a><a href="#" class="hover:text-lime">Contact</a></div>
+  <div class="flex justify-center gap-6 mt-4"><a href="/privacy-policy.php" class="hover:text-lime">Privacy</a><a href="/terms-of-service.php" class="hover:text-lime">Terms</a><a href="/contact.php" class="hover:text-lime">Contact</a></div>
 </footer>
 
+<!-- JSON-LD Structured Data for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -422,16 +442,48 @@
   "name": "HarbourFundingSolutions",
   "url": "https://www.harbourfundingsolutions.com",
   "logo": "https://www.harbourfundingsolutions.com/logo.png",
+  "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&q=80",
   "description": "Fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans.",
-  "address": { "@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US" },
-  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-800-555-1234", "contactType": "customer service", "email": "hello@harbourfundingsolutions.com" }
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-800-555-1234",
+    "contactType": "customer service",
+    "email": "hello@harbourfundingsolutions.com",
+    "availableLanguage": ["English"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/harbourfundingsolutions",
+    "https://www.twitter.com/harbourfundingsolutions",
+    "https://www.linkedin.com/company/harbourfundingsolutions"
+  ],
+  "priceRange": "$$",
+  "areaServed": "US",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Business Loan Programs",
+    "itemListElement": [
+      { "@type": "Offer", "name": "Business Loans", "description": "Working capital and equipment financing" },
+      { "@type": "Offer", "name": "SBA Loans", "description": "Government-backed small business loans" },
+      { "@type": "Offer", "name": "Commercial Financing", "description": "Real estate and commercial property loans" },
+      { "@type": "Offer", "name": "Construction Loans", "description": "Project and development financing" },
+      { "@type": "Offer", "name": "Bridge Loans", "description": "Short-term transitional financing" }
+    ]
+  }
 }
 </script>
 
 <script>
+  // Scroll reveal animation
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
+  // Count-up animation for statistics
   function countUp(el) {
     const target = +el.dataset.target;
     const prefix = el.dataset.prefix || '';
@@ -444,7 +496,14 @@
       if (p < 1) requestAnimationFrame(tick);
     })(t0);
   }
-  const co = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting && !e.target.dataset.done) { e.target.dataset.done = 1; countUp(e.target); } }), { threshold: 0.4 });
+  
+  const co = new IntersectionObserver(entries => entries.forEach(e => { 
+    if(e.isIntersecting && !e.target.dataset.done) { 
+      e.target.dataset.done = 1; 
+      countUp(e.target); 
+    } 
+  }), { threshold: 0.4 });
+  
   document.querySelectorAll('.stat-num').forEach(el => co.observe(el));
 </script>
 </body>
