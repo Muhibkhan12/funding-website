@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>HarbourFundingSolutions | Construction Loans — Best Rates & Financial Freedom</title>
-<meta name="description" content="HarbourFundingSolutions offers comprehensive construction loan services: new construction, renovation, expansion of commercial properties. Best competitive interest rates for construction loans 2023.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<title>HarbourFundingSolutions | Construction Loans — Merchant Cash Advance, Business Funding, Working Capital & Best Rates</title>
+<meta name="description" content="HarbourFundingSolutions offers comprehensive construction loan services along with merchant cash advance, small business loans, working capital, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, bad credit business loans. New construction, renovation, expansion of commercial properties. Best competitive interest rates for construction loans 2025.">
+<meta name="keywords" content="merchant cash advance, business funding, small business loans, working capital loans, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, bad credit business loans, same day merchant cash advance, restaurant merchant cash advance, trucking business funding, MCA for bad credit, business funding no collateral, fast approval business funding, revenue based financing, merchant cash advance for restaurants, working capital for small business, emergency business funding, restaurant business loans, construction business funding, dental practice financing, HVAC business funding, retail store funding, Amazon seller financing, eCommerce business funding, construction loans, construction financing, renovation loans, commercial construction loans" />
+<meta name="author" content="HarbourFundingSolutions" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="English" />
+<link rel="canonical" href="https://www.harbourfundingsolutions.com/loans/construction-financing.php" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Construction Loans & Business Funding | HarbourFundingSolutions" />
+<meta property="og:description" content="Get construction loans, merchant cash advance, small business loans, working capital, same day funding, and more for your construction business. Best competitive interest rates." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80" />
+<meta property="og:url" content="https://www.harbourfundingsolutions.com/loans/construction-financing.php" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Construction Loans & Business Funding | HarbourFundingSolutions" />
+<meta name="twitter:description" content="Construction loans, merchant cash advance, working capital, same day business funding. Bad credit OK, no collateral required." />
+
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -36,6 +54,19 @@
 </script>
 <style>
   :root { --lime: #CCFF00; --ink: #0A0A0A; }
+
+  /* SEO hidden keyword container */
+  .seo-keywords {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
 
   /* Grain texture overlay */
   body::after {
@@ -111,6 +142,18 @@
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
+<!-- SEO Hidden Keywords Container -->
+<div class="seo-keywords" aria-hidden="true">
+    <h1>Merchant Cash Advance</h1>
+    <h2>Business Funding</h2>
+    <h3>Small Business Loans</h3>
+    <p>Working Capital Loans | Same Day Business Funding | Unsecured Business Loans | Business Line of Credit | Fast Business Loans | Startup Business Funding | Bad Credit Business Loans</p>
+    <p>Same Day Merchant Cash Advance | Restaurant Merchant Cash Advance | Trucking Business Funding | MCA for Bad Credit | Business Funding No Collateral | Fast Approval Business Funding | Revenue Based Financing | Merchant Cash Advance for Restaurants | Working Capital for Small Business | Emergency Business Funding</p>
+    <p>Restaurant Business Loans | Construction Business Funding | Dental Practice Financing | HVAC Business Funding | Retail Store Funding | Amazon Seller Financing | eCommerce Business Funding</p>
+    <span>construction loans</span><span>construction financing</span><span>renovation loans</span><span>commercial construction loans</span><span>construction to permanent loans</span>
+    <span>standalone construction loans</span><span>construction business funding</span>
+</div>
+
 <!-- Include header INSIDE body -->
 <?php
 @include('../header.php')?>
@@ -128,7 +171,7 @@
     <h1 class="font-display text-white text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1]">
       Construction <span class="text-lime">Loans</span>
     </h1>
-    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">New construction · Renovation · Commercial expansion · Best competitive interest rates for construction loan in 2023</p>
+    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">New construction · Renovation · Commercial expansion · Merchant cash advance · Small business loans · Working capital · Same day business funding · Best competitive interest rates for construction loan in 2025</p>
   </div>
 </section>
 
@@ -138,7 +181,7 @@
   <!-- Intro + low interest banner -->
   <div class="reveal mb-14 max-w-5xl mx-auto">
     <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      HarbourFundingSolutions offers comprehensive construction loan services to support businesses for the financial freedom they need. Our construction loan services provide financial assistance for various construction needs, including new construction, renovation, or expansion of commercial properties. <strong class="text-white font-semibold">Best Competitive Interest Rate for Construction Loan in 2023</strong> — whether you run a small startup or a large corporation, our team of skilled professionals is ready to assist you during your application process.
+      HarbourFundingSolutions offers comprehensive construction loan services along with <strong class="text-white">merchant cash advance, small business loans, working capital, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, and bad credit business loans</strong> to support businesses for the financial freedom they need. Our construction loan services provide financial assistance for various construction needs, including new construction, renovation, or expansion of commercial properties. <strong class="text-white font-semibold">Best Competitive Interest Rate for Construction Loan in 2025</strong> — whether you run a small startup or a large corporation, our team of skilled professionals is ready to assist you during your application process.
     </p>
     
     <!-- Low interest program banner -->
@@ -146,9 +189,9 @@
       <div class="absolute top-0 right-0 w-64 h-64 bg-lime/5 rounded-full blur-3xl"></div>
       <div class="flex flex-col md:flex-row justify-between items-center gap-6 relative z-10">
         <div>
-          <span class="text-lime text-[11px] font-bold tracking-[0.2em] uppercase mb-2 block">Best Rates 2023</span>
-          <h2 class="font-display text-2xl md:text-3xl font-bold text-white">Best Competitive Interest Rate for Construction Loan in 2023</h2>
-          <p class="text-white/60 text-sm mt-2 max-w-xl">Whether you run a small startup or a large corporation, our skilled professionals assist you from application to funding.</p>
+          <span class="text-lime text-[11px] font-bold tracking-[0.2em] uppercase mb-2 block">Best Rates 2025</span>
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-white">Best Competitive Interest Rate for Construction Loan in 2025</h2>
+          <p class="text-white/60 text-sm mt-2 max-w-xl">Whether you need a merchant cash advance, working capital, or a construction loan — our skilled professionals assist you from application to funding.</p>
         </div>
         <div class="flex-shrink-0">
           <span class="inline-block bg-lime/20 backdrop-blur-sm rounded-full px-4 py-1.5 border border-lime/30 text-lime text-xs font-bold">As low as 4.25% APR*</span>
@@ -158,11 +201,11 @@
     
     <div class="pull-quote my-8 max-w-3xl mx-auto">
       <p class="font-display text-[24px] md:text-[28px] text-white leading-snug">
-        "To benefit from a free consultation with our experienced financial advisors today — apply now."
+        "To benefit from a free consultation with our experienced financial advisors today — apply now for merchant cash advance, business funding, or construction loans."
       </p>
     </div>
     <p class="text-[16px] leading-[1.85] text-white/50 font-light text-center">
-      Our team of experts will guide you through the application process and help you secure the construction loan you need. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
+      Our team of experts will guide you through the application process and help you secure the construction loan, merchant cash advance, or working capital you need. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
     </p>
   </div>
 
@@ -173,7 +216,7 @@
     <div class="text-center mb-10">
       <p class="chip mb-4 inline-block">Loan Products</p>
       <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Our Construction Loan Services</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Flexible financing for every phase of your project — from groundbreaking to grand opening.</p>
+      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Flexible financing for every phase of your project — from groundbreaking to grand opening. Plus merchant cash advance, working capital, and same day business funding.</p>
     </div>
 
     <!-- Professional 3-Column Grid Layout with Image Backgrounds -->
@@ -242,7 +285,7 @@
       <div>
         <p class="text-lime text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Expert Guidance</p>
         <h3 class="font-display text-3xl md:text-4xl text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
-        <p class="text-white/40 text-sm mt-2 max-w-md">Exploring the difficulties of construction loans can be challenging, but our team of seasoned advisors is here to guide you through the process.</p>
+        <p class="text-white/40 text-sm mt-2 max-w-md">Exploring the difficulties of construction loans, merchant cash advance, or business funding can be challenging, but our team of seasoned advisors is here to guide you through the process.</p>
       </div>
       <a href="#apply" class="btn-gold flex-shrink-0 text-[14px] px-8 py-4">Get Free Consultation →</a>
     </div>
@@ -253,29 +296,29 @@
     <div class="text-center mb-10">
       <p class="chip mb-4 inline-block">Simple Process</p>
       <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">How to Apply for Construction Loans</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">We take the time to understand your project, financial goals, and construction timelines, tailoring our advice to ensure you secure the most appropriate construction loan for your specific needs.</p>
+      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">We take the time to understand your project, financial goals, and construction timelines, tailoring our advice to ensure you secure the most appropriate construction loan, merchant cash advance, or working capital for your specific needs.</p>
     </div>
 
     <div class="flex flex-col gap-5 max-w-3xl mx-auto">
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal">
         <div class="step-circle">1</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Verify Eligibility</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the loan you are applying for.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Verify Eligibility</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the loan, merchant cash advance, or business funding you are applying for.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.08s">
         <div class="step-circle">2</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Solid Business Plan</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Have a solid business plan ready for review.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Solid Business Plan</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Have a solid business plan ready for review, including your revenue based financing needs.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.16s">
         <div class="step-circle">3</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Complete Paperwork</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Complete the necessary paperwork in advance.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Complete Paperwork</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Complete the necessary paperwork in advance for fast approval business funding.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.24s">
         <div class="step-circle">4</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Be Ready for Queries</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Be ready to respond to queries about the business you run.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Be Ready for Queries</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Be ready to respond to queries about the business you run and your working capital requirements.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
         <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a construction loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible!</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a construction loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible with same day business funding available for qualified applicants!</p></div>
       </div>
     </div>
   </div>
@@ -287,10 +330,10 @@
     </div>
     <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      At HarbourFundingSolutions, we are dedicated to empowering businesses to realize their construction visions. Contact us today to embark on your journey towards harnessing the benefits of construction loans and bringing your architectural dreams to fruition.
+      At HarbourFundingSolutions, we are dedicated to empowering businesses with the financial resources they need — whether it's a construction loan, merchant cash advance, small business loan, working capital, business line of credit, or same day business funding. Contact us today to embark on your journey towards harnessing the benefits of construction loans, MCA for bad credit, or revenue based financing and bringing your architectural dreams to fruition.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-      <a href="#apply" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
+      <a href="../apply-now.php" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
       <a href="#loan-types" class="btn-outline inline-flex items-center justify-center gap-2 px-8 py-3">Explore Services</a>
     </div>
   </div>

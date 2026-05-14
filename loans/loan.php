@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
 <title>Our Loan Programs | HarbourFundingSolutions — Merchant Cash Advance, SBA, Business, Commercial, Construction, Bridge Loans</title>
 <meta name="description" content="HarbourFundingSolutions offers merchant cash advance, small business loans, working capital loans, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, bad credit business loans. Explore SBA Loans, Business Loans, Commercial Loans, Construction Loans, and Bridge Loans. Find the perfect financing solution for your business needs.">
 <script src="https://cdn.tailwindcss.com"></script>
@@ -85,39 +85,45 @@
   .lime-underline { position: relative; display: inline-block; }
   .lime-underline::after { content:''; position:absolute; bottom:-6px; left:0; width:60px; height:3px; background: var(--lime); border-radius:2px; }
 
-  /* Loan card hover */
-  .loan-card { transition: transform 0.28s ease, box-shadow 0.28s ease; background: #0d0d0d; border: 1px solid rgba(255,255,255,0.07); }
-  .loan-card:hover { transform: translateY(-5px); box-shadow: 0 16px 48px rgba(204,255,0,0.12); border-color: rgba(204,255,0,0.3); }
-
   /* Buttons */
   .btn-gold {
     background: var(--lime); color: var(--ink);
-    padding:14px 32px; font-weight:700; font-size:14px; letter-spacing:0.04em;
-    border-radius:4px; display:inline-block; text-decoration:none; cursor:pointer;
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
     transition: background 0.2s, transform 0.2s;
     border: none;
   }
   .btn-gold:hover { background: #b0e02a; transform: translateY(-1px); }
+  .btn-gold-sm { padding: 10px 20px; font-size: 12px; }
 
   .btn-outline {
     background: transparent; color: white;
-    padding:13px 32px; font-weight:600; font-size:14px; letter-spacing:0.04em;
-    border-radius:4px; display:inline-block; text-decoration:none; cursor:pointer;
-    transition: all 0.2s; border: 2px solid rgba(255,255,255,0.3);
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 2px solid rgba(255,255,255,0.3);
   }
   .btn-outline:hover { background: white; color: var(--ink); border-color: white; }
+  .btn-outline-sm { padding: 10px 20px; font-size: 12px; }
 
   /* Icon circle */
-  .icon-circle { width:56px; height:56px; border-radius:50%; background: rgba(204,255,0,0.15); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-
-  /* Hero pattern */
-  .hero-pattern {
-    background-color: var(--ink);
-    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
+  .icon-circle { width: 52px; height: 52px; border-radius: 50%; background: rgba(204,255,0,0.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .icon-circle-sm { width: 44px; height: 44px; }
 
   /* Chip / tag */
-  .chip { display:inline-block; background:rgba(204,255,0,0.15); color: var(--lime); font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:4px 12px; border-radius:20px; }
+  .chip { display: inline-block; background: rgba(204,255,0,0.15); color: var(--lime); font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; }
 
   .cta-band { background: #0d0d0d; border: 1px solid rgba(204,255,0,0.15); }
 
@@ -125,6 +131,17 @@
   .feature-list { list-style: none; padding: 0; }
   .feature-list li { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 13px; color: rgba(255,255,255,0.6); }
   .feature-list li::before { content: "✓"; color: var(--lime); font-weight: bold; }
+
+  /* Loan card */
+  .loan-card-hover { transition: transform 0.28s ease, box-shadow 0.28s ease; }
+  .loan-card-hover:hover { transform: translateY(-5px); box-shadow: 0 16px 48px rgba(204,255,0,0.12); border-color: rgba(204,255,0,0.3); }
+
+  /* Responsive table */
+  @media (max-width: 768px) {
+    .comparison-table th, .comparison-table td { padding: 12px 8px; font-size: 12px; }
+    .btn-gold, .btn-outline { padding: 10px 20px; font-size: 12px; }
+    .hero-h1 { font-size: 42px; }
+  }
 
   /* Custom scrollbar */
   ::-webkit-scrollbar { width: 8px; }
@@ -181,20 +198,20 @@
 <?php include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Loan Programs) ═══════════ -->
-<section class="relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+<section class="relative overflow-hidden min-h-[50vh] flex items-center justify-center pt-20">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1600&q=80'); opacity: 0.3;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   
-  <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full text-center">
-    <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-12 sm:py-16 md:py-20 w-full text-center">
+    <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 border border-white/10">
       <span class="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
-      <span class="text-[11px] font-medium tracking-[0.1em] uppercase text-white/70">Comprehensive Financing Solutions</span>
+      <span class="text-[10px] sm:text-[11px] font-medium tracking-[0.1em] uppercase text-white/70">Comprehensive Financing Solutions</span>
     </div>
-    <h1 class="font-display text-white text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1]">
+    <h1 class="font-display text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight leading-[1.1]">
       Our <span class="text-lime">Loan Programs</span>
     </h1>
-    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">From merchant cash advance and same day funding to SBA loans and construction financing — we have the right solution for your business journey.</p>
-    <div class="mt-8 flex flex-wrap gap-4 justify-center">
+    <p class="text-white/50 text-sm sm:text-base max-w-2xl mx-auto mt-4 sm:mt-6 font-light px-4">From merchant cash advance and same day funding to SBA loans and construction financing — we have the right solution for your business journey.</p>
+    <div class="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 justify-center">
       <a href="#loan-programs" class="btn-gold">Explore Loans →</a>
       <a href="#compare" class="btn-outline">Compare Options</a>
     </div>
@@ -202,13 +219,13 @@
 </section>
 
 <!-- ═══════════ INTRODUCTION SECTION ═══════════ -->
-<div class="reveal max-w-7xl mx-auto px-6 py-16">
+<div class="reveal max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-16">
   <div class="text-center max-w-3xl mx-auto">
-    <p class="text-white/60 text-lg leading-relaxed">
-      At HarbourFundingSolutions, we believe every business deserves access to capital that fuels growth. Whether you need a merchant cash advance for your restaurant, working capital for small business, same day business funding, unsecured business loans, a business line of credit, or bad credit business loans — our diverse loan programs are designed to meet you where you are.
+    <p class="text-white/60 text-base sm:text-lg leading-relaxed">
+      At HarbourFundingSolutions, we believe every business deserves access to capital that fuels growth. Whether you need a <span class="text-lime">merchant cash advance</span> for your restaurant, <span class="text-lime">working capital for small business</span>, <span class="text-lime">same day business funding</span>, <span class="text-lime">unsecured business loans</span>, a <span class="text-lime">business line of credit</span>, or <span class="text-lime">bad credit business loans</span> — our diverse loan programs are designed to meet you where you are.
     </p>
-    <div class="pull-quote my-8 max-w-2xl mx-auto" style="border-left-color: #CCFF00;">
-      <p class="font-display text-[22px] md:text-[26px] text-white leading-snug">
+    <div class="pull-quote my-6 sm:my-8 max-w-2xl mx-auto" style="border-left-color: #CCFF00;">
+      <p class="font-display text-xl sm:text-2xl md:text-3xl text-white leading-snug">
         "The right loan isn't just about money — it's about momentum. We help you move forward with confidence."
       </p>
     </div>
@@ -217,153 +234,153 @@
 
 <div class="border-t border-white/[0.1] max-w-7xl mx-auto"></div>
 
-<!-- ═══════════ LOAN PROGRAMS SECTION (5 Loans with Background Images) ═══════════ -->
-<div id="loan-programs" class="max-w-7xl mx-auto px-6 py-16">
-  <div class="text-center mb-12 reveal">
-    <p class="chip mb-4 inline-block">Our Lending Portfolio</p>
-    <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Loan Programs We Offer</h2>
-    <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Each program is tailored to specific business needs — from short-term gaps to long-term investments. Get fast approval business funding with no collateral required.</p>
+<!-- ═══════════ LOAN PROGRAMS SECTION ═══════════ -->
+<div id="loan-programs" class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+  <div class="text-center mb-8 sm:mb-12 reveal">
+    <p class="chip mb-3 sm:mb-4 inline-block">Our Lending Portfolio</p>
+    <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-2 sm:mb-3 lime-underline">Loan Programs We Offer</h2>
+    <p class="text-white/40 text-sm sm:text-base mt-4 sm:mt-6 leading-relaxed max-w-2xl mx-auto px-4">Each program is tailored to specific business needs — from short-term gaps to long-term investments. Get fast approval business funding with no collateral required.</p>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
     
     <!-- Card 1: SBA Loan -->
-    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card-hover">
       <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop" alt="SBA Loan" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
-        <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      <div class="relative z-10 p-5 sm:p-6 min-h-[360px] sm:min-h-[380px] flex flex-col">
+        <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+          <svg class="w-6 h-6 sm:w-7 sm:h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">SBA Loan</h3>
-        <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">Government-backed financing with competitive rates and flexible terms for small businesses.</p>
+        <h3 class="font-display text-xl sm:text-2xl text-white mb-2">SBA Loan</h3>
+        <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light mb-3">Government-backed financing with competitive rates and flexible terms for small businesses.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>Up to $5 million in funding</li>
           <li>Low down payments (10-20%)</li>
           <li>Long repayment terms up to 25 years</li>
           <li>Ideal for startups and expansions</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
-          <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 4.5% APR</span>
-          <a href="sba-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+        <div class="mt-auto pt-3 sm:pt-4 border-t border-white/10 flex flex-wrap justify-between items-center gap-2">
+          <span class="text-[10px] sm:text-[11px] text-lime font-semibold bg-lime/10 px-2 sm:px-3 py-1 rounded-full">From 4.5% APR</span>
+          <a href="sba-loans.php" class="text-[12px] sm:text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
     
     <!-- Card 2: Business Loan / Merchant Cash Advance -->
-    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card-hover">
       <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?w=800&h=600&fit=crop" alt="Business Loan & MCA" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
-        <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6h1.5m-1.5 3h1.5m-1.5 3h1.5M9 21v-3.75c0-.621.504-1.125 1.125-1.125h1.5c.621 0 1.125.504 1.125 1.125V21"/></svg>
+      <div class="relative z-10 p-5 sm:p-6 min-h-[360px] sm:min-h-[380px] flex flex-col">
+        <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+          <svg class="w-6 h-6 sm:w-7 sm:h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6h1.5m-1.5 3h1.5m-1.5 3h1.5M9 21v-3.75c0-.621.504-1.125 1.125-1.125h1.5c.621 0 1.125.504 1.125 1.125V21"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Business Loan & MCA</h3>
-        <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">Fast, flexible financing including merchant cash advance, working capital, equipment, inventory, and operational expenses. Same day funding available.</p>
+        <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Business Loan & MCA</h3>
+        <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light mb-3">Fast, flexible financing including merchant cash advance, working capital, equipment, inventory, and operational expenses. Same day funding available.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>$5,000 to $2 million available</li>
           <li>Quick approval (24-48 hours) | Same day MCA</li>
           <li>No collateral required for qualified borrowers</li>
           <li>Bad credit OK — revenue based financing</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
-          <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 5.99% APR</span>
-          <a href="business-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+        <div class="mt-auto pt-3 sm:pt-4 border-t border-white/10 flex flex-wrap justify-between items-center gap-2">
+          <span class="text-[10px] sm:text-[11px] text-lime font-semibold bg-lime/10 px-2 sm:px-3 py-1 rounded-full">From 5.99% APR</span>
+          <a href="business-loans.php" class="text-[12px] sm:text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
     
     <!-- Card 3: Commercial Loan -->
-    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card-hover">
       <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop" alt="Commercial Loan" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
-        <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+      <div class="relative z-10 p-5 sm:p-6 min-h-[360px] sm:min-h-[380px] flex flex-col">
+        <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+          <svg class="w-6 h-6 sm:w-7 sm:h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Commercial Loan</h3>
-        <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">Real estate acquisition, refinancing, and commercial property development funding.</p>
+        <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Commercial Loan</h3>
+        <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light mb-3">Real estate acquisition, refinancing, and commercial property development funding.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>Up to $10 million for commercial property</li>
           <li>Terms from 5 to 20 years</li>
           <li>Owner-occupied or investment properties</li>
           <li>Competitive fixed interest rates</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
-          <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 6.25% APR</span>
-          <a href="commercial-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+        <div class="mt-auto pt-3 sm:pt-4 border-t border-white/10 flex flex-wrap justify-between items-center gap-2">
+          <span class="text-[10px] sm:text-[11px] text-lime font-semibold bg-lime/10 px-2 sm:px-3 py-1 rounded-full">From 6.25% APR</span>
+          <a href="commercial-loans.php" class="text-[12px] sm:text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
     
-    <!-- Card 4: Construction Loan / Construction Business Funding -->
-    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+    <!-- Card 4: Construction Loan -->
+    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card-hover">
       <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80" alt="Construction Loan" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
-        <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+      <div class="relative z-10 p-5 sm:p-6 min-h-[360px] sm:min-h-[380px] flex flex-col">
+        <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+          <svg class="w-6 h-6 sm:w-7 sm:h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Construction Loan</h3>
-        <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">Short-term financing for new construction, renovations, or commercial property development. Construction business funding for contractors.</p>
+        <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Construction Loan</h3>
+        <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light mb-3">Short-term financing for new construction, renovations, or commercial property development. Construction business funding for contractors.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>Interest-only payments during construction</li>
           <li>Draw schedule based on project milestones</li>
           <li>Construction-to-permanent conversion available</li>
           <li>Fast approval for qualified builders</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
-          <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 7.5% APR</span>
-          <a href="construction-financing.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+        <div class="mt-auto pt-3 sm:pt-4 border-t border-white/10 flex flex-wrap justify-between items-center gap-2">
+          <span class="text-[10px] sm:text-[11px] text-lime font-semibold bg-lime/10 px-2 sm:px-3 py-1 rounded-full">From 7.5% APR</span>
+          <a href="construction-financing.php" class="text-[12px] sm:text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
     
     <!-- Card 5: Bridge Loan -->
-    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+    <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card-hover">
       <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=800&h=600&fit=crop" alt="Bridge Loan" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
-        <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+      <div class="relative z-10 p-5 sm:p-6 min-h-[360px] sm:min-h-[380px] flex flex-col">
+        <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+          <svg class="w-6 h-6 sm:w-7 sm:h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Bridge Loan</h3>
-        <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">Short-term financing to bridge the gap between immediate capital needs and long-term funding. Emergency business funding available.</p>
+        <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Bridge Loan</h3>
+        <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light mb-3">Short-term financing to bridge the gap between immediate capital needs and long-term funding. Emergency business funding available.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>Fast closing in as little as 5-7 days</li>
           <li>Flexible repayment with balloon payment</li>
           <li>Ideal for time-sensitive opportunities</li>
           <li>Property acquisition or business transition</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-white/10 flex justify-between items-center">
-          <span class="text-[11px] text-lime font-semibold bg-lime/10 px-3 py-1 rounded-full">From 8.99% APR</span>
-          <a href="bridge-loans.php" class="text-[13px] text-lime hover:underline font-medium">Learn more →</a>
+        <div class="mt-auto pt-3 sm:pt-4 border-t border-white/10 flex flex-wrap justify-between items-center gap-2">
+          <span class="text-[10px] sm:text-[11px] text-lime font-semibold bg-lime/10 px-2 sm:px-3 py-1 rounded-full">From 8.99% APR</span>
+          <a href="bridge-loans.php" class="text-[12px] sm:text-[13px] text-lime hover:underline font-medium">Learn more →</a>
         </div>
       </div>
     </div>
 
-    <!-- Card 6: Why Choose Us (Bonus Card) -->
-    <div class="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+    <!-- Card 6: Why Choose Us -->
+    <div class="group relative rounded-2xl overflow-hidden bg-gradient-to-br from-lime/10 to-transparent border border-lime/20 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card-hover">
       <div class="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?w=800&h=600&fit=crop" alt="Why Choose Us" class="w-full h-full object-cover opacity-20">
         <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/90 to-transparent"></div>
       </div>
-      <div class="relative z-10 p-6 min-h-[380px] flex flex-col">
-        <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-          <svg class="w-7 h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      <div class="relative z-10 p-5 sm:p-6 min-h-[360px] sm:min-h-[380px] flex flex-col">
+        <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+          <svg class="w-6 h-6 sm:w-7 sm:h-7 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         </div>
-        <h3 class="font-display text-2xl text-white mb-2">Why Choose HarbourFundingSolutions?</h3>
-        <p class="text-[14px] text-white/60 leading-relaxed font-light mb-3">We're more than lenders — we're partners in your success. Offering merchant cash advance, same day funding, and bad credit business loans.</p>
+        <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Why Choose Us?</h3>
+        <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light mb-3">We're more than lenders — we're partners in your success. Offering merchant cash advance, same day funding, and bad credit business loans.</p>
         <ul class="feature-list space-y-1 mb-4">
           <li>✓ 500+ businesses funded (restaurants, trucking, retail, eCommerce)</li>
           <li>✓ 4.9★ customer satisfaction rating</li>
@@ -371,8 +388,8 @@
           <li>✓ Fast approvals & same day business funding</li>
           <li>✓ Transparent terms, no hidden fees, no collateral required</li>
         </ul>
-        <div class="mt-auto pt-4 border-t border-white/10">
-          <a href="../contact.php" class="text-[13px] text-lime hover:underline font-medium">Talk to an advisor →</a>
+        <div class="mt-auto pt-3 sm:pt-4 border-t border-white/10">
+          <a href="../contact.php" class="text-[12px] sm:text-[13px] text-lime hover:underline font-medium">Talk to an advisor →</a>
         </div>
       </div>
     </div>
@@ -380,85 +397,49 @@
 </div>
 
 <!-- ═══════════ COMPARISON TABLE SECTION ═══════════ -->
-<div id="compare" class="max-w-7xl mx-auto px-6 py-16 border-t border-white/[0.1]">
-  <div class="text-center mb-12 reveal">
-    <p class="chip mb-4 inline-block">Compare Options</p>
-    <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Find Your Perfect Match</h2>
-    <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Not sure which loan is right for you? Compare merchant cash advance, business loans, SBA loans, and more side by side.</p>
+<div id="compare" class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 border-t border-white/[0.1]">
+  <div class="text-center mb-8 sm:mb-12 reveal">
+    <p class="chip mb-3 sm:mb-4 inline-block">Compare Options</p>
+    <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-2 sm:mb-3 lime-underline">Find Your Perfect Match</h2>
+    <p class="text-white/40 text-sm sm:text-base mt-4 sm:mt-6 leading-relaxed max-w-2xl mx-auto px-4">Not sure which loan is right for you? Compare merchant cash advance, business loans, SBA loans, and more side by side.</p>
   </div>
 
   <div class="overflow-x-auto reveal">
-    <table class="w-full border-collapse">
+    <table class="w-full border-collapse min-w-[600px]">
       <thead>
         <tr class="border-b border-white/10">
-          <th class="text-left py-4 px-4 text-white font-display text-lg">Loan Type</th>
-          <th class="text-left py-4 px-4 text-white/70 font-medium">Best For</th>
-          <th class="text-left py-4 px-4 text-white/70 font-medium">Loan Amount</th>
-          <th class="text-left py-4 px-4 text-white/70 font-medium">Term Length</th>
-          <th class="text-left py-4 px-4 text-white/70 font-medium">Speed</th>
+          <th class="text-left py-3 sm:py-4 px-3 sm:px-4 text-white font-display text-base sm:text-lg">Loan Type</th>
+          <th class="text-left py-3 sm:py-4 px-3 sm:px-4 text-white/70 font-medium text-xs sm:text-sm">Best For</th>
+          <th class="text-left py-3 sm:py-4 px-3 sm:px-4 text-white/70 font-medium text-xs sm:text-sm">Loan Amount</th>
+          <th class="text-left py-3 sm:py-4 px-3 sm:px-4 text-white/70 font-medium text-xs sm:text-sm">Term Length</th>
+          <th class="text-left py-3 sm:py-4 px-3 sm:px-4 text-white/70 font-medium text-xs sm:text-sm">Speed</th>
         </tr>
       </thead>
       <tbody>
-        <tr class="border-b border-white/5 hover:bg-white/5 transition">
-          <td class="py-4 px-4 text-lime font-semibold">Merchant Cash Advance</td>
-          <td class="py-4 px-4 text-white/60">Restaurants, retail, service businesses</td>
-          <td class="py-4 px-4 text-white/60">$5K - $500K</td>
-          <td class="py-4 px-4 text-white/60">3-18 months</td>
-          <td class="py-4 px-4 text-white/60">Same Day</td>
-        </tr>
-        <tr class="border-b border-white/5 hover:bg-white/5 transition">
-          <td class="py-4 px-4 text-lime font-semibold">SBA Loan</td>
-          <td class="py-4 px-4 text-white/60">Startups & long-term growth</td>
-          <td class="py-4 px-4 text-white/60">Up to $5M</td>
-          <td class="py-4 px-4 text-white/60">10-25 years</td>
-          <td class="py-4 px-4 text-white/60">Moderate</td>
-        </tr>
-        <tr class="border-b border-white/5 hover:bg-white/5 transition">
-          <td class="py-4 px-4 text-lime font-semibold">Business Loan</td>
-          <td class="py-4 px-4 text-white/60">Working capital & equipment</td>
-          <td class="py-4 px-4 text-white/60">$5K - $2M</td>
-          <td class="py-4 px-4 text-white/60">1-7 years</td>
-          <td class="py-4 px-4 text-white/60">Fast (24-48h)</td>
-        </tr>
-        <tr class="border-b border-white/5 hover:bg-white/5 transition">
-          <td class="py-4 px-4 text-lime font-semibold">Commercial Loan</td>
-          <td class="py-4 px-4 text-white/60">Real estate & property</td>
-          <td class="py-4 px-4 text-white/60">Up to $10M</td>
-          <td class="py-4 px-4 text-white/60">5-20 years</td>
-          <td class="py-4 px-4 text-white/60">Standard</td>
-         </tr>
-        <tr class="border-b border-white/5 hover:bg-white/5 transition">
-          <td class="py-4 px-4 text-lime font-semibold">Construction Loan</td>
-          <td class="py-4 px-4 text-white/60">New builds & renovations</td>
-          <td class="py-4 px-4 text-white/60">Varies by project</td>
-          <td class="py-4 px-4 text-white/60">6-24 months</td>
-          <td class="py-4 px-4 text-white/60">Project-dependent</td>
-         </tr>
-        <tr class="hover:bg-white/5 transition">
-          <td class="py-4 px-4 text-lime font-semibold">Bridge Loan</td>
-          <td class="py-4 px-4 text-white/60">Short-term gaps & opportunities</td>
-          <td class="py-4 px-4 text-white/60">Up to $3M</td>
-          <td class="py-4 px-4 text-white/60">6-18 months</td>
-          <td class="py-4 px-4 text-white/60">Very Fast (5-7 days)</td>
-         </tr>
+        <tr class="border-b border-white/5 hover:bg-white/5 transition"><td class="py-3 sm:py-4 px-3 sm:px-4 text-lime font-semibold text-sm sm:text-base">Merchant Cash Advance</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Restaurants, retail, service businesses</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">$5K - $500K</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">3-18 months</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Same Day</td></tr>
+        <tr class="border-b border-white/5 hover:bg-white/5 transition"><td class="py-3 sm:py-4 px-3 sm:px-4 text-lime font-semibold text-sm sm:text-base">SBA Loan</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Startups & long-term growth</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Up to $5M</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">10-25 years</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Moderate</td></tr>
+        <tr class="border-b border-white/5 hover:bg-white/5 transition"><td class="py-3 sm:py-4 px-3 sm:px-4 text-lime font-semibold text-sm sm:text-base">Business Loan</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Working capital & equipment</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">$5K - $2M</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">1-7 years</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Fast (24-48h)</td></tr>
+        <tr class="border-b border-white/5 hover:bg-white/5 transition"><td class="py-3 sm:py-4 px-3 sm:px-4 text-lime font-semibold text-sm sm:text-base">Commercial Loan</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Real estate & property</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Up to $10M</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">5-20 years</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Standard</td></tr>
+        <tr class="border-b border-white/5 hover:bg-white/5 transition"><td class="py-3 sm:py-4 px-3 sm:px-4 text-lime font-semibold text-sm sm:text-base">Construction Loan</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">New builds & renovations</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Varies by project</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">6-24 months</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Project-dependent</td></tr>
+        <tr class="hover:bg-white/5 transition"><td class="py-3 sm:py-4 px-3 sm:px-4 text-lime font-semibold text-sm sm:text-base">Bridge Loan</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Short-term gaps & opportunities</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Up to $3M</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">6-18 months</td><td class="py-3 sm:py-4 px-3 sm:px-4 text-white/60 text-xs sm:text-sm">Very Fast (5-7 days)</td></tr>
       </tbody>
     </table>
   </div>
 </div>
 
 <!-- ═══════════ CTA BANNER ═══════════ -->
-<div id="contact" class="max-w-7xl mx-auto px-6 pb-16">
-  <div class="reveal cta-band rounded-2xl p-8 md:p-10 relative overflow-hidden">
+<div id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 pb-12 sm:pb-16">
+  <div class="reveal cta-band rounded-2xl p-6 sm:p-8 md:p-10 relative overflow-hidden">
     <div class="absolute inset-0 opacity-5 bg-lime"></div>
     <div class="relative flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
       <div>
-        <p class="text-lime text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Ready to Get Started?</p>
-        <h3 class="font-display text-3xl md:text-4xl text-white leading-snug">Let's Find Your <span class="text-lime">Perfect Loan</span></h3>
-        <p class="text-white/40 text-sm mt-2 max-w-md">Our loan specialists are ready to help you compare merchant cash advance, SBA loans, business funding, and more.</p>
+        <p class="text-lime text-[11px] sm:text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Ready to Get Started?</p>
+        <h3 class="font-display text-2xl sm:text-3xl md:text-4xl text-white leading-snug">Let's Find Your <span class="text-lime">Perfect Loan</span></h3>
+        <p class="text-white/40 text-xs sm:text-sm mt-2 max-w-md">Our loan specialists are ready to help you compare merchant cash advance, SBA loans, business funding, and more.</p>
       </div>
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href="../apply-now.php" class="btn-gold">Apply Now →</a>
-        <a href="tel:+12166470007" class="btn-outline">Call (216) 647-0007</a>
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+        <a href="../apply-now.php" class="btn-gold text-center">Apply Now →</a>
+        <a href="tel:+12166470007" class="btn-outline text-center">Call (216) 647-0007</a>
       </div>
     </div>
   </div>

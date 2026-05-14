@@ -146,10 +146,10 @@
       Get same day business funding, working capital loans, and unsecured business loans. Bad credit OK. No collateral required. Apply in minutes — funded in 24-48 hours.
     </p>
     <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
-      <a href="/apply-now.php" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
+      <a href="apply-now.php" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
         <span>Apply in Minutes →</span>
       </a>
-      <a href="/contact.php" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
+      <a href="contact.php" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
         Talk to an Expert
       </a>
     </div>
