@@ -138,7 +138,7 @@
   <!-- Intro + low interest banner merged elegantly -->
   <div class="reveal mb-14 max-w-5xl mx-auto">
     <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      Commercial loans are financing options that help businesses meet their financial freedom and accomplish certain goals. These loans can finance capital investments or buy merchandise, grow business operations, buy real estate, or expand business activities. <strong class="text-white font-semibold">BizCash&amp;Capital</strong> offers an ultimate guide to help you understand the ins and outs of securing a commercial loan for your business.
+      Commercial loans are financing options that help businesses meet their financial freedom and accomplish certain goals. These loans can finance capital investments or buy merchandise, grow business operations, buy real estate, or expand business activities. <strong class="text-white font-semibold">HarbourFundingSolutions</strong> offers an ultimate guide to help you understand the ins and outs of securing a commercial loan for your business.
     </p>
     
     <!-- Low interest program banner (inline, no extra image duplication) -->
@@ -315,7 +315,7 @@
       </div>
       <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
         <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a Commercial loan can take weeks or even months. But here at <strong class="text-white">BizCash&amp;Capital</strong>, we get you fundings as soon as possible!</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a Commercial loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible!</p></div>
       </div>
     </div>
   </div>
@@ -325,9 +325,9 @@
     <div class="flex justify-center mb-4">
       <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
-    <h3 class="font-display text-3xl text-white mb-4">BizCash&amp;Capital Commitment</h3>
+    <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      At BizCash&amp;Capital, we are dedicated to empowering businesses with the financial resources required for ambitious projects and sustained growth. Contact us today to initiate your journey towards harnessing the benefits of commercial loans and propelling your business to greater heights.
+      At HarbourFundingSolutions, we are dedicated to empowering businesses with the financial resources required for ambitious projects and sustained growth. Contact us today to initiate your journey towards harnessing the benefits of commercial loans and propelling your business to greater heights.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
       <a href="#apply" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
@@ -337,39 +337,8 @@
 
 </main>
 
-<!-- ═══════════ FOOTER (consistent with target design) ═══════════ -->
-<footer class="bg-ink mt-10 border-t border-white/[0.07]">
-  <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
-    <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
-      <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Empowering entrepreneurs with the financial resources required to achieve business success. Contact us today.</p>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Loan Types</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Term Loans</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Commercial Real Estate</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Equipment Financing</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Working Capital</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Merchant Cash Advances</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Bridge Loans</a></li>
-      </ul>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2025 BizCash&amp;Capital. All rights reserved.</p>
-    <p class="text-[12px] text-white/18">Equal Opportunity Lender</p>
-  </div>
-</footer>
+<?php
+@include('../footer.php')?>
 
 <script>
   // Reveal on scroll (Intersection Observer)

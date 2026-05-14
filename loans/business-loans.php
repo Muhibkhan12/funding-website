@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Business Loans — BizCash&Capital</title>
+<title>Business Loans — HarbourFundingSolutions</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -141,7 +141,7 @@
   <!-- Intro -->
   <div class="reveal mb-14 max-w-4xl mx-auto">
     <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      At <strong class="text-white font-semibold">BizCash&amp;Capital</strong>, we offer tailored loans to adjust your unique specifications, with <strong class="text-lime font-semibold">low interest rates</strong> and flexible repayment terms. We understand the difficulties that businesses face and are committed to offering successful and dependable financial support.
+      At <strong class="text-white font-semibold">HarbourFundingSolutions</strong>, we offer tailored loans to adjust your unique specifications, with <strong class="text-lime font-semibold">low interest rates</strong> and flexible repayment terms. We understand the difficulties that businesses face and are committed to offering successful and dependable financial support.
     </p>
     <div class="pull-quote my-8 max-w-3xl mx-auto">
       <p class="font-display text-[24px] md:text-[28px] text-white leading-snug">
@@ -292,7 +292,7 @@
         <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
         <div>
           <h4 class="font-semibold text-white text-[16px] mb-1">Be Patient — But Expect Speed From Us</h4>
-          <p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a traditional SBA loan can take weeks or even months. But here at <strong class="text-white">BizCash&amp;Capital</strong>, we get you funding as soon as possible!</p>
+          <p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a traditional SBA loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you funding as soon as possible!</p>
         </div>
       </div>
 
@@ -301,12 +301,12 @@
 
   <!-- Closing -->
   <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07] max-w-4xl mx-auto">
-    <h3 class="font-display text-3xl text-white mb-4 text-center">About BizCash&amp;Capital</h3>
+    <h3 class="font-display text-3xl text-white mb-4 text-center">About HarbourFundingSolutions</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4 text-center">
       We take the time to understand your business objectives, financial situation, and growth aspirations, tailoring our guidance to ensure you secure the most suitable financing option.
     </p>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-8 text-center">
-      At BizCash&amp;Capital, we are committed to empowering entrepreneurs with the financial resources required to achieve business success. Contact us today to begin your journey towards harnessing the benefits of business loans and merchant cash advances and unlocking the potential of your enterprise.
+      At HarbourFundingSolutions, we are committed to empowering entrepreneurs with the financial resources required to achieve business success. Contact us today to begin your journey towards harnessing the benefits of business loans and merchant cash advances and unlocking the potential of your enterprise.
     </p>
     <div class="text-center">
       <a href="#apply" class="btn-gold">Start Your Application</a>
@@ -319,7 +319,7 @@
 <footer class="bg-ink mt-10 border-t border-white/[0.07]">
   <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
     <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
+      <p class="font-display text-[28px] text-white mb-3">HarbourFunding</p>
       <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Empowering entrepreneurs with the financial resources required to achieve business success. Contact us today.</p>
     </div>
     <div>
@@ -343,7 +343,7 @@
     </div>
   </div>
   <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2024 BizCash&amp;Capital. All rights reserved.</p>
+    <p class="text-[12px] text-white/25">© 2024 HarbourFundingSolutions. All rights reserved.</p>
     <p class="text-[12px] text-white/18">Equal Opportunity Lender</p>
   </div>
 </footer>

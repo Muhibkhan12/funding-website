@@ -3,21 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<meta name="description" content="VaultEdge provides fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans. Get funded in 24-48 hours." />
+<meta name="description" content="HarbourFundingSolutions provides fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans. Get funded in 24-48 hours." />
 <meta name="keywords" content="business loans, SBA loans, commercial financing, construction loans, equipment financing, business funding, small business loans" />
-<meta name="author" content="VaultEdge" />
+<meta name="author" content="HarbourFundingSolutions" />
 <meta name="robots" content="index, follow" />
 <meta name="language" content="English" />
-<meta property="og:title" content="VaultEdge — Flexible Business Financing for Growth" />
+<meta property="og:title" content="HarbourFundingSolutions — Flexible Business Financing for Growth" />
 <meta property="og:description" content="Access fast and reliable funding solutions designed to support your business at every stage of growth." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&q=80" />
-<meta property="og:url" content="https://www.vaultedge.com" />
+<meta property="og:url" content="https://www.harbourfundingsolutions.com" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="VaultEdge — Flexible Business Financing for Growth" />
+<meta name="twitter:title" content="HarbourFundingSolutions — Flexible Business Financing for Growth" />
 <meta name="twitter:description" content="Fast capital to help your business grow. Apply in minutes, get funded in 24-48 hours." />
-<link rel="canonical" href="https://www.vaultedge.com" />
-<title>VaultEdge — Fast Business Financing & SBA Loans | Get Funded in 24-48 Hours</title>
+<link rel="canonical" href="https://www.harbourfundingsolutions.com" />
+<title>HarbourFundingSolutions — Fast Business Financing & SBA Loans | Get Funded in 24-48 Hours</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -102,11 +102,9 @@
   }
 </style>
 </head>
-<body class="bg-[#1a1a1a] text-white font-body overflow-x-hidden">
-
 <?php
-@include('header.php')
-?>
+@include('header.php');?>
+<body class="bg-[#1a1a1a] text-white font-body overflow-x-hidden">
 
 <!-- ══ HERO SECTION ══ -->
 <section id="hero" class="relative min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center pt-20 lg:pt-16 px-4 sm:px-6 md:px-12 overflow-hidden">
@@ -145,7 +143,7 @@
       <div class="absolute top-0 right-0 w-[3px] h-[30%] bg-lime opacity-35"></div>
       <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent pointer-events-none"></div>
       <div class="animate-floatUp1 absolute top-[68px] -right-10 bg-[rgba(26,26,26,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[215px] shadow-2xl">
-        <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-3">Why VaultEdge</p>
+        <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-3">Why HarbourFundingSolutions</p>
         <div class="flex flex-col gap-[7px]">
           <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Fast & simple process</div>
           <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Flexible loan options</div>
@@ -231,7 +229,7 @@
 <section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 border-t border-white/[0.07] bg-[#222]/60">
   <div class="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
     <div class="text-center md:text-left">
-      <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-lime mb-4">Why VaultEdge</p>
+      <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-lime mb-4">Why HarbourFundingSolutions</p>
       <h2 class="how-hl text-white mb-6">Financing that <br class="hidden sm:block"/><span class="text-lime">Fits Your Business</span></h2>
       <p class="text-white text-sm leading-relaxed mb-8">We focus on finding the right funding solution based on your business needs—not just a one-size-fits-all loan. Our transparent process and dedicated support set you up for success.</p>
       <ul class="space-y-3 max-w-md mx-auto md:mx-0">
@@ -246,7 +244,7 @@
       <p class="text-lime text-sm font-semibold uppercase tracking-wider mb-2">Our goal</p>
       <p class="text-white/80 text-base leading-relaxed italic">"Simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. Every business deserves the opportunity to grow with the right financial support."</p>
       <div class="mt-6 pt-4 border-t border-white/[0.08] flex justify-between items-center">
-        <span class="text-white/30 text-xs uppercase tracking-wider">VaultEdge Team</span>
+        <span class="text-white/30 text-xs uppercase tracking-wider">HarbourFundingSolutions Team</span>
       </div>
     </div>
   </div>
@@ -311,11 +309,8 @@
 
 <!-- ══ TESTIMONIALS SECTION (Responsive Slider) ══ -->
 <section class="px-4 sm:px-6 md:px-12 py-12 sm:py-16 lg:py-24 border-t border-white/[0.07] relative overflow-hidden">
-  <!-- Background accent -->
   <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-lime/5 blur-3xl pointer-events-none"></div>
-  
   <div class="max-w-6xl mx-auto relative z-10">
-    <!-- Section Header -->
     <div class="text-center mb-10 sm:mb-16 reveal">
       <div class="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6">
         <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime animate-pulse"></span>
@@ -327,180 +322,69 @@
       <p class="text-white/40 text-sm sm:text-base max-w-2xl mx-auto px-4">Don't just take our word for it — hear what our clients have to say about their experience</p>
     </div>
     
-    <!-- Slider Container -->
     <div class="relative px-2 sm:px-4 md:px-8 lg:px-12" x-data="{ currentSlide: 0, totalSlides: 3, touchStartX: 0, touchEndX: 0 }" 
          @touchstart="touchStartX = $event.touches[0].clientX"
          @touchend="touchEndX = $event.changedTouches[0].clientX; if(touchStartX - touchEndX > 50) currentSlide = (currentSlide + 1) % totalSlides; if(touchEndX - touchStartX > 50) currentSlide = (currentSlide - 1 + totalSlides) % totalSlides">
       
-      <!-- Navigation Buttons - Hide on mobile, show on tablet/desktop -->
       <button @click="currentSlide = (currentSlide - 1 + totalSlides) % totalSlides" class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer">
-        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-        </svg>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
       </button>
       <button @click="currentSlide = (currentSlide + 1) % totalSlides" class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#1a1a1a] border border-white/[0.1] hover:border-lime/50 hover:bg-lime/10 transition-all duration-300 items-center justify-center cursor-pointer">
-        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
       </button>
       
-      <!-- Slides -->
       <div class="overflow-hidden rounded-2xl">
         <div class="flex transition-transform duration-500 ease-out" :style="`transform: translateX(-${currentSlide * 100}%)`">
-          
           <!-- Slide 1 - Sarah Johnson -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
-              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10">
-                <svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                </svg>
-              </div>
+              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
               <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start">
-                <div class="flex-shrink-0 self-center md:self-start">
-                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center">
-                    <span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">SJ</span>
-                  </div>
-                </div>
-                <div class="flex-1 text-center md:text-left">
-                  <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4">
-                    <div class="flex items-center gap-0.5 sm:gap-1">
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                    </div>
-                  </div>
-                  <p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"VaultEdge helped us secure funding for our expansion within 48 hours. Their team was professional, responsive, and found us the perfect loan solution. The entire process was seamless from start to finish."</p>
-                  <div>
-                    <h4 class="font-semibold text-white text-base sm:text-lg">Sarah Johnson</h4>
-                    <p class="text-white/40 text-xs sm:text-sm">CEO, TechStart Solutions</p>
-                  </div>
-                </div>
+                <div class="flex-shrink-0 self-center md:self-start"><div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center"><span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">SJ</span></div></div>
+                <div class="flex-1 text-center md:text-left"><div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4"><div class="flex items-center gap-0.5 sm:gap-1"><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div></div><p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"HarbourFundingSolutions helped us secure funding for our expansion within 48 hours. Their team was professional, responsive, and found us the perfect loan solution. The entire process was seamless from start to finish."</p><div><h4 class="font-semibold text-white text-base sm:text-lg">Sarah Johnson</h4><p class="text-white/40 text-xs sm:text-sm">CEO, TechStart Solutions</p></div></div>
               </div>
             </div>
           </div>
-          
           <!-- Slide 2 - Michael Chen -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
-              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10">
-                <svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                </svg>
-              </div>
-              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start">
-                <div class="flex-shrink-0 self-center md:self-start">
-                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center">
-                    <span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">MC</span>
-                  </div>
-                </div>
-                <div class="flex-1 text-center md:text-left">
-                  <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4">
-                    <div class="flex items-center gap-0.5 sm:gap-1">
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime/40" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                    </div>
-                  </div>
-                  <p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"The team made the SBA loan process seamless. They guided us every step of the way and we received funding faster than expected. Our business has grown 40% since working with VaultEdge."</p>
-                  <div>
-                    <h4 class="font-semibold text-white text-base sm:text-lg">Michael Chen</h4>
-                    <p class="text-white/40 text-xs sm:text-sm">Owner, Chen Construction Group</p>
-                  </div>
-                </div>
-              </div>
+              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start"><div class="flex-shrink-0 self-center md:self-start"><div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center"><span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">MC</span></div></div><div class="flex-1 text-center md:text-left"><div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4"><div class="flex items-center gap-0.5 sm:gap-1"><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime/40" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div></div><p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"The team made the SBA loan process seamless. They guided us every step of the way and we received funding faster than expected. Our business has grown 40% since working with HarbourFundingSolutions."</p><div><h4 class="font-semibold text-white text-base sm:text-lg">Michael Chen</h4><p class="text-white/40 text-xs sm:text-sm">Owner, Chen Construction Group</p></div></div></div>
             </div>
           </div>
-          
           <!-- Slide 3 - Elena Rodriguez -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
-              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10">
-                <svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                </svg>
-              </div>
-              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start">
-                <div class="flex-shrink-0 self-center md:self-start">
-                  <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center">
-                    <span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">ER</span>
-                  </div>
-                </div>
-                <div class="flex-1 text-center md:text-left">
-                  <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4">
-                    <div class="flex items-center gap-0.5 sm:gap-1">
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                      <svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                    </div>
-                  </div>
-                  <p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"Working with VaultEdge was a game-changer for our restaurant chain. They understood our unique needs and provided a customized financing solution. The entire process was transparent and efficient."</p>
-                  <div>
-                    <h4 class="font-semibold text-white text-base sm:text-lg">Elena Rodriguez</h4>
-                    <p class="text-white/40 text-xs sm:text-sm">Owner, Casa Bella Restaurants</p>
-                  </div>
-                </div>
-              </div>
+              <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
+              <div class="flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-8 items-start"><div class="flex-shrink-0 self-center md:self-start"><div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:rounded-2xl bg-gradient-to-br from-lime/30 to-lime/10 flex items-center justify-center"><span class="text-2xl sm:text-3xl md:text-4xl font-display text-lime">ER</span></div></div><div class="flex-1 text-center md:text-left"><div class="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-4 mb-3 sm:mb-4"><div class="flex items-center gap-0.5 sm:gap-1"><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-4 h-4 sm:w-5 sm:h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div></div><p class="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mb-4 sm:mb-6 px-2 sm:px-0">"Working with HarbourFundingSolutions was a game-changer for our restaurant chain. They understood our unique needs and provided a customized financing solution. The entire process was transparent and efficient."</p><div><h4 class="font-semibold text-white text-base sm:text-lg">Elena Rodriguez</h4><p class="text-white/40 text-xs sm:text-sm">Owner, Casa Bella Restaurants</p></div></div></div>
             </div>
           </div>
-          
         </div>
       </div>
       
-      <!-- Dots Indicator -->
       <div class="flex justify-center gap-1.5 sm:gap-2 mt-4 sm:mt-6 md:mt-8">
         <template x-for="(slide, index) in totalSlides" :key="index">
           <button @click="currentSlide = index" class="h-1.5 sm:h-2 rounded-full transition-all duration-300" :class="currentSlide === index ? 'w-6 sm:w-8 bg-lime' : 'w-1.5 sm:w-2 bg-white/30 hover:bg-white/50'"></button>
         </template>
       </div>
-      
-      <!-- Mobile Swipe Hint -->
-      <div class="text-center mt-3 sm:hidden">
-        <p class="text-white/25 text-[10px] uppercase tracking-wider">← Swipe to see more →</p>
-      </div>
-      
+      <div class="text-center mt-3 sm:hidden"><p class="text-white/25 text-[10px] uppercase tracking-wider">← Swipe to see more →</p></div>
     </div>
     
-    <!-- Stats Row - Responsive Grid -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-white/[0.07] reveal">
-      <div class="text-center">
-        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">1,200+</p>
-        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Businesses Funded</p>
-      </div>
-      <div class="text-center">
-        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">98%</p>
-        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Client Satisfaction</p>
-      </div>
-      <div class="text-center">
-        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">$75M+</p>
-        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Capital Deployed</p>
-      </div>
-      <div class="text-center">
-        <p class="font-display text-2xl sm:text-3xl text-lime font-bold">24-48h</p>
-        <p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Avg. Funding Time</p>
-      </div>
+      <div class="text-center"><p class="font-display text-2xl sm:text-3xl text-lime font-bold">1,200+</p><p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Businesses Funded</p></div>
+      <div class="text-center"><p class="font-display text-2xl sm:text-3xl text-lime font-bold">98%</p><p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Client Satisfaction</p></div>
+      <div class="text-center"><p class="font-display text-2xl sm:text-3xl text-lime font-bold">$75M+</p><p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Capital Deployed</p></div>
+      <div class="text-center"><p class="font-display text-2xl sm:text-3xl text-lime font-bold">24-48h</p><p class="text-white/40 text-[10px] sm:text-xs uppercase tracking-wide mt-1">Avg. Funding Time</p></div>
     </div>
-    
   </div>
 </section>
 
-<!-- Add Alpine.js for slider functionality -->
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
-<!-- Add Alpine.js for slider functionality -->
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
 
 <!-- ══ ABOUT US SECTION ══ -->
 <section class="px-4 sm:px-6 md:px-12 py-16 sm:py-20 border-t border-white/[0.07]">
   <div class="max-w-3xl mx-auto text-center reveal">
-    <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-lime mb-3">About VaultEdge</p>
+    <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-lime mb-3">About HarbourFundingSolutions</p>
     <h2 class="financing-hl text-white mb-6">We help SMEs access<br/>the capital they need</h2>
     <p class="text-white text-sm sm:text-base leading-relaxed mb-6">We are a business financing solutions provider focused on helping small and medium-sized businesses access the capital they need to grow and succeed. Our mission is to simplify the funding process by connecting business owners with flexible loan options through a network of trusted financial partners. We believe every business deserves the opportunity to grow with the right financial support.</p>
     <div class="flex flex-wrap justify-center gap-5 pt-4">
@@ -519,55 +403,35 @@
   <div class="flex flex-col items-start md:items-end gap-5 w-full md:w-auto">
     <p class="text-[13px] sm:text-[14px] font-light text-white/38 max-w-[300px] md:text-right leading-relaxed">Explore financing options designed to help your business move forward. Apply now or speak with a funding specialist.</p>
     <div class="flex flex-wrap gap-4 justify-center md:justify-end w-full">
-      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
-        <span>Apply Now →</span>
-      </a>
-      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
-        Talk to Expert
-      </a>
+      <a href="#" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer"><span>Apply Now →</span></a>
+      <a href="#" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">Talk to Expert</a>
     </div>
   </div>
 </section>
 
 <!-- ══ FOOTER ══ -->
-<?php
-@include('footer.php')?>
+<footer class="border-t border-white/[0.07] py-12 px-4 sm:px-12 text-center text-white/40 text-xs">
+  <p>© 2025 HarbourFundingSolutions — Empowering Business Growth. All rights reserved.</p>
+  <div class="flex justify-center gap-6 mt-4"><a href="#" class="hover:text-lime">Privacy</a><a href="#" class="hover:text-lime">Terms</a><a href="#" class="hover:text-lime">Contact</a></div>
+</footer>
 
-<!-- JSON-LD Schema Markup for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FinancialService",
-  "name": "VaultEdge",
-  "url": "https://www.vaultedge.com",
-  "logo": "https://www.vaultedge.com/logo.png",
+  "name": "HarbourFundingSolutions",
+  "url": "https://www.harbourfundingsolutions.com",
+  "logo": "https://www.harbourfundingsolutions.com/logo.png",
   "description": "Fast and flexible business financing solutions including business loans, SBA loans, commercial financing, and construction loans.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "New York",
-    "addressRegion": "NY",
-    "addressCountry": "US"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1-800-555-1234",
-    "contactType": "customer service",
-    "email": "hello@vaultedge.com"
-  },
-  "sameAs": [
-    "https://www.facebook.com/vaultedge",
-    "https://www.twitter.com/vaultedge",
-    "https://www.linkedin.com/company/vaultedge"
-  ]
+  "address": { "@type": "PostalAddress", "addressLocality": "New York", "addressRegion": "NY", "addressCountry": "US" },
+  "contactPoint": { "@type": "ContactPoint", "telephone": "+1-800-555-1234", "contactType": "customer service", "email": "hello@harbourfundingsolutions.com" }
 }
 </script>
 
 <script>
-  // reveal on scroll
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
-  // count-up
   function countUp(el) {
     const target = +el.dataset.target;
     const prefix = el.dataset.prefix || '';
@@ -580,9 +444,7 @@
       if (p < 1) requestAnimationFrame(tick);
     })(t0);
   }
-  const co = new IntersectionObserver(entries => entries.forEach(e => {
-    if(e.isIntersecting && !e.target.dataset.done) { e.target.dataset.done = 1; countUp(e.target); }
-  }), { threshold: 0.4 });
+  const co = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting && !e.target.dataset.done) { e.target.dataset.done = 1; countUp(e.target); } }), { threshold: 0.4 });
   document.querySelectorAll('.stat-num').forEach(el => co.observe(el));
 </script>
 </body>

@@ -14,7 +14,7 @@ $pathPrefix = str_repeat('../', max(0, $depth));
   <div class="flex items-center justify-between px-4 sm:px-6 md:px-12 h-16">
 
     <!-- Logo -->
-    <a href="<?php echo $pathPrefix; ?>index.php" class="font-display text-[20px] sm:text-[22px] tracking-[0.12em] hover:text-lime transition-colors cursor-pointer z-20">BizCash<span class="text-lime">&amp;</span>Capital</a>
+    <a href="<?php echo $pathPrefix; ?>index.php" class="font-display text-[20px] sm:text-[22px] tracking-[0.12em] hover:text-lime transition-colors cursor-pointer z-20">Harbour<span class="text-lime">Funding</span>Solutions</a>
 
     <!-- Desktop Navigation -->
     <ul class="hidden lg:flex gap-6 xl:gap-9 list-none items-center">
@@ -95,44 +95,44 @@ $pathPrefix = str_repeat('../', max(0, $depth));
             <a href="<?php echo $pathPrefix; ?>loans/construction-financing.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Construction Financing</a>
             <a href="<?php echo $pathPrefix; ?>loans/bridge-loans.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Bridge Loans</a>
           </div>
+        </div>
 
-          <!-- Mobile Dropdown 2: Industry -->
-          <div class="border-b border-white/[0.08] pb-2">
-            <button onclick="toggleMobileDropdown(this)" class="w-full flex items-center justify-between py-3 text-white/80 hover:text-lime transition-colors">
-              <span class="text-[15px] font-medium tracking-[0.06em] uppercase">Industry</span>
-              <svg class="w-4 h-4 transition-transform duration-200 dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-              </svg>
-            </button>
-            <div class="dropdown-content hidden mt-2 ml-4 space-y-2">
-              <a href="<?php echo $pathPrefix; ?>industry/auto-repair.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Auto Repair</a>
-              <a href="<?php echo $pathPrefix; ?>industry/attorney.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Attorney</a>
-              <a href="<?php echo $pathPrefix; ?>industry/cleaning-business.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Cleaning Business</a>
-              <a href="<?php echo $pathPrefix; ?>industry/construction.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Construction</a>
-              <a href="<?php echo $pathPrefix; ?>industry/Convenience-store.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Convenience Store</a>
-              <a href="<?php echo $pathPrefix; ?>industry/day-care.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Day care</a>
-              <a href="<?php echo $pathPrefix; ?>industry/beauty-saloon.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Beauty Saloon</a>
-              <a href="<?php echo $pathPrefix; ?>industry/accounting.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Accounting</a>
-            </div>
+        <!-- Mobile Dropdown 2: Industry -->
+        <div class="border-b border-white/[0.08] pb-2">
+          <button onclick="toggleMobileDropdown(this)" class="w-full flex items-center justify-between py-3 text-white/80 hover:text-lime transition-colors">
+            <span class="text-[15px] font-medium tracking-[0.06em] uppercase">Industry</span>
+            <svg class="w-4 h-4 transition-transform duration-200 dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="dropdown-content hidden mt-2 ml-4 space-y-2">
+            <a href="<?php echo $pathPrefix; ?>industry/auto-repair.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Auto Repair</a>
+            <a href="<?php echo $pathPrefix; ?>industry/attorney.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Attorney</a>
+            <a href="<?php echo $pathPrefix; ?>industry/cleaning-business.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Cleaning Business</a>
+            <a href="<?php echo $pathPrefix; ?>industry/construction.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Construction</a>
+            <a href="<?php echo $pathPrefix; ?>industry/Convenience-store.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Convenience Store</a>
+            <a href="<?php echo $pathPrefix; ?>industry/day-care.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Day care</a>
+            <a href="<?php echo $pathPrefix; ?>industry/beauty-saloon.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Beauty Saloon</a>
+            <a href="<?php echo $pathPrefix; ?>industry/accounting.php" class="block py-2 text-[14px] text-white/60 hover:text-lime transition-colors">Accounting</a>
           </div>
-
-          <!-- Mobile Contact Link -->
-          <a href="<?php echo $pathPrefix; ?>contact.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Contact Us</a>
-
         </div>
 
-        <!-- Mobile CTA Button -->
-        <div class="mt-auto pt-6">
-          <a href="<?php echo $pathPrefix; ?>contact.php" class="block w-full text-center bg-lime text-ink px-6 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-colors">
-            Get Funded
-          </a>
-          <p class="text-center text-white/30 text-[11px] mt-4">© 2024 BizCash&amp;Capital</p>
-        </div>
+        <!-- Mobile Contact Link -->
+        <a href="<?php echo $pathPrefix; ?>contact.php" class="block py-3 text-white/80 hover:text-lime transition-colors text-[15px] font-medium tracking-[0.06em] uppercase border-b border-white/[0.08]">Contact Us</a>
 
       </div>
-    </div>
 
-    <!-- Overlay backdrop - removed since menu is full screen -->
+      <!-- Mobile CTA Button -->
+      <div class="mt-auto pt-6">
+        <a href="<?php echo $pathPrefix; ?>contact.php" class="block w-full text-center bg-lime text-ink px-6 py-3 rounded-lg font-semibold text-[14px] tracking-[0.06em] uppercase hover:bg-lime/90 transition-colors">
+          Get Funded
+        </a>
+        <p class="text-center text-white/30 text-[11px] mt-4">© 2024 HarbourFundingSolutions</p>
+      </div>
+
+    </div>
+  </div>
+
 </header>
 
 <!-- Mobile Menu Toggle JavaScript -->
