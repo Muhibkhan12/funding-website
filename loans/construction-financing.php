@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>BizCashAndCapital | Construction Loans — Best Rates & Financial Freedom</title>
-<meta name="description" content="BizCashAndCapital offers comprehensive construction loan services: new construction, renovation, expansion of commercial properties. Best competitive interest rates for construction loans 2023.">
+<title>HarbourFundingSolutions | Construction Loans — Best Rates & Financial Freedom</title>
+<meta name="description" content="HarbourFundingSolutions offers comprehensive construction loan services: new construction, renovation, expansion of commercial properties. Best competitive interest rates for construction loans 2023.">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -138,7 +138,7 @@
   <!-- Intro + low interest banner -->
   <div class="reveal mb-14 max-w-5xl mx-auto">
     <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      BizCashAndCapital offers comprehensive construction loan services to support businesses for the financial freedom they need. Our construction loan services provide financial assistance for various construction needs, including new construction, renovation, or expansion of commercial properties. <strong class="text-white font-semibold">Best Competitive Interest Rate for Construction Loan in 2023</strong> — whether you run a small startup or a large corporation, our team of skilled professionals is ready to assist you during your application process.
+      HarbourFundingSolutions offers comprehensive construction loan services to support businesses for the financial freedom they need. Our construction loan services provide financial assistance for various construction needs, including new construction, renovation, or expansion of commercial properties. <strong class="text-white font-semibold">Best Competitive Interest Rate for Construction Loan in 2023</strong> — whether you run a small startup or a large corporation, our team of skilled professionals is ready to assist you during your application process.
     </p>
     
     <!-- Low interest program banner -->
@@ -275,7 +275,7 @@
       </div>
       <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
         <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a construction loan can take weeks or even months. But here at <strong class="text-white">BizCashAndCapital</strong>, we get you fundings as soon as possible!</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a construction loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible!</p></div>
       </div>
     </div>
   </div>
@@ -285,9 +285,9 @@
     <div class="flex justify-center mb-4">
       <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
-    <h3 class="font-display text-3xl text-white mb-4">BizCashAndCapital Commitment</h3>
+    <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      At BizCashAndCapital, we are dedicated to empowering businesses to realize their construction visions. Contact us today to embark on your journey towards harnessing the benefits of construction loans and bringing your architectural dreams to fruition.
+      At HarbourFundingSolutions, we are dedicated to empowering businesses to realize their construction visions. Contact us today to embark on your journey towards harnessing the benefits of construction loans and bringing your architectural dreams to fruition.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
       <a href="#apply" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
@@ -297,37 +297,8 @@
 
 </main>
 
-<!-- ═══════════ FOOTER ═══════════ -->
-<footer class="bg-ink mt-10 border-t border-white/[0.07]">
-  <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
-    <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
-      <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Comprehensive construction loan services to support businesses for the financial freedom they need.</p>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Loan Types</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Construction to Permanent</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Standalone Construction</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Renovation Loans</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Commercial Construction</a></li>
-      </ul>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2025 BizCashAndCapital. All rights reserved.</p>
-    <p class="text-[12px] text-white/18">Best Competitive Interest Rate for Construction Loan 2023</p>
-  </div>
-</footer>
+<?php
+@include('../footer.php')?>
 
 <script>
   // Reveal on scroll (Intersection Observer)

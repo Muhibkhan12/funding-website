@@ -276,8 +276,10 @@
 </main>
 
 <?php
+@include('../footer.php')?>;
+?>
 
-@include('../footer.php')?>
+
 
 <script>
   // Reveal on scroll (Intersection Observer)
