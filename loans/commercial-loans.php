@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Commercial Loans — BizCash&Capital | Low‑Interest Business Financing</title>
-<meta name="description" content="Secure commercial loans for your business with BizCash&Capital. Low-interest rates, flexible terms, and expert guidance for construction, real estate, and operating costs.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<title>Commercial Loans — HarbourFundingSolutions | Merchant Cash Advance, Business Funding & Low‑Interest Financing</title>
+<meta name="description" content="Secure commercial loans, merchant cash advance, small business loans, working capital, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, and bad credit business loans with HarbourFundingSolutions. Low-interest rates, flexible terms, and expert guidance for construction, real estate, and operating costs.">
+<meta name="keywords" content="merchant cash advance, business funding, small business loans, working capital loans, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, bad credit business loans, same day merchant cash advance, restaurant merchant cash advance, trucking business funding, MCA for bad credit, business funding no collateral, fast approval business funding, revenue based financing, merchant cash advance for restaurants, working capital for small business, emergency business funding, restaurant business loans, construction business funding, dental practice financing, HVAC business funding, retail store funding, Amazon seller financing, eCommerce business funding, commercial loans, commercial real estate loans, equipment financing, term loans" />
+<meta name="author" content="HarbourFundingSolutions" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="English" />
+<link rel="canonical" href="https://www.harbourfundingsolutions.com/loans/commercial-loans.php" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Commercial Loans & Business Funding | HarbourFundingSolutions" />
+<meta property="og:description" content="Get commercial loans, merchant cash advance, small business loans, working capital, same day funding, and more. Low-interest rates, flexible terms." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?w=1200&q=80" />
+<meta property="og:url" content="https://www.harbourfundingsolutions.com/loans/commercial-loans.php" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Commercial Loans & Business Funding | HarbourFundingSolutions" />
+<meta name="twitter:description" content="Commercial loans, merchant cash advance, working capital, same day business funding. Bad credit OK, no collateral required." />
+
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -36,6 +54,19 @@
 </script>
 <style>
   :root { --lime: #CCFF00; --ink: #0A0A0A; }
+
+  /* SEO hidden keyword container */
+  .seo-keywords {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
 
   /* Grain texture overlay */
   body::after {
@@ -111,6 +142,17 @@
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
+<!-- SEO Hidden Keywords Container -->
+<div class="seo-keywords" aria-hidden="true">
+    <h1>Merchant Cash Advance</h1>
+    <h2>Business Funding</h2>
+    <h3>Small Business Loans</h3>
+    <p>Working Capital Loans | Same Day Business Funding | Unsecured Business Loans | Business Line of Credit | Fast Business Loans | Startup Business Funding | Bad Credit Business Loans</p>
+    <p>Same Day Merchant Cash Advance | Restaurant Merchant Cash Advance | Trucking Business Funding | MCA for Bad Credit | Business Funding No Collateral | Fast Approval Business Funding | Revenue Based Financing | Merchant Cash Advance for Restaurants | Working Capital for Small Business | Emergency Business Funding</p>
+    <p>Restaurant Business Loans | Construction Business Funding | Dental Practice Financing | HVAC Business Funding | Retail Store Funding | Amazon Seller Financing | eCommerce Business Funding</p>
+    <span>commercial loans</span><span>commercial real estate loans</span><span>equipment financing</span><span>term loans</span><span>working capital loans</span>
+</div>
+
 <?php
 @include('../header.php');
 ?>
@@ -128,7 +170,7 @@
     <h1 class="font-display text-white text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1]">
       Commercial <span class="text-lime">Loans</span>
     </h1>
-    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Low-interest rates · Flexible terms · Expert guidance for construction, real estate & operating costs</p>
+    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">Merchant cash advance · Small business loans · Working capital · Same day business funding · Unsecured business loans · Business line of credit · Fast business loans · Startup business funding · Bad credit business loans · Low-interest rates · Flexible terms</p>
   </div>
 </section>
 
@@ -138,17 +180,17 @@
   <!-- Intro + low interest banner merged elegantly -->
   <div class="reveal mb-14 max-w-5xl mx-auto">
     <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      Commercial loans are financing options that help businesses meet their financial freedom and accomplish certain goals. These loans can finance capital investments or buy merchandise, grow business operations, buy real estate, or expand business activities. <strong class="text-white font-semibold">HarbourFundingSolutions</strong> offers an ultimate guide to help you understand the ins and outs of securing a commercial loan for your business.
+      Commercial loans are financing options that help businesses meet their financial freedom and accomplish certain goals. These loans can finance capital investments or buy merchandise, grow business operations, buy real estate, or expand business activities. <strong class="text-white font-semibold">HarbourFundingSolutions</strong> offers an ultimate guide to help you understand the ins and outs of securing a commercial loan, merchant cash advance, small business loan, working capital, or same day business funding for your business.
     </p>
     
-    <!-- Low interest program banner (inline, no extra image duplication) -->
+    <!-- Low interest program banner -->
     <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-lime/10 via-lime/5 to-transparent border border-lime/20 p-6 md:p-8 mt-10">
       <div class="absolute top-0 right-0 w-64 h-64 bg-lime/5 rounded-full blur-3xl"></div>
       <div class="flex flex-col md:flex-row justify-between items-center gap-6 relative z-10">
         <div>
           <span class="text-lime text-[11px] font-bold tracking-[0.2em] uppercase mb-2 block">Limited Time Offer</span>
           <h2 class="font-display text-2xl md:text-3xl font-bold text-white">Best Low-Interest Rate Commercial Loan Program For 2025</h2>
-          <p class="text-white/60 text-sm mt-2 max-w-xl">Whether you are a small startup or a major corporation, our experts guide you through construction, real-estate purchase, or operating costs.</p>
+          <p class="text-white/60 text-sm mt-2 max-w-xl">Whether you need a merchant cash advance, business line of credit, revenue based financing, or unsecured business loan — our experts guide you through construction, real-estate purchase, or operating costs.</p>
         </div>
         <div class="flex-shrink-0">
           <span class="inline-block bg-lime/20 backdrop-blur-sm rounded-full px-4 py-1.5 border border-lime/30 text-lime text-xs font-bold">As low as 4.5% APR</span>
@@ -158,22 +200,22 @@
     
     <div class="pull-quote my-8 max-w-3xl mx-auto">
       <p class="font-display text-[24px] md:text-[28px] text-white leading-snug">
-        "Whether you are a small startup or a large company — our specialists will help you secure the loans you need for development, equipment, or operations."
+        "Whether you are a small startup looking for startup business funding or a large company needing MCA for bad credit — our specialists will help you secure the loans you need for development, equipment, or operations."
       </p>
     </div>
     <p class="text-[16px] leading-[1.85] text-white/50 font-light text-center">
-      Our team of experts will guide you through the application process and help you obtain the Commercial loans you require. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
+      Our team of experts will guide you through the application process and help you obtain the Commercial loans, merchant cash advance, or working capital you require. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
     </p>
   </div>
 
   <div class="border-t border-white/[0.1] mb-14 max-w-5xl mx-auto"></div>
 
   <!-- Types of Business Loans Section - Full Grid with Background Images on Cards -->
-<div id="loan-types" class="reveal mb-14">
+  <div id="loan-types" class="reveal mb-14">
     <div class="text-center mb-10">
         <p class="chip mb-4 inline-block">Loan Products</p>
         <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Types of Business Loans</h2>
-        <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Choose the right financing option for your business needs — tailored solutions for every growth stage.</p>
+        <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Choose the right financing option for your business needs — merchant cash advance, term loans, working capital, and more. Bad credit OK, no collateral required.</p>
     </div>
 
     <!-- Professional 3-Column Grid Layout with Image Backgrounds -->
@@ -181,18 +223,16 @@
         
         <!-- Card 1: Term Loans -->
         <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
-            <!-- Background Image -->
             <div class="absolute inset-0 z-0">
                 <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=450&fit=crop" alt="Term loans background" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
                 <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
             </div>
-            <!-- Content -->
             <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
                 <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
                     <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 11h.01M12 11h.01M15 11h.01M4 19h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                 </div>
                 <h3 class="font-display text-2xl text-white mb-2">Term Loans</h3>
-                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs.</p>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Term loans provide a lump sum amount with fixed monthly payments over a set term. They are suitable for larger investments and long-term business needs, including equipment financing and business expansion.</p>
                 <div class="mt-4 pt-4 border-t border-white/10 flex items-center gap-2">
                     <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Expansion</span>
                 </div>
@@ -210,7 +250,7 @@
                     <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
                 </div>
                 <h3 class="font-display text-2xl text-white mb-2">Commercial Real Estate Loans</h3>
-                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow.</p>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">A revolving line of credit gives you access to funds up to a predetermined credit limit. You only pay interest on the amount you use, providing flexibility in managing cash flow. Perfect for retail store funding and property investment.</p>
                 <div class="mt-4 pt-4 border-t border-white/10">
                     <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Property & Cash Flow</span>
                 </div>
@@ -228,7 +268,7 @@
                     <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                 </div>
                 <h3 class="font-display text-2xl text-white mb-2">Equipment Financing</h3>
-                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.</p>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan. Great for construction business funding and HVAC business funding.</p>
                 <div class="mt-4 pt-4 border-t border-white/10">
                     <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Machinery & Tech</span>
                 </div>
@@ -246,14 +286,14 @@
                     <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
                 </div>
                 <h3 class="font-display text-2xl text-white mb-2">Working Capital Loans</h3>
-                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Enables businesses to acquire the necessary equipment and machinery vital for their operations. The equipment itself often serves as collateral for the loan.</p>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Working capital for small business needs — cover daily operations, payroll, inventory, and seasonal fluctuations. Fast approval business funding with no collateral required.</p>
                 <div class="mt-4 pt-4 border-t border-white/10">
                     <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Best for: Daily Operations</span>
                 </div>
             </div>
         </div>
         
-        <!-- Card 5: Merchant Cash Advances (Featured - spans full width on mobile, normal on desktop) -->
+        <!-- Card 5: Merchant Cash Advances (Featured) -->
         <div class="group relative rounded-2xl overflow-hidden bg-ink border border-lime/20 hover:border-lime/50 transition-all duration-500 hover:-translate-y-2 md:col-span-1 lg:col-span-1">
             <div class="absolute inset-0 z-0">
                 <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=450&fit=crop" alt="Merchant cash advances background" class="w-full h-full object-cover opacity-35 group-hover:opacity-45 transition-opacity duration-500">
@@ -267,14 +307,14 @@
                     <span class="text-[10px] font-bold text-ink bg-lime px-3 py-1 rounded-full tracking-wide">Fast Access</span>
                 </div>
                 <h3 class="font-display text-2xl text-white mb-2">Merchant Cash Advances</h3>
-                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. It's an ideal solution for businesses with consistent credit card transactions, providing quick access to funds.</p>
+                <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Merchant cash advances involve receiving a lump sum payment in exchange for a percentage of your daily credit card sales. Same day merchant cash advance for restaurants, retail, trucking, and service businesses. MCA for bad credit available. Business funding no collateral required.</p>
                 <div class="mt-4 pt-4 border-t border-white/10">
                     <a href="#apply" class="inline-block text-[12px] font-semibold text-lime hover:text-white transition-colors">Learn more about MCAs →</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+  </div>
 
   <!-- CTA Banner (Financial advisors) -->
   <div class="reveal cta-band rounded-2xl p-8 md:p-10 mb-14 relative overflow-hidden max-w-6xl mx-auto">
@@ -288,49 +328,49 @@
     </div>
   </div>
 
-  <!-- How to Apply Section (preserving original 5 steps, matching the target design) -->
+  <!-- How to Apply Section -->
   <div id="apply" class="reveal mb-14 max-w-6xl mx-auto">
     <div class="text-center mb-10">
       <p class="chip mb-4 inline-block">Simple Process</p>
       <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">How to Apply for Commercial Loan</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Finding the world of commercial loans can be complex, but our team of experienced advisors is here to simplify the process.</p>
+      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Finding the world of commercial loans, merchant cash advance, and business funding can be complex, but our team of experienced advisors is here to simplify the process.</p>
     </div>
 
     <div class="flex flex-col gap-5 max-w-3xl mx-auto">
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal">
         <div class="step-circle">1</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Verify Eligibility</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the loan you are applying for.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Verify Eligibility</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the loan, merchant cash advance, or business funding you are applying for.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.08s">
         <div class="step-circle">2</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Solid Business Plan</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Have a solid business plan ready for review.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Solid Business Plan</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Have a solid business plan ready for review, including your revenue based financing needs.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.16s">
         <div class="step-circle">3</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Complete Paperwork</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Complete the necessary paperwork in advance.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Complete Paperwork</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Complete the necessary paperwork in advance for fast approval business funding.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.24s">
         <div class="step-circle">4</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Be Prepared</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Be ready to respond to queries about the business you run.</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Be Prepared</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Be ready to respond to queries about the business you run and your working capital requirements.</p></div>
       </div>
       <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
         <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a Commercial loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible!</p></div>
+        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a Commercial loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible with same day business funding available for qualified applicants!</p></div>
       </div>
     </div>
   </div>
 
-  <!-- Closing Statement Section (original content, redesigned) -->
+  <!-- Closing Statement Section -->
   <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07] max-w-4xl mx-auto text-center">
     <div class="flex justify-center mb-4">
       <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
     <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      At HarbourFundingSolutions, we are dedicated to empowering businesses with the financial resources required for ambitious projects and sustained growth. Contact us today to initiate your journey towards harnessing the benefits of commercial loans and propelling your business to greater heights.
+      At HarbourFundingSolutions, we are dedicated to empowering businesses with the financial resources required for ambitious projects and sustained growth — whether you need a merchant cash advance, small business loan, working capital, business line of credit, same day business funding, unsecured business loan, startup business funding, or bad credit business loan. Contact us today to initiate your journey towards harnessing the benefits of commercial loans and propelling your business to greater heights.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-      <a href="#apply" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
+      <a href="../apply-now.php" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
       <a href="#loan-types" class="btn-outline inline-flex items-center justify-center gap-2 px-8 py-3">Learn More</a>
     </div>
   </div>
