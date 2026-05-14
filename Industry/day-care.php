@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Daycare Center Funding | BizCashAndCapital — Tailored Financing for Childcare Facilities</title>
-<meta name="description" content="BizCashAndCapital provides specialized funding solutions for daycare centers — Business Loans, Lines of Credit, Equipment Financing, Crowdfunding, and more. Nurture young minds with the right capital.">
+<title>Daycare Center Funding | HarbourFundingSolutions — Tailored Financing for Childcare Facilities</title>
+<meta name="description" content="HarbourFundingSolutions provides specialized funding solutions for daycare centers — Business Loans, Lines of Credit, Equipment Financing, Crowdfunding, and more. Nurture young minds with the right capital.">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -128,7 +128,7 @@
 <div class="reveal max-w-7xl mx-auto px-6 py-16">
   <div class="text-center max-w-4xl mx-auto">
     <p class="text-white/60 text-lg leading-relaxed">
-      At BizCashAndCapital, we recognize the essential role daycare centers play in shaping young minds and supporting working parents. We specialize in providing tailored financing solutions for daycare center owners, aiming to ensure that every childcare facility has the financial support needed to create a nurturing and educational environment.
+      At HarbourFundingSolutions, we recognize the essential role daycare centers play in shaping young minds and supporting working parents. We specialize in providing tailored financing solutions for daycare center owners, aiming to ensure that every childcare facility has the financial support needed to create a nurturing and educational environment.
     </p>
     
     <div class="pull-quote my-8 max-w-2xl mx-auto">
@@ -328,9 +328,9 @@
     <div class="flex justify-center mb-4">
       <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
-    <h3 class="font-display text-3xl text-white mb-4">BizCashAndCapital Commitment</h3>
+    <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      Our team of expert advisors has a deep understanding of the childcare industry's unique requirements and challenges. We work closely with daycare center owners to tailor financing solutions that align with their specific goals and financial situations. At BizCashAndCapital, we're committed to empowering daycare centers with the financial resources required to thrive and provide exceptional childcare services.
+      Our team of expert advisors has a deep understanding of the childcare industry's unique requirements and challenges. We work closely with daycare center owners to tailor financing solutions that align with their specific goals and financial situations. At HarbourFundingSolutions, we're committed to empowering daycare centers with the financial resources required to thrive and provide exceptional childcare services.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
       <a href="#funding-options" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Explore Funding →</a>
@@ -339,38 +339,8 @@
   </div>
 </div>
 
-<!-- ═══════════ FOOTER ═══════════ -->
-<footer class="bg-ink mt-6 border-t border-white/[0.07]">
-  <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
-    <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
-      <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Tailored financing solutions for daycare centers — nurturing young minds and supporting working parents.</p>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Funding Types</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Business Loans</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Lines of Credit</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Equipment Financing</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">SBA Loans</a></li>
-      </ul>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2025 BizCashAndCapital. All rights reserved.</p>
-    <p class="text-[12px] text-white/18">Empowering Daycare Centers | Childcare Facility Financing</p>
-  </div>
-</footer>
-
+<?php
+@include('../footer.php')?>
 <script>
   // Reveal on scroll (Intersection Observer)
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
