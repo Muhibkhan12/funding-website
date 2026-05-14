@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Auto Repair Funding | BizCashAndCapital — Keep Your Vehicle Rolling</title>
-<meta name="description" content="BizCashAndCapital offers specialized auto repair funding solutions — emergency lines of credit, extended-term loans, fleet financing, and more. Get back on the road without financial stress.">
+<title>Auto Repair Funding | HarbourFundingSolutions — Keep Your Vehicle Rolling</title>
+<meta name="description" content="HarbourFundingSolutions offers specialized auto repair funding solutions — emergency lines of credit, extended-term loans, fleet financing, and more. Get back on the road without financial stress.">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -142,7 +142,7 @@
   <!-- Introduction -->
   <div class="reveal mb-14 max-w-5xl mx-auto">
     <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      At BizCashAndCapital, we understand that maintaining a vehicle can sometimes bring unexpected financial strain. Car repairs and maintenance are essential to keep you on the road safely, but the costs involved can catch you off guard. That's why we offer specialized funding solutions tailored to support your auto repair needs, ensuring you can keep your vehicle in optimal condition without financial stress.
+      At HarbourFundingSolutions, we understand that maintaining a vehicle can sometimes bring unexpected financial strain. Car repairs and maintenance are essential to keep you on the road safely, but the costs involved can catch you off guard. That's why we offer specialized funding solutions tailored to support your auto repair needs, ensuring you can keep your vehicle in optimal condition without financial stress.
     </p>
     
     <!-- Importance banner -->
@@ -177,7 +177,7 @@
     <div class="text-center mb-10">
       <p class="chip mb-4 inline-block">Funding Solutions</p>
       <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Auto Repair Funding Options</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Various options to get the best loans that suit your needs — at BizCashAndCapital we're here to cater to you.</p>
+      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Various options to get the best loans that suit your needs — at HarbourFundingSolutions we're here to cater to you.</p>
     </div>
 
     <!-- 3-Column Grid for 9 Funding Options -->
@@ -185,22 +185,22 @@
       
       <!-- Card 1: Emergency Repair Line of Credit -->
       <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
-  <div class="absolute inset-0 z-0">
-    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&auto=format" alt="Emergency auto repair" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
-    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
-  </div>
-  <div class="relative z-10 p-6 min-h-[340px] flex flex-col">
-    <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-      <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/></svg>
-    </div>
-    <h3 class="font-display text-xl text-white mb-2">Emergency Repair Line of Credit</h3>
-    <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Designed to provide immediate funds for urgent auto repairs. Access the credit line whenever unexpected repairs arise, ensuring you can address them swiftly.</p>
-    <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
-      <a href="#" class="feedback-link text-[11px]"></a>
-      <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
-    </div>
-  </div>
-</div>
+        <div class="absolute inset-0 z-0">
+          <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&auto=format" alt="Emergency auto repair" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
+        </div>
+        <div class="relative z-10 p-6 min-h-[340px] flex flex-col">
+          <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+            <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/></svg>
+          </div>
+          <h3 class="font-display text-xl text-white mb-2">Emergency Repair Line of Credit</h3>
+          <p class="text-[13px] text-white/60 leading-relaxed font-light flex-1">Designed to provide immediate funds for urgent auto repairs. Access the credit line whenever unexpected repairs arise, ensuring you can address them swiftly.</p>
+          <div class="mt-4 pt-4 border-t border-white/10 flex justify-between items-center">
+            <a href="#" class="feedback-link text-[11px]"></a>
+            <a href="#contact" class="text-[11px] text-white/40 hover:text-lime transition">Contact Experts</a>
+          </div>
+        </div>
+      </div>
       
       <!-- Card 2: Extended-Term Auto Repair Loans -->
       <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
@@ -380,7 +380,7 @@
     <div class="flex justify-center mb-4">
       <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
-    <h3 class="font-display text-3xl text-white mb-4">BizCashAndCapital Commitment</h3>
+    <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
       We are dedicated to helping you secure the right auto repair funding to keep your vehicle in top-notch condition. Contact us today to explore your options and drive with confidence.
     </p>
@@ -393,36 +393,8 @@
 </main>
 
 <!-- ═══════════ FOOTER ═══════════ -->
-<footer class="bg-ink mt-10 border-t border-white/[0.07]">
-  <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
-    <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
-      <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Specialized auto repair funding solutions — keeping you on the road without financial stress.</p>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Funding Types</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Emergency Line of Credit</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Extended-Term Loans</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Fleet Financing</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Collateral-Based Loans</a></li>
-      </ul>
-    </div>
-    <div>
-      <h5 class="text-[11px] font-bold tracking-[0.12em] uppercase text-white/30 mb-4">Company</h5>
-      <ul class="space-y-2 list-none">
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">About Us</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Contact</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Privacy Policy</a></li>
-        <li><a href="#" class="text-[14px] text-white/50 hover:text-lime transition-colors font-light">Terms of Service</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2025 BizCashAndCapital. All rights reserved.</p>
-    <p class="text-[12px] text-white/18">Auto Repair Funding Specialists | Drive with Confidence</p>
-  </div>
-</footer>
+<?php
+@include('../footer.php')?>
 
 <script>
   // Reveal on scroll (Intersection Observer)

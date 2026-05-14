@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Attorney Firm Funding | BizCashAndCapital — Legal Practice Financing Solutions</title>
-<meta name="description" content="BizCashAndCapital provides tailored funding solutions for attorney firms — Law Firm Loans, Litigation Funding, SBA 7(a), Practice Acquisition, and more. Empower your legal practice.">
+<title>Attorney Firm Funding | HarbourFundingSolutions — Legal Practice Financing Solutions</title>
+<meta name="description" content="HarbourFundingSolutions provides tailored funding solutions for attorney firms — Law Firm Loans, Litigation Funding, SBA 7(a), Practice Acquisition, and more. Empower your legal practice.">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
 <script>
@@ -127,7 +127,7 @@
 <div class="reveal max-w-7xl mx-auto px-6 py-16">
   <div class="text-center max-w-4xl mx-auto">
     <p class="text-white/60 text-lg leading-relaxed">
-      Welcome to BizCashAndCapital, where we understand the unique financial needs of attorney firms. We are committed to providing tailored funding solutions for legal practices, ensuring they have the financial support required to thrive, serve their clients effectively, and achieve legal excellence.
+      Welcome to HarbourFundingSolutions, where we understand the unique financial needs of attorney firms. We are committed to providing tailored funding solutions for legal practices, ensuring they have the financial support required to thrive, serve their clients effectively, and achieve legal excellence.
     </p>
     
     <div class="pull-quote my-8 max-w-2xl mx-auto">
@@ -160,7 +160,7 @@
   <div class="text-center mb-12 reveal">
     <p class="chip mb-4 inline-block">Attorney Firm Funding Solutions</p>
     <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Funding Solutions for Legal Practices</h2>
-    <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">At BizCashAndCapital, we offer a range of funding options tailored to meet the unique needs of attorney firms.</p>
+    <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">At HarbourFundingSolutions, we offer a range of funding options tailored to meet the unique needs of attorney firms.</p>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -346,9 +346,9 @@
     <div class="flex justify-center mb-4">
       <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
-    <h3 class="font-display text-3xl text-white mb-4">BizCashAndCapital Commitment</h3>
+    <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
     <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      Our team of financial experts understands the legal industry's unique requirements and challenges. We work closely with attorney firm partners to customize funding solutions that align with their specific goals and financial situations. At BizCashAndCapital, we're committed to empowering attorney firms with the financial resources required to provide exceptional legal representation.
+      Our team of financial experts understands the legal industry's unique requirements and challenges. We work closely with attorney firm partners to customize funding solutions that align with their specific goals and financial situations. At HarbourFundingSolutions, we're committed to empowering attorney firms with the financial resources required to provide exceptional legal representation.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
       <a href="#funding-solutions" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Explore Funding →</a>
@@ -361,7 +361,7 @@
 <footer class="bg-ink mt-6 border-t border-white/[0.07]">
   <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
     <div class="md:col-span-2">
-      <p class="font-display text-[28px] text-white mb-3">BizCash<span class="text-lime">&amp;</span>Capital</p>
+      <p class="font-display text-[28px] text-white mb-3">Harbour<span class="text-lime">Funding</span>Solutions</p>
       <p class="text-white/45 text-[14px] font-light leading-relaxed max-w-[320px]">Tailored funding solutions for attorney firms — empowering legal practices to thrive and serve clients effectively.</p>
     </div>
     <div>
@@ -384,7 +384,7 @@
     </div>
   </div>
   <div class="border-t border-white/[0.07] px-6 py-5 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-    <p class="text-[12px] text-white/25">© 2025 BizCashAndCapital. All rights reserved.</p>
+    <p class="text-[12px] text-white/25">© 2025 HarbourFundingSolutions. All rights reserved.</p>
     <p class="text-[12px] text-white/18">Empowering Attorney Firms | Legal Practice Financing</p>
   </div>
 </footer>
