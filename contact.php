@@ -117,7 +117,7 @@
             </div>
             <div class="text-left">
               <h4 class="font-semibold text-white mb-1">Call Our Team</h4>
-              <p class="text-white/50 text-sm">+1 (800) 555-1234</p>
+              <p class="text-white/50 text-sm">+1 716 391 4908</p>
               <p class="text-white/40 text-xs mt-1">Mon-Fri, 9am - 6pm EST</p>
             </div>
           </div>
@@ -128,20 +128,12 @@
             </div>
             <div class="text-left">
               <h4 class="font-semibold text-white mb-1">Visit Our Office</h4>
-              <p class="text-white/50 text-sm">200 Park Avenue, Suite 1700</p>
+              <p class="text-white/50 text-sm">200 Park Avenue</p>
               <p class="text-white/40 text-xs">New York, NY 10166</p>
             </div>
           </div>
         </div>
 
-        <div class="mt-8 sm:mt-10 pt-6 border-t border-white/[0.07] max-w-md mx-auto md:mx-0">
-          <h4 class="font-semibold text-white mb-3 text-center md:text-left">Business Hours</h4>
-          <div class="space-y-2 text-white/40 text-sm text-center md:text-left">
-            <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
-            <p>Saturday: 10:00 AM - 2:00 PM EST</p>
-            <p>Sunday: Closed</p>
-          </div>
-        </div>
       </div>
       
       <!-- Right Side - Contact Form (Talk to Expert) -->
