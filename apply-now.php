@@ -113,6 +113,27 @@
     margin-bottom: 20px;
     letter-spacing: -0.02em;
   }
+
+  /* Toast notification styling */
+  .toast-notification {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #1a1a1a;
+    border-left: 4px solid #CCFF00;
+    padding: 14px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    z-index: 10000;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+    transform: translateX(400px);
+    transition: transform 0.3s ease;
+    font-family: 'Inter', sans-serif;
+  }
+  .toast-notification.show {
+    transform: translateX(0);
+  }
 </style>
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
@@ -344,6 +365,27 @@
       arrow.style.transform = answer.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
     });
   });
+
+  // Simple toast notification function (no alert)
+  function showToast(message) {
+    const existingToast = document.querySelector('.toast-notification');
+    if(existingToast) existingToast.remove();
+    
+    const toast = document.createElement('div');
+    toast.className = 'toast-notification';
+    toast.innerHTML = `
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <span>${message}</span>
+      </div>
+    `;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.classList.add('show'), 10);
+    setTimeout(() => {
+      toast.classList.remove('show');
+      setTimeout(() => toast.remove(), 300);
+    }, 3000);
+  }
   
   function getFormData() {
     return {
@@ -387,13 +429,16 @@
     return isValid;
   }
   
-  // Submit — opens default mail client with pre-filled data
+  // Submit — opens default mail client with pre-filled data (NO ALERTS)
   document.getElementById('submitBtn').addEventListener('click', () => {
-    if (!validateForm()) return;
+    if (!validateForm()) {
+      showToast('⚠️ Please fill in all required fields');
+      return;
+    }
     
     const data = getFormData();
     const currentDate = new Date().toLocaleString();
-    const recipient = 'muhibkhan2299@gmail.com';
+    const recipient = 'info@harbour.com';
     const subject = `Loan Application - ${data.legalBusinessName} - ${data.merchantFullName}`;
     
     const emailBody = `
@@ -447,9 +492,8 @@ Empowering Business Growth
     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
     
-    setTimeout(() => {
-      alert('✓ Your email client has been opened!\n\n✓ The application has been pre-filled in the email body.\n\n✓ Please review and click Send to complete your application.\n\n✓ We will contact you within 24 hours after receiving your email.');
-    }, 300);
+    // Show toast notification instead of alert
+    showToast('✓ Email client opened — review and send your application');
     
     // Reset form after sending
     document.getElementById('loanApplicationForm').reset();

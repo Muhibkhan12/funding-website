@@ -2,11 +2,30 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>HarbourFundingSolutions | Construction Loans — Best Rates & Financial Freedom</title>
-<meta name="description" content="HarbourFundingSolutions offers comprehensive construction loan services: new construction, renovation, expansion of commercial properties. Best competitive interest rates for construction loans 2023.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<title>Construction Loans — HarbourFundingSolutions | Merchant Cash Advance, Business Funding & Best Rates</title>
+<meta name="description" content="HarbourFundingSolutions offers comprehensive construction loan services along with merchant cash advance, small business loans, working capital, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, bad credit business loans. New construction, renovation, expansion of commercial properties. Best competitive interest rates for construction loans 2025.">
+<meta name="keywords" content="merchant cash advance, business funding, small business loans, working capital loans, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, bad credit business loans, same day merchant cash advance, restaurant merchant cash advance, trucking business funding, MCA for bad credit, business funding no collateral, fast approval business funding, revenue based financing, merchant cash advance for restaurants, working capital for small business, emergency business funding, restaurant business loans, construction business funding, dental practice financing, HVAC business funding, retail store funding, Amazon seller financing, eCommerce business funding, construction loans, construction financing, renovation loans, commercial construction loans" />
+<meta name="author" content="HarbourFundingSolutions" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="English" />
+<link rel="canonical" href="https://www.harbourfundingsolutions.com/loans/construction-financing.php" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Construction Loans & Business Funding | HarbourFundingSolutions" />
+<meta property="og:description" content="Get construction loans, merchant cash advance, small business loans, working capital, same day funding, and more for your construction business. Best competitive interest rates." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80" />
+<meta property="og:url" content="https://www.harbourfundingsolutions.com/loans/construction-financing.php" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Construction Loans & Business Funding | HarbourFundingSolutions" />
+<meta name="twitter:description" content="Construction loans, merchant cash advance, working capital, same day business funding. Bad credit OK, no collateral required." />
+
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
 <script>
   tailwind.config = {
     theme: {
@@ -34,8 +53,22 @@
     },
   }
 </script>
+
 <style>
   :root { --lime: #CCFF00; --ink: #0A0A0A; }
+
+  /* SEO hidden keyword container */
+  .seo-keywords {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
 
   /* Grain texture overlay */
   body::after {
@@ -66,8 +99,14 @@
   /* Buttons */
   .btn-gold {
     background: var(--lime); color: var(--ink);
-    padding:14px 32px; font-weight:700; font-size:14px; letter-spacing:0.04em;
-    border-radius:4px; display:inline-block; text-decoration:none; cursor:pointer;
+    padding:12px 28px;
+    font-weight:700;
+    font-size:13px;
+    letter-spacing:0.04em;
+    border-radius:8px;
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
     transition: background 0.2s, transform 0.2s;
     border: none;
   }
@@ -75,9 +114,16 @@
 
   .btn-outline {
     background: transparent; color: white;
-    padding:13px 32px; font-weight:600; font-size:14px; letter-spacing:0.04em;
-    border-radius:4px; display:inline-block; text-decoration:none; cursor:pointer;
-    transition: all 0.2s; border: 2px solid rgba(255,255,255,0.3);
+    padding:11px 28px;
+    font-weight:600;
+    font-size:13px;
+    letter-spacing:0.04em;
+    border-radius:8px;
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
+    transition: all 0.2s;
+    border: 2px solid rgba(255,255,255,0.3);
   }
   .btn-outline:hover { background: white; color: var(--ink); border-color: white; }
 
@@ -102,6 +148,16 @@
 
   .hero-hl { font-family:'Space Grotesk',sans-serif; font-size:clamp(42px, 8vw, 80px); line-height:0.88; letter-spacing:-0.02em; font-weight:700; }
 
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .btn-gold, .btn-outline { padding: 10px 20px; font-size: 12px; }
+    .step-circle { width: 36px; height: 36px; font-size: 14px; }
+    .icon-circle { width: 44px; height: 44px; }
+    .pull-quote { padding-left: 16px; }
+    .loan-card > .p-6 { padding: 20px !important; }
+    .hero-hl { font-size: clamp(36px, 8vw, 60px); }
+  }
+
   /* Custom scrollbar */
   ::-webkit-scrollbar { width: 8px; }
   ::-webkit-scrollbar-track { background: #1a1a1a; }
@@ -111,124 +167,134 @@
 </head>
 <body class="bg-ink text-white font-body overflow-x-hidden">
 
-<!-- Include header INSIDE body -->
-<?php
-@include('../header.php')?>
+<!-- SEO Hidden Keywords Container -->
+<div class="seo-keywords" aria-hidden="true">
+    <h1>Merchant Cash Advance</h1>
+    <h2>Business Funding</h2>
+    <h3>Small Business Loans</h3>
+    <p>Working Capital Loans | Same Day Business Funding | Unsecured Business Loans | Business Line of Credit | Fast Business Loans | Startup Business Funding | Bad Credit Business Loans</p>
+    <p>Same Day Merchant Cash Advance | Restaurant Merchant Cash Advance | Trucking Business Funding | MCA for Bad Credit | Business Funding No Collateral | Fast Approval Business Funding | Revenue Based Financing | Merchant Cash Advance for Restaurants | Working Capital for Small Business | Emergency Business Funding</p>
+    <p>Restaurant Business Loans | Construction Business Funding | Dental Practice Financing | HVAC Business Funding | Retail Store Funding | Amazon Seller Financing | eCommerce Business Funding</p>
+    <span>construction loans</span><span>construction financing</span><span>renovation loans</span><span>commercial construction loans</span><span>construction to permanent loans</span>
+    <span>standalone construction loans</span><span>construction business funding</span>
+</div>
+
+<?php @include('../header.php'); ?>
 
 <!-- ═══════════ HERO SECTION (Construction Loans) ═══════════ -->
-<section class=" relative overflow-hidden min-h-[55vh] flex items-center justify-center pt-16">
+<section class="relative overflow-hidden min-h-[50vh] flex items-center justify-center pt-16">
   <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80'); opacity: 0.3;"></div>
   <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
   
-  <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-20 w-full text-center">
-    <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-12 sm:py-16 md:py-20 w-full text-center">
+    <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 border border-white/10">
       <span class="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
-      <span class="text-[11px] font-medium tracking-[0.1em] uppercase text-white/70">Construction Loan Specialists</span>
+      <span class="text-[10px] sm:text-[11px] font-medium tracking-[0.1em] uppercase text-white/70">Construction Loan Specialists</span>
     </div>
-    <h1 class="font-display text-white text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1]">
+    <h1 class="font-display text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight leading-[1.1]">
       Construction <span class="text-lime">Loans</span>
     </h1>
-    <p class="text-white/50 text-base max-w-2xl mx-auto mt-6 font-light">New construction · Renovation · Commercial expansion · Best competitive interest rates for construction loan in 2023</p>
+    <p class="text-white/50 text-sm sm:text-base max-w-2xl mx-auto mt-4 sm:mt-6 font-light px-4">New construction · Renovation · Commercial expansion · Merchant cash advance · Small business loans · Working capital · Same day business funding · Best competitive interest rates for construction loan in 2025</p>
   </div>
 </section>
 
 <!-- ═══════════ MAIN CONTENT (Full width, construction loan focused) ═══════════ -->
-<main class="max-w-7xl mx-auto px-6 py-16">
+<main class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
   
   <!-- Intro + low interest banner -->
-  <div class="reveal mb-14 max-w-5xl mx-auto">
-    <p class="text-[18px] leading-[1.85] text-white/70 font-light mb-5 text-center">
-      HarbourFundingSolutions offers comprehensive construction loan services to support businesses for the financial freedom they need. Our construction loan services provide financial assistance for various construction needs, including new construction, renovation, or expansion of commercial properties. <strong class="text-white font-semibold">Best Competitive Interest Rate for Construction Loan in 2023</strong> — whether you run a small startup or a large corporation, our team of skilled professionals is ready to assist you during your application process.
+  <div class="reveal mb-12 sm:mb-14 max-w-5xl mx-auto">
+    <p class="text-base sm:text-lg leading-relaxed text-white/70 font-light mb-5 text-center">
+      HarbourFundingSolutions offers comprehensive construction loan services along with <strong class="text-white">merchant cash advance, small business loans, working capital, same day business funding, unsecured business loans, business line of credit, fast business loans, startup business funding, and bad credit business loans</strong> to support businesses for the financial freedom they need. Our construction loan services provide financial assistance for various construction needs, including new construction, renovation, or expansion of commercial properties. <strong class="text-white font-semibold">Best Competitive Interest Rate for Construction Loan in 2025</strong> — whether you run a small startup or a large corporation, our team of skilled professionals is ready to assist you during your application process.
     </p>
     
     <!-- Low interest program banner -->
-    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-lime/10 via-lime/5 to-transparent border border-lime/20 p-6 md:p-8 mt-10">
-      <div class="absolute top-0 right-0 w-64 h-64 bg-lime/5 rounded-full blur-3xl"></div>
-      <div class="flex flex-col md:flex-row justify-between items-center gap-6 relative z-10">
+    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-lime/10 via-lime/5 to-transparent border border-lime/20 p-5 sm:p-6 md:p-8 mt-8 sm:mt-10">
+      <div class="absolute top-0 right-0 w-48 sm:w-64 h-48 sm:h-64 bg-lime/5 rounded-full blur-3xl"></div>
+      <div class="flex flex-col md:flex-row justify-between items-center gap-5 sm:gap-6 relative z-10">
         <div>
-          <span class="text-lime text-[11px] font-bold tracking-[0.2em] uppercase mb-2 block">Best Rates 2023</span>
-          <h2 class="font-display text-2xl md:text-3xl font-bold text-white">Best Competitive Interest Rate for Construction Loan in 2023</h2>
-          <p class="text-white/60 text-sm mt-2 max-w-xl">Whether you run a small startup or a large corporation, our skilled professionals assist you from application to funding.</p>
+          <span class="text-lime text-[10px] sm:text-[11px] font-bold tracking-[0.2em] uppercase mb-2 block">Best Rates 2025</span>
+          <h2 class="font-display text-xl sm:text-2xl md:text-3xl font-bold text-white">Best Competitive Interest Rate for Construction Loan in 2025</h2>
+          <p class="text-white/60 text-xs sm:text-sm mt-2 max-w-xl">Whether you need a merchant cash advance, working capital, or a construction loan — our skilled professionals assist you from application to funding.</p>
         </div>
         <div class="flex-shrink-0">
-          <span class="inline-block bg-lime/20 backdrop-blur-sm rounded-full px-4 py-1.5 border border-lime/30 text-lime text-xs font-bold">As low as 4.25% APR*</span>
+          <span class="inline-block bg-lime/20 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1 sm:py-1.5 border border-lime/30 text-lime text-[10px] sm:text-xs font-bold">As low as 4.25% APR*</span>
         </div>
       </div>
     </div>
     
-    <div class="pull-quote my-8 max-w-3xl mx-auto">
-      <p class="font-display text-[24px] md:text-[28px] text-white leading-snug">
-        "To benefit from a free consultation with our experienced financial advisors today — apply now."
+    <div class="pull-quote my-6 sm:my-8 max-w-3xl mx-auto">
+      <p class="font-display text-xl sm:text-2xl md:text-3xl text-white leading-snug">
+        "To benefit from a free consultation with our experienced financial advisors today — apply now for merchant cash advance, business funding, or construction loans."
       </p>
     </div>
-    <p class="text-[16px] leading-[1.85] text-white/50 font-light text-center">
-      Our team of experts will guide you through the application process and help you secure the construction loan you need. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
+    <p class="text-sm sm:text-base leading-relaxed text-white/50 font-light text-center">
+      Our team of experts will guide you through the application process and help you secure the construction loan, merchant cash advance, or working capital you need. To get a free consultation with our experienced financial advisors, <a href="#apply" class="text-lime font-semibold hover:underline">apply now</a>.
     </p>
   </div>
 
-  <div class="border-t border-white/[0.1] mb-14 max-w-5xl mx-auto"></div>
+  <div class="border-t border-white/[0.1] mb-12 sm:mb-14 max-w-5xl mx-auto"></div>
 
   <!-- Our Construction Loan Services Section - 3 cards with professional design -->
-  <div id="loan-types" class="reveal mb-14">
-    <div class="text-center mb-10">
-      <p class="chip mb-4 inline-block">Loan Products</p>
-      <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">Our Construction Loan Services</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">Flexible financing for every phase of your project — from groundbreaking to grand opening.</p>
+  <div id="loan-types" class="reveal mb-12 sm:mb-14">
+    <div class="text-center mb-8 sm:mb-10">
+      <p class="chip mb-3 sm:mb-4 inline-block">Loan Products</p>
+      <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-2 sm:mb-3 lime-underline">Our Construction Loan Services</h2>
+      <p class="text-white/40 text-sm sm:text-base mt-4 sm:mt-6 leading-relaxed max-w-2xl mx-auto px-4">Flexible financing for every phase of your project — from groundbreaking to grand opening. Plus merchant cash advance, working capital, and same day business funding.</p>
     </div>
 
     <!-- Professional 3-Column Grid Layout with Image Backgrounds -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 max-w-7xl mx-auto">
         
       <!-- Card 1: Construction to Permanent Loans -->
-      <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+      <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card">
         <div class="absolute inset-0 z-0">
           <img src="https://images.unsplash.com/photo-1503387762-592b1451e3f1?w=600&h=450&fit=crop" alt="Construction to permanent" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
           <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
         </div>
-        <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
-          <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-            <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <div class="relative z-10 p-5 sm:p-6 min-h-[300px] sm:min-h-[320px] flex flex-col">
+          <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
           </div>
-          <h3 class="font-display text-2xl text-white mb-2">Construction to Permanent Loans</h3>
-          <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">This type of loan streamlines the financing process by transitioning from a construction loan to a traditional mortgage once the construction is complete. It simplifies the transition and avoids the need for a second closing.</p>
-          <div class="mt-4 pt-4 border-t border-white/10 flex items-center gap-2">
-            <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">One closing</span>
+          <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Construction to Permanent Loans</h3>
+          <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light flex-1">This type of loan streamlines the financing process by transitioning from a construction loan to a traditional mortgage once the construction is complete. It simplifies the transition and avoids the need for a second closing.</p>
+          <div class="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-white/10">
+            <span class="text-[10px] sm:text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-2 sm:px-3 py-1 rounded-full">One closing</span>
           </div>
         </div>
       </div>
         
       <!-- Card 2: Standalone Construction Loans -->
-      <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+      <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card">
         <div class="absolute inset-0 z-0">
           <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=450&fit=crop" alt="Standalone construction" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
           <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
         </div>
-        <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
-          <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-            <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+        <div class="relative z-10 p-5 sm:p-6 min-h-[300px] sm:min-h-[320px] flex flex-col">
+          <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
           </div>
-          <h3 class="font-display text-2xl text-white mb-2">Standalone Construction Loans</h3>
-          <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">A standalone construction loan covers the construction phase only. Once construction is complete, you'll need to secure a separate mortgage or financing to pay off the construction loan.</p>
-          <div class="mt-4 pt-4 border-t border-white/10">
-            <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Construction phase only</span>
+          <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Standalone Construction Loans</h3>
+          <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light flex-1">A standalone construction loan covers the construction phase only. Once construction is complete, you'll need to secure a separate mortgage or financing to pay off the construction loan.</p>
+          <div class="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-white/10">
+            <span class="text-[10px] sm:text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-2 sm:px-3 py-1 rounded-full">Construction phase only</span>
           </div>
         </div>
       </div>
         
       <!-- Card 3: Renovation Construction Loans -->
-      <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2">
+      <div class="group relative rounded-2xl overflow-hidden bg-ink border border-white/10 hover:border-lime/40 transition-all duration-500 hover:-translate-y-2 loan-card">
         <div class="absolute inset-0 z-0">
           <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=600&h=450&fit=crop" alt="Renovation loans" class="w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500">
           <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/80 to-transparent"></div>
         </div>
-        <div class="relative z-10 p-6 min-h-[320px] flex flex-col">
-          <div class="icon-circle mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
-            <svg class="w-6 h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <div class="relative z-10 p-5 sm:p-6 min-h-[300px] sm:min-h-[320px] flex flex-col">
+          <div class="icon-circle mb-3 sm:mb-4 bg-lime/20 backdrop-blur-sm border border-lime/30">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-lime" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
-          <h3 class="font-display text-2xl text-white mb-2">Renovation Construction Loans</h3>
-          <p class="text-[14px] text-white/60 leading-relaxed font-light flex-1">Ideal for major renovations or improvements to an existing property. These loans cover the costs of both the renovation and the underlying structure.</p>
-          <div class="mt-4 pt-4 border-t border-white/10">
-            <span class="text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-3 py-1 rounded-full">Major renovations</span>
+          <h3 class="font-display text-xl sm:text-2xl text-white mb-2">Renovation Construction Loans</h3>
+          <p class="text-[13px] sm:text-[14px] text-white/60 leading-relaxed font-light flex-1">Ideal for major renovations or improvements to an existing property. These loans cover the costs of both the renovation and the underlying structure.</p>
+          <div class="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-white/10">
+            <span class="text-[10px] sm:text-[11px] font-semibold text-lime bg-lime/10 backdrop-blur-sm px-2 sm:px-3 py-1 rounded-full">Major renovations</span>
           </div>
         </div>
       </div>
@@ -236,69 +302,68 @@
   </div>
 
   <!-- CTA Banner (Financial advisors) -->
-  <div class="reveal cta-band rounded-2xl p-8 md:p-10 mb-14 relative overflow-hidden max-w-6xl mx-auto">
+  <div class="reveal cta-band rounded-2xl p-6 sm:p-8 md:p-10 mb-12 sm:mb-14 relative overflow-hidden max-w-6xl mx-auto">
     <div class="absolute inset-0 opacity-5 bg-lime"></div>
     <div class="relative flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
       <div>
-        <p class="text-lime text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Expert Guidance</p>
-        <h3 class="font-display text-3xl md:text-4xl text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
-        <p class="text-white/40 text-sm mt-2 max-w-md">Exploring the difficulties of construction loans can be challenging, but our team of seasoned advisors is here to guide you through the process.</p>
+        <p class="text-lime text-[11px] sm:text-[12px] font-bold tracking-[0.12em] uppercase mb-2">Expert Guidance</p>
+        <h3 class="font-display text-2xl sm:text-3xl md:text-4xl text-white leading-snug">Talk to Our Trusted<br/>Financial Advisors</h3>
+        <p class="text-white/40 text-xs sm:text-sm mt-2 max-w-md">Exploring the difficulties of construction loans, merchant cash advance, or business funding can be challenging, but our team of seasoned advisors is here to guide you through the process.</p>
       </div>
-      <a href="#apply" class="btn-gold flex-shrink-0 text-[14px] px-8 py-4">Get Free Consultation →</a>
+      <a href="#apply" class="btn-gold flex-shrink-0 text-center">Get Free Consultation →</a>
     </div>
   </div>
 
-  <!-- How to Apply Section (5 steps exactly as in original content) -->
-  <div id="apply" class="reveal mb-14 max-w-6xl mx-auto">
-    <div class="text-center mb-10">
-      <p class="chip mb-4 inline-block">Simple Process</p>
-      <h2 class="font-display text-4xl md:text-5xl text-white mb-3 lime-underline">How to Apply for Construction Loans</h2>
-      <p class="text-white/40 text-[15px] mt-6 leading-relaxed max-w-2xl mx-auto">We take the time to understand your project, financial goals, and construction timelines, tailoring our advice to ensure you secure the most appropriate construction loan for your specific needs.</p>
+  <!-- How to Apply Section (5 steps) -->
+  <div id="apply" class="reveal mb-12 sm:mb-14 max-w-6xl mx-auto">
+    <div class="text-center mb-8 sm:mb-10">
+      <p class="chip mb-3 sm:mb-4 inline-block">Simple Process</p>
+      <h2 class="font-display text-3xl sm:text-4xl md:text-5xl text-white mb-2 sm:mb-3 lime-underline">How to Apply for Construction Loans</h2>
+      <p class="text-white/40 text-sm sm:text-base mt-4 sm:mt-6 leading-relaxed max-w-2xl mx-auto px-4">We take the time to understand your project, financial goals, and construction timelines, tailoring our advice to ensure you secure the most appropriate construction loan, merchant cash advance, or working capital for your specific needs.</p>
     </div>
 
-    <div class="flex flex-col gap-5 max-w-3xl mx-auto">
-      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal">
+    <div class="flex flex-col gap-4 sm:gap-5 max-w-3xl mx-auto">
+      <div class="flex items-start gap-4 sm:gap-5 bg-[#0d0d0d] rounded-xl p-4 sm:p-5 border border-white/[0.07] reveal">
         <div class="step-circle">1</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Verify Eligibility</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the loan you are applying for.</p></div>
+        <div><h4 class="font-semibold text-white text-[15px] sm:text-[16px] mb-1">Verify Eligibility</h4><p class="text-[13px] sm:text-[14px] text-white/50 font-light leading-relaxed">Verify that you meet the eligibility criteria for the loan, merchant cash advance, or business funding you are applying for.</p></div>
       </div>
-      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.08s">
+      <div class="flex items-start gap-4 sm:gap-5 bg-[#0d0d0d] rounded-xl p-4 sm:p-5 border border-white/[0.07] reveal" style="transition-delay:0.08s">
         <div class="step-circle">2</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Solid Business Plan</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Have a solid business plan ready for review.</p></div>
+        <div><h4 class="font-semibold text-white text-[15px] sm:text-[16px] mb-1">Solid Business Plan</h4><p class="text-[13px] sm:text-[14px] text-white/50 font-light leading-relaxed">Have a solid business plan ready for review, including your revenue based financing needs.</p></div>
       </div>
-      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.16s">
+      <div class="flex items-start gap-4 sm:gap-5 bg-[#0d0d0d] rounded-xl p-4 sm:p-5 border border-white/[0.07] reveal" style="transition-delay:0.16s">
         <div class="step-circle">3</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Complete Paperwork</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Complete the necessary paperwork in advance.</p></div>
+        <div><h4 class="font-semibold text-white text-[15px] sm:text-[16px] mb-1">Complete Paperwork</h4><p class="text-[13px] sm:text-[14px] text-white/50 font-light leading-relaxed">Complete the necessary paperwork in advance for fast approval business funding.</p></div>
       </div>
-      <div class="flex items-start gap-5 bg-[#0d0d0d] rounded-xl p-5 border border-white/[0.07] reveal" style="transition-delay:0.24s">
+      <div class="flex items-start gap-4 sm:gap-5 bg-[#0d0d0d] rounded-xl p-4 sm:p-5 border border-white/[0.07] reveal" style="transition-delay:0.24s">
         <div class="step-circle">4</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Be Ready for Queries</h4><p class="text-[14px] text-white/50 font-light leading-relaxed">Be ready to respond to queries about the business you run.</p></div>
+        <div><h4 class="font-semibold text-white text-[15px] sm:text-[16px] mb-1">Be Ready for Queries</h4><p class="text-[13px] sm:text-[14px] text-white/50 font-light leading-relaxed">Be ready to respond to queries about the business you run and your working capital requirements.</p></div>
       </div>
-      <div class="flex items-start gap-5 bg-lime/10 border border-lime/20 rounded-xl p-5 reveal" style="transition-delay:0.32s">
+      <div class="flex items-start gap-4 sm:gap-5 bg-lime/10 border border-lime/20 rounded-xl p-4 sm:p-5 reveal" style="transition-delay:0.32s">
         <div class="step-circle" style="background:#CCFF00; color:#0A0A0A;">5</div>
-        <div><h4 class="font-semibold text-white text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[14px] text-white/60 font-light leading-relaxed">Application for a construction loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible!</p></div>
+        <div><h4 class="font-semibold text-white text-[15px] sm:text-[16px] mb-1">Show Patience — But Expect Speed From Us</h4><p class="text-[13px] sm:text-[14px] text-white/60 font-light leading-relaxed">Application for a construction loan can take weeks or even months. But here at <strong class="text-white">HarbourFundingSolutions</strong>, we get you fundings as soon as possible with same day business funding available for qualified applicants!</p></div>
       </div>
     </div>
   </div>
 
-  <!-- Closing Statement Section (original mission content) -->
-  <div class="reveal bg-[#0d0d0d] rounded-2xl p-8 md:p-10 border border-white/[0.07] max-w-4xl mx-auto text-center">
+  <!-- Closing Statement Section -->
+  <div class="reveal bg-[#0d0d0d] rounded-2xl p-6 sm:p-8 md:p-10 border border-white/[0.07] max-w-4xl mx-auto text-center">
     <div class="flex justify-center mb-4">
-      <svg class="w-10 h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
+      <svg class="w-8 h-8 sm:w-10 sm:h-10 text-lime/40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2z"></path></svg>
     </div>
-    <h3 class="font-display text-3xl text-white mb-4">HarbourFundingSolutions Commitment</h3>
-    <p class="text-[16px] text-white/50 font-light leading-[1.85] mb-4">
-      At HarbourFundingSolutions, we are dedicated to empowering businesses to realize their construction visions. Contact us today to embark on your journey towards harnessing the benefits of construction loans and bringing your architectural dreams to fruition.
+    <h3 class="font-display text-2xl sm:text-3xl text-white mb-3 sm:mb-4">HarbourFundingSolutions Commitment</h3>
+    <p class="text-[14px] sm:text-[16px] text-white/50 font-light leading-relaxed mb-3 sm:mb-4">
+      At HarbourFundingSolutions, we are dedicated to empowering businesses with the financial resources they need — whether it's a construction loan, merchant cash advance, small business loan, working capital, business line of credit, or same day business funding. Contact us today to embark on your journey towards harnessing the benefits of construction loans, MCA for bad credit, or revenue based financing and bringing your architectural dreams to fruition.
     </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-      <a href="#apply" class="btn-gold inline-flex items-center justify-center gap-2 px-8 py-3">Apply Now →</a>
-      <a href="#loan-types" class="btn-outline inline-flex items-center justify-center gap-2 px-8 py-3">Explore Services</a>
+    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-5 sm:mt-6">
+      <a href="../apply-now.php" class="btn-gold inline-flex items-center justify-center gap-2">Apply Now →</a>
+      <a href="#loan-types" class="btn-outline inline-flex items-center justify-center gap-2">Explore Services</a>
     </div>
   </div>
 
 </main>
 
-<?php
-@include('../footer.php')?>
+<?php @include('../footer.php'); ?>
 
 <script>
   // Reveal on scroll (Intersection Observer)

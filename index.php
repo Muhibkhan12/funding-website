@@ -356,7 +356,7 @@
       
       <div class="overflow-hidden rounded-2xl">
         <div class="flex transition-transform duration-500 ease-out" :style="`transform: translateX(-${currentSlide * 100}%)`">
-          <!-- Testimonial slides remain same -->
+          <!-- Testimonial slides -->
           <div class="w-full flex-shrink-0 px-2 sm:px-3 md:px-4">
             <div class="relative bg-gradient-to-br from-[#222] to-[#1a1a1a] border border-white/[0.07] rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:border-lime/30 transition-all duration-500">
               <div class="absolute top-4 right-4 sm:top-6 sm:right-6 opacity-10"><svg class="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 text-lime" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg></div>
