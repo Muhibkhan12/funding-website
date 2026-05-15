@@ -114,7 +114,6 @@
     letter-spacing: -0.02em;
   }
 
-  /* Toast notification styling */
   .toast-notification {
     position: fixed;
     bottom: 30px;
@@ -131,8 +130,23 @@
     transition: transform 0.3s ease;
     font-family: 'Inter', sans-serif;
   }
-  .toast-notification.show {
-    transform: translateX(0);
+  .toast-notification.show { transform: translateX(0); }
+  
+  .legal-text {
+    font-size: 10px;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.35);
+    text-align: left;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .legal-text a {
+    color: var(--lime);
+    text-decoration: none;
+  }
+  .legal-text a:hover {
+    text-decoration: underline;
   }
 </style>
 </head>
@@ -305,13 +319,18 @@
         </div>
       </div>
 
-      <div class="mt-6 pt-4 border-t border-white/10">
+      <div class="mt-6 pt-4">
         <button type="button" id="submitBtn" class="btn-gold w-full">Send Application →</button>
+      </div>
+      
+      <!-- Legal Disclosure Text -->
+      <div class="legal-text text-white">
+        <p>By signing & faxing or emailing us your application, you certify that (i) you are authorized to apply on behalf of the company whose full legal name appears above under the Company information portion of the Funding Application for a business loan from us and (ii) all information you provide within the Funding Application and other supporting documents is true and complete and that you will notify us of material changes to such information. You understand & agree that we and our agents and assigners are authorized to contact 3rd parties to make inquiries in evaluating your Funding Application (including requesting business & personal credit bureau reports from credit reporting agencies and other sources) or for any update, renewal, extension of credit. You understand and agree that we may provide credit & other information from the Funding Application and on the signing individual(s) & the company with 3rd parties who may use the information for any lawful purpose, including for the purpose of offering credit and/or other products & services to the signing individual(s) and/or the company.</p>
       </div>
     </form>
 
-    <div class="mt-6 text-center">
-      <p class="text-white/30 text-[11px]">Your information is secure. Click Send to open your email client.</p>
+    <div class="mt-6 text-center ">
+      <p class="text-white text-[11px]">Your information is secure. Click Send to open your email client.</p>
     </div>
   </div>
 
@@ -366,7 +385,6 @@
     });
   });
 
-  // Simple toast notification function (no alert)
   function showToast(message) {
     const existingToast = document.querySelector('.toast-notification');
     if(existingToast) existingToast.remove();
@@ -429,7 +447,7 @@
     return isValid;
   }
   
-  // Submit — opens default mail client with pre-filled data (NO ALERTS)
+  // Submit — opens default mail client with pre-filled data
   document.getElementById('submitBtn').addEventListener('click', () => {
     if (!validateForm()) {
       showToast('⚠️ Please fill in all required fields');
@@ -492,12 +510,10 @@ Empowering Business Growth
     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
     
-    // Show toast notification instead of alert
     showToast('✓ Email client opened — review and send your application');
     
     // Reset form after sending
     document.getElementById('loanApplicationForm').reset();
-    // Reset date field to current date
     document.getElementById('application_date').value = '<?php echo date('m-d-Y'); ?>';
   });
 </script>

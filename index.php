@@ -128,61 +128,128 @@
 <body class="bg-[#1a1a1a] text-white font-body overflow-x-hidden">
 
 <!-- ══ HERO SECTION ══ -->
-<section id="hero" class="relative min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center pt-20 lg:pt-16 px-4 sm:px-6 md:px-12 overflow-hidden">
+<section id="hero" class="relative min-h-[85vh] flex items-center justify-center pt-20 lg:pt-16 overflow-hidden">
 
-  <!-- Mobile/Tablet background image (hidden on lg+) -->
-  <div class="absolute inset-0 lg:hidden">
-    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Business financing professional helping clients" class="w-full h-full object-cover object-top" style="filter:grayscale(100%) contrast(1.1) brightness(0.5);" />
-    <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/60 via-[#1a1a1a]/40 to-[#1a1a1a]/80"></div>
+  <!-- Single Background Image -->
+  <div class="absolute inset-0 z-0">
+    <picture>
+      <!-- Single background image for all devices -->
+      <source srcset="images/hero-image.webp" type="image/webp">
+      <img src="images/hero-image.webp" alt="Business funding background" class="w-full h-full object-cover">
+    </picture>
+    <!-- Dark gradient overlay for readability -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#0a0a0a]/80 via-[#0a0a0a]/60 to-[#0a0a0a]/85"></div>
+    <!-- Lime accent glow -->
+    <div class="absolute inset-0 bg-gradient-to-t from-lime/8 via-transparent to-transparent"></div>
   </div>
 
-  <div class="pr-0 lg:pr-14 py-12 sm:py-16 lg:py-20 z-10 text-center lg:text-left">
-    <p class="eyebrow inline-flex items-center text-[11px] font-semibold tracking-[0.16em] uppercase text-white/38 mb-5 sm:mb-7">Merchant Cash Advance & Business Funding</p>
-    <h1 class="hero-hl text-white mb-6 sm:mb-8">
-      Fast Business<br/>
-      Funding & <span class="text-lime">Merchant<br/>Cash Advance</span>
+  <!-- Animated Grid Pattern Overlay -->
+  <div class="absolute inset-0 z-0 opacity-15">
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(204,255,0,0.2) 1px, transparent 1px); background-size: 40px 40px;"></div>
+  </div>
+
+  <!-- Floating soft particles -->
+  <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+    <div class="absolute top-20 left-[10%] w-64 h-64 rounded-full bg-lime/5 blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-20 right-[5%] w-80 h-80 rounded-full bg-lime/8 blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+  </div>
+
+  <!-- Content Container -->
+  <div class="relative z-10 max-w-5xl mx-auto text-center px-4 sm:px-6 py-12 sm:py-16">
+    
+    <!-- Eyebrow Badge -->
+    <div class="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/10 animate-fade-in">
+      <span class="w-2 h-2 bg-lime rounded-full animate-pulse"></span>
+      <span class="text-[11px] font-medium tracking-[0.1em] uppercase text-white/70">Merchant Cash Advance & Business Loans</span>
+    </div>
+    
+    <!-- Main Headline -->
+    <h1 class="font-display text-white text-5xl sm:text-6xl md:text-7xl lg:text-7xl tracking-tight leading-[1.1] mb-6 animate-fade-in-up">
+      Fast Business <br/>
+      <span class="bg-gradient-to-r from-lime to-lime/70 bg-clip-text text-transparent">Funding & Capital</span>
     </h1>
-    <p class="text-[14px] sm:text-[15px] leading-[1.75] text-white/48 font-light max-w-[440px] mx-auto lg:mx-0 mb-8 sm:mb-10">
-      Get same day business funding, working capital loans, and unsecured business loans. Bad credit OK. No collateral required. Apply in minutes — funded in 24-48 hours.
+    
+    <!-- Description -->
+    <p class="text-[15px] sm:text-[16px] md:text-[18px] leading-relaxed text-white/60 font-light max-w-2xl mx-auto mb-8 sm:mb-10 animate-fade-in-up" style="animation-delay: 0.1s">
+      Apply in minutes. Funding in 24-48 hours. Bad credit OK. No collateral required.
     </p>
-    <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
-      <a href="apply-now.php" class="btn-sweep inline-block bg-lime text-ink border-2 border-lime px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-bold tracking-[0.1em] uppercase cursor-pointer">
-        <span>Apply in Minutes →</span>
+    
+    <!-- CTA Buttons -->
+    <div class="flex flex-wrap gap-4 justify-center animate-fade-in-up" style="animation-delay: 0.2s">
+      <a href="apply-now.php" class="group relative inline-flex items-center gap-2 bg-lime text-ink px-8 py-4 rounded-full font-bold text-[13px] sm:text-[14px] tracking-wide uppercase overflow-hidden transition-all duration-300 hover:bg-lime/90 hover:scale-105 cursor-pointer">
+        <span class="relative z-10">Apply in Minutes</span>
+        <svg class="w-4 h-4 relative z-10 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+        <div class="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
       </a>
-      <a href="contact.php" class="inline-block bg-transparent text-white border border-white/22 px-6 sm:px-9 py-3 sm:py-[14px] text-[11px] sm:text-[13px] font-medium tracking-[0.1em] uppercase hover:border-white/70 transition-colors cursor-pointer">
-        Talk to an Expert
+      <a href="contact.php" class="inline-flex items-center gap-2 bg-transparent text-white border-2 border-white/30 hover:border-lime hover:text-lime px-8 py-4 rounded-full font-semibold text-[13px] sm:text-[14px] tracking-wide uppercase transition-all duration-300 hover:scale-105 cursor-pointer">
+        Talk to Expert
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
       </a>
     </div>
-  </div>
 
-  <!-- Right photo + cards - Hidden on mobile/tablet, visible on desktop -->
-  <div class="relative hidden lg:flex items-center justify-center h-full min-h-[82vh]">
-    <div class="relative w-full max-w-[500px]">
-      <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop&crop=top" alt="Financial advisor discussing business funding options" class="w-full h-[580px] object-cover object-top block" style="filter:grayscale(100%) contrast(1.1) brightness(0.88);" />
-      <div class="absolute bottom-0 left-0 w-[3px] h-[65%] bg-lime opacity-60"></div>
-      <div class="absolute top-0 right-0 w-[3px] h-[30%] bg-lime opacity-35"></div>
-      <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#1a1a1a]/80 to-transparent pointer-events-none"></div>
-      <div class="animate-floatUp1 absolute top-[68px] -right-10 bg-[rgba(26,26,26,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[215px] shadow-2xl">
-        <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-3">Why HarbourFundingSolutions</p>
-        <div class="flex flex-col gap-[7px]">
-          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Same day funding available</div>
-          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Bad credit OK / No collateral</div>
-          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Revenue based financing</div>
-          <div class="flex items-center gap-2 text-[13px] text-white/78 font-light"><span class="w-[6px] h-[6px] rounded-full bg-lime flex-shrink-0"></span>Fast approval business funding</div>
-        </div>
+    <!-- Trust Badges -->
+    <div class="flex flex-wrap justify-center gap-6 mt-12 pt-4 animate-fade-in-up" style="animation-delay: 0.3s">
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span class="text-white/50 text-xs uppercase tracking-wide">Same Day</span>
       </div>
-      <div class="animate-floatUp2 absolute bottom-24 -left-14 bg-[rgba(26,26,26,0.88)] backdrop-blur-2xl border border-white/[0.09] rounded-xl p-4 min-w-[195px] shadow-2xl">
-        <p class="text-[10px] font-semibold tracking-[0.14em] uppercase text-white/32 mb-2">Avg. Funding Speed</p>
-        <p class="font-display text-[32px] text-white leading-none">24-48h</p>
-        <p class="text-[11px] text-white/32 mt-1 tracking-[0.06em] uppercase">Same day available</p>
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span class="text-white/50 text-xs uppercase tracking-wide">Bad Credit OK</span>
       </div>
-      <div class="animate-badgePulse absolute top-[30%] -right-8 w-[92px] h-[92px] bg-lime rounded-full flex flex-col items-center justify-center z-20 shadow-lg">
-        <span class="font-display text-[22px] text-ink leading-none">$10K+</span>
-        <span class="text-[8px] font-bold tracking-[0.08em] uppercase text-black/55 mt-[2px]">Min Loan</span>
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-lime" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        <span class="text-white/50 text-xs uppercase tracking-wide">No Collateral</span>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  .animate-fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+  
+  .animate-pulse {
+    animation: pulse 4s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.1); }
+  }
+  
+  #hero {
+    min-height: 85vh;
+  }
+  
+  @media (max-width: 768px) {
+    #hero {
+      min-height: 80vh;
+    }
+  }
+</style>
 
 <!-- ══ MARQUEE SECTION (Service highlights with keywords) ══ -->
 <div class="border-t border-b border-white/[0.07] overflow-hidden py-3 sm:py-5" aria-label="Services marquee">
